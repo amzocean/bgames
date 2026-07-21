@@ -259,6 +259,11 @@ button.secondary {
   flex-direction: column;
 }
 
+.play-area p {
+  font-size: clamp(1.2rem, 2.2vw, 1.75rem);
+  line-height: 1.35;
+}
+
 .hud {
   display: flex;
   flex-wrap: wrap;
@@ -272,6 +277,7 @@ button.secondary {
   background: #eef6ff;
   border: 2px solid #b9d6ff;
   font-weight: 700;
+  font-size: clamp(1.1rem, 2vw, 1.45rem);
 }
 
 .pill.target {
@@ -460,8 +466,19 @@ button.secondary {
 
 .helper {
   color: #3052a0;
-  font-weight: 700;
+  font-weight: 800;
+  font-size: clamp(1.3rem, 2.4vw, 1.95rem);
   min-height: 1.3em;
+}
+
+.clue-focus {
+  font-size: clamp(1.9rem, 3.6vw, 2.8rem);
+  line-height: 1.25;
+}
+
+.solo-mode .helper {
+  font-size: clamp(1.9rem, 3.8vw, 3rem);
+  line-height: 1.25;
 }
 
 .danger {

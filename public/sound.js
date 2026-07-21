@@ -114,6 +114,60 @@
     }, true);
   }
 
+  function readSoloClueText() {
+    const candidates = [
+      document.getElementById('feedback'),
+      document.getElementById('prompt'),
+      document.querySelector('[data-clue-source]')
+    ].filter(Boolean);
+    for (const node of candidates) {
+      const text = String(node.textContent || '').trim().replace(/\s+/g, ' ');
+      if (text) return text;
+    }
+    return '';
+  }
+
+  function initSoloClueAudio() {
+    if (!window.location.pathname.startsWith('/solo/')) return;
+    document.body.classList.add('solo-mode');
+
+    const playArea = document.querySelector('.play-area');
+    if (!playArea) return;
+
+    // If a page already has a dedicated clue button (e.g. Treasure Map), keep it as-is.
+    if (playArea.querySelector('#hearClue')) return;
+
+    let toolsRow = playArea.querySelector('.mini-tools');
+    if (!toolsRow) {
+      toolsRow = document.createElement('div');
+      toolsRow.className = 'mini-tools';
+      const firstBoard = playArea.querySelector('.board, .canvas-box');
+      if (firstBoard) {
+        playArea.insertBefore(toolsRow, firstBoard);
+      } else {
+        playArea.appendChild(toolsRow);
+      }
+    }
+
+    let clueBtn = toolsRow.querySelector('[data-hear-clue]');
+    if (!clueBtn) {
+      clueBtn = document.createElement('button');
+      clueBtn.type = 'button';
+      clueBtn.className = 'secondary';
+      clueBtn.dataset.hearClue = '1';
+      clueBtn.textContent = 'Hear Clue';
+      toolsRow.appendChild(clueBtn);
+    }
+
+    if (clueBtn.dataset.clueWired === '1') return;
+    clueBtn.dataset.clueWired = '1';
+    clueBtn.addEventListener('click', (event) => {
+      event.preventDefault();
+      const clue = readSoloClueText();
+      if (clue) say(clue);
+    });
+  }
+
   window.bgamesSound = {
     play,
     say,
@@ -125,8 +179,12 @@
 
   initUiClickSounds();
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initToggles);
+    document.addEventListener('DOMContentLoaded', () => {
+      initToggles();
+      initSoloClueAudio();
+    });
   } else {
     initToggles();
+    initSoloClueAudio();
   }
 })();

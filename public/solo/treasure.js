@@ -5,6 +5,7 @@ const goalPillEl = document.getElementById('goalPill');
 const promptEl = document.getElementById('prompt');
 const feedbackEl = document.getElementById('feedback');
 const newRoundBtn = document.getElementById('newRound');
+const hearClueBtn = document.getElementById('hearClue');
 
 const LANDMARKS = [
   { icon: '🌴', label: 'palm tree' },
@@ -111,10 +112,16 @@ function renderBoard() {
 function nextClueText() {
   const nextIndex = currentStep;
   if (nextIndex >= route.length) return 'Treasure found!';
+  if (nextIndex === 0) return 'Next clue: START tile.';
   const key = route[nextIndex];
   const cell = cellByKey(key);
   if (!cell) return 'Follow the map.';
   return `Next clue: ${cell.dataset.landmarkLabel}`;
+}
+
+function speakClue() {
+  const clue = nextClueText();
+  if (clue) window.bgamesSound?.say(clue);
 }
 
 function handleTap(key) {
@@ -126,6 +133,7 @@ function handleTap(key) {
     currentStep += 1;
     stepEl.textContent = `${currentStep}/${route.length}`;
     feedbackEl.textContent = nextClueText();
+    if (currentStep < route.length) speakClue();
     renderBoard();
     if (currentStep === route.length) {
       roundLocked = true;
@@ -145,6 +153,7 @@ function handleTap(key) {
   stepEl.textContent = `0/${route.length}`;
   feedbackEl.textContent = 'Oops. Start again from S.';
   renderBoard();
+  speakClue();
 }
 
 function startRound() {
@@ -181,7 +190,9 @@ function startRound() {
   promptEl.textContent = 'Tap landmarks in route order from START to TREASURE.';
   feedbackEl.textContent = 'First clue: START tile (S).';
   renderBoard();
+  speakClue();
 }
 
 newRoundBtn.addEventListener('click', startRound);
+hearClueBtn.addEventListener('click', speakClue);
 startRound();
