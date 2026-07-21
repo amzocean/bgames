@@ -18,7 +18,7 @@ body {
 .hub-wrap,
 .game-wrap {
     width: min(1400px, calc(100vw - 16px));
-    min-height: 100vh;
+    min-height: 100svh;
     margin: 0 auto;
     padding: 8px 0 18px;
     display: flex;
@@ -489,6 +489,11 @@ button.secondary {
 
 .solo-mode .pill {
   font-size: clamp(1.3rem, 2.7vw, 2rem);
+}
+
+.solo-mode .topbar strong {
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-weight: 900;
 }
 
 .solo-mode .mini-tools button {

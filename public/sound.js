@@ -141,9 +141,9 @@
 
   function readSoloClueText() {
     const candidates = [
-      document.getElementById('feedback'),
+      document.querySelector('[data-clue-source]'),
       document.getElementById('prompt'),
-      document.querySelector('[data-clue-source]')
+      document.getElementById('feedback')
     ].filter(Boolean);
     for (const node of candidates) {
       const text = String(node.textContent || '').trim().replace(/\s+/g, ' ');
@@ -173,7 +173,6 @@
     if (!playArea) return;
 
     let clueBtn = playArea.querySelector('#hearClue');
-
     if (!clueBtn) {
       let toolsRow = playArea.querySelector('.mini-tools');
       if (!toolsRow) {
@@ -198,12 +197,13 @@
       }
     }
 
-    if (clueBtn.dataset.clueWired === '1') return;
-    clueBtn.dataset.clueWired = '1';
-    clueBtn.addEventListener('click', (event) => {
-      event.preventDefault();
-      speakSoloClue(true);
-    });
+    if (clueBtn.dataset.clueWired !== '1') {
+      clueBtn.dataset.clueWired = '1';
+      clueBtn.addEventListener('click', (event) => {
+        event.preventDefault();
+        speakSoloClue(true);
+      });
+    }
 
     const feedbackEl = document.getElementById('feedback');
     const promptEl = document.getElementById('prompt');
@@ -219,6 +219,21 @@
     }
 
     setTimeout(() => speakSoloClue(false), 450);
+  }
+
+  function initViewportChangeSignal() {
+    let rafId = null;
+    const notify = () => {
+      if (rafId) cancelAnimationFrame(rafId);
+      rafId = requestAnimationFrame(() => {
+        window.dispatchEvent(new Event('bgames:viewportchange'));
+      });
+    };
+    window.addEventListener('resize', notify);
+    window.addEventListener('orientationchange', notify);
+    if (window.visualViewport) {
+      window.visualViewport.addEventListener('resize', notify);
+    }
   }
 
   window.bgamesSound = {
@@ -247,4 +262,6 @@
     initToggles();
     initSoloClueAudio();
   }
+
+  initViewportChangeSignal();
 })();

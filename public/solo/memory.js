@@ -1,3 +1,4 @@
+const promptEl = document.getElementById('prompt');
 const board = document.getElementById('board');
 const stateEl = document.getElementById('state');
 const matchesEl = document.getElementById('matches');
@@ -49,7 +50,8 @@ function resetBoard() {
   const cols = Math.ceil(Math.sqrt(cards.length));
   board.style.gridTemplateColumns = `repeat(${cols}, minmax(0, 1fr))`;
   board.innerHTML = '';
-  stateEl.textContent = 'Peek time: remember the pictures.';
+  promptEl.textContent = 'Peek time: remember the pictures.';
+  stateEl.textContent = 'Warm-up round.';
 
   cards.forEach((symbol) => {
     const btn = document.createElement('button');
