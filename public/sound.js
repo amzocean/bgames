@@ -3,6 +3,7 @@
   let soundOn = localStorage.getItem(STORAGE_KEY) !== 'off';
   let audioCtx = null;
   let lastUiClickAt = 0;
+  let preferredVoice = null;
 
   function ensureAudio() {
     const Ctx = window.AudioContext || window.webkitAudioContext;
@@ -56,13 +57,34 @@
       default:
         tone(520, 0.08, 'triangle', 0.05);
     }
+
+    function pickPreferredVoice() {
+      if (!('speechSynthesis' in window)) return null;
+      const voices = window.speechSynthesis.getVoices();
+      if (!voices || voices.length === 0) return null;
+
+      const scoreVoice = (voice) => {
+        const text = `${voice.name} ${voice.lang}`.toLowerCase();
+        let score = 0;
+        if (text.includes('en')) score += 3;
+        if (text.includes('us') || text.includes('uk')) score += 2;
+        if (text.includes('child') || text.includes('kid') || text.includes('young')) score += 8;
+        if (text.includes('girl') || text.includes('female') || text.includes('samantha') || text.includes('zira')) score += 4;
+        if (voice.default) score += 1;
+        return score;
+      };
+
+      return [...voices].sort((a, b) => scoreVoice(b) - scoreVoice(a))[0] || null;
+    }
   }
 
   function say(text) {
     if (!soundOn || !('speechSynthesis' in window)) return;
+    if (!preferredVoice) preferredVoice = pickPreferredVoice();
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.rate = 1;
-    utterance.pitch = 1.12;
+    if (preferredVoice) utterance.voice = preferredVoice;
+    utterance.rate = 0.8;
+    utterance.pitch = 1.25;
     utterance.volume = 1;
     window.speechSynthesis.cancel();
     window.speechSynthesis.speak(utterance);
@@ -176,6 +198,13 @@
     toggle: toggleSound,
     refreshToggleUi: updateToggleLabels
   };
+
+  if ('speechSynthesis' in window) {
+    preferredVoice = pickPreferredVoice();
+    window.speechSynthesis.addEventListener('voiceschanged', () => {
+      preferredVoice = pickPreferredVoice();
+    });
+  }
 
   initUiClickSounds();
   if (document.readyState === 'loading') {
