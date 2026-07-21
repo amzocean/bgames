@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BGames - Repeat the Rhythm</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="game-wrap">
+    <div class="topbar">
+      <a href="/solo/">Back to Solo</a>
+      <strong>Repeat the Rhythm</strong>
+      <button class="sound-toggle" data-sound-toggle type="button">Sound: On 🔊</button>
+    </div>
+    <section class="play-area">
+      <div class="hud">
+        <span class="pill">Level: <span id="level">1</span></span>
+        <span class="pill">Streak: <span id="streak">0</span></span>
+        <span class="pill target" id="targetPill">Pattern: listen and copy</span>
+      </div>
+      <p id="prompt">Watch the rhythm, then tap the same order.</p>
+      <p class="helper" id="feedback">Tap Play Pattern to begin.</p>
+
+      <div class="mini-tools">
+        <button id="playPattern" class="secondary">Play Pattern</button>
+        <button id="resetInput" class="secondary">Clear Input</button>
+      </div>
+
+      <div id="pads" class="board rhythm-pads"></div>
+      <button id="nextRound">Next Pattern</button>
+    </section>
+  </main>
+  <script src="/sound.js"></script>
+  <script src="/solo/rhythm.js"></script>
+</body>
+</html>

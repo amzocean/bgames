@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BGames - Quick Categories</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="game-wrap">
+    <div class="topbar">
+      <a href="/solo/">Back to Solo</a>
+      <strong>Quick Categories</strong>
+      <button class="sound-toggle" data-sound-toggle type="button">Sound: On 🔊</button>
+    </div>
+    <section class="play-area">
+      <div class="hud">
+        <span class="pill">Sorted: <span id="sorted">0</span></span>
+        <span class="pill">Streak: <span id="streak">0</span></span>
+        <span class="pill target" id="goalPill">Goal: Sort all cards</span>
+      </div>
+      <p id="prompt">Tap a card, then tap the correct category bucket.</p>
+      <p class="helper" id="feedback">Pick a card from the tray to start.</p>
+
+      <div class="category-buckets">
+        <button id="bucketA" class="tile large category-bucket"></button>
+        <button id="bucketB" class="tile large category-bucket"></button>
+      </div>
+
+      <div id="tray" class="board"></div>
+      <button id="newRound">New Set</button>
+    </section>
+  </main>
+  <script src="/sound.js"></script>
+  <script src="/solo/categories.js"></script>
+</body>
+</html>

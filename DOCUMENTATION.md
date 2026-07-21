@@ -59,7 +59,17 @@ bgames/
 │   │   ├── pattern.html / pattern.js
 │   │   ├── odd-one.html / odd-one.js
 │   │   ├── shadow.html / shadow.js
-│   │   └── bigger.html / bigger.js
+│   │   ├── bigger.html / bigger.js
+│   │   ├── sequence.html / sequence.js
+│   │   ├── maze.html / maze.js
+│   │   ├── treasure.html / treasure.js
+│   │   ├── story.html / story.js
+│   │   ├── sound.html / sound.js
+│   │   ├── scene.html / scene.js
+│   │   ├── spot.html / spot.js
+│   │   ├── mirror.html / mirror.js
+│   │   ├── rhythm.html / rhythm.js
+│   │   └── categories.html / categories.js
 │   └── papa/
 │       ├── index.html
 │       ├── tictactoe.html / tictactoe.js
@@ -105,6 +115,16 @@ All games are client-side and use local state only.
 - **Odd One Out** — spot the item that does not belong
 - **Shadow Match** — match colored pictures to their silhouette-style choices
 - **Bigger or Brighter** — compare size or brightness
+- **Sequence Sort** — tap cards in visual order (size, brightness, length)
+- **Hidden Path / Maze** — remember and follow a short path to treasure
+- **Treasure Map** — follow ordered landmark clues to reach treasure
+- **Story Match** — connect two cards that belong to the same mini-story
+- **Sound Hunt** — listen to a clue and tap the matching picture
+- **Build the Scene** — place items into the right scene spots
+- **Spot the Change** — compare two boards and find one changed card
+- **Mirror Match** — pick the left-right mirrored version of a target shape
+- **Repeat the Rhythm** — copy a short visual/audio tap pattern
+- **Quick Categories** — sort cards into two large category buckets
 
 ### Papa games
 
@@ -122,6 +142,19 @@ All games are client-side and use local state only.
 - Bigger or Brighter
 
 These are now wired into `/solo/index.html` and follow the same shared sound and difficulty model as the original solo games.
+
+### Phase 2 (in progress)
+
+- Sequence Sort is now implemented and wired into `/solo/index.html`.
+- Hidden Path / Maze is now implemented and wired into `/solo/index.html`.
+- Treasure Map is now implemented and wired into `/solo/index.html`.
+- Story Match is now implemented and wired into `/solo/index.html`.
+- Sound Hunt is now implemented and wired into `/solo/index.html`.
+- Build the Scene is now implemented and wired into `/solo/index.html`.
+- Spot the Change is now implemented and wired into `/solo/index.html`.
+- Mirror Match is now implemented and wired into `/solo/index.html`.
+- Repeat the Rhythm is now implemented and wired into `/solo/index.html`.
+- Quick Categories is now implemented and wired into `/solo/index.html`.
 
 ## 8. UI and Layout
 
@@ -169,12 +202,14 @@ Sound state is saved in:
 
 Planned next solo batch (from the implementation plan):
 
-1. Sequence Sort
-2. Hidden Path / Maze
-3. Treasure Map
-4. Story Match
-5. Sound Hunt
-6. Build the Scene
+- Current roadmap batch completed.
+
+### Additional idea backlog
+
+1. Spot the Change
+2. Mirror Match
+3. Repeat the Rhythm
+4. Quick Categories
 
 ### Development pattern for each new game
 

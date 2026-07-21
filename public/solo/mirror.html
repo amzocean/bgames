@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BGames - Mirror Match</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="game-wrap">
+    <div class="topbar">
+      <a href="/solo/">Back to Solo</a>
+      <strong>Mirror Match</strong>
+      <button class="sound-toggle" data-sound-toggle type="button">Sound: On 🔊</button>
+    </div>
+    <section class="play-area">
+      <div class="hud">
+        <span class="pill">Score: <span id="score">0</span></span>
+        <span class="pill">Streak: <span id="streak">0</span></span>
+        <span class="pill target" id="targetPill">Target: mirror image</span>
+      </div>
+      <p id="prompt">Tap the card that is the mirror of the target.</p>
+      <p class="helper" id="feedback">Find the flipped left-right match.</p>
+
+      <div class="mirror-layout">
+        <section class="mirror-target">
+          <h3>Target</h3>
+          <div id="targetCard" class="tile large mirror-target-card"></div>
+        </section>
+        <section>
+          <h3>Choices</h3>
+          <div id="choices" class="board"></div>
+        </section>
+      </div>
+
+      <button id="newRound">New Mirror</button>
+    </section>
+  </main>
+  <script src="/sound.js"></script>
+  <script src="/solo/mirror.js"></script>
+</body>
+</html>

@@ -306,6 +306,158 @@ button.secondary {
 .tile.medium { font-size: 2rem; min-height: 86px; }
 .tile.large { font-size: 2.8rem; min-height: 104px; }
 
+.maze-cell {
+  min-height: 72px;
+  font-size: 1.6rem;
+}
+
+.maze-start {
+  background: linear-gradient(135deg, #b7f7c1 0%, #8de89c 100%);
+}
+
+.maze-goal {
+  background: linear-gradient(135deg, #ffe38a 0%, #ffc95a 100%);
+}
+
+.maze-reveal {
+  background: linear-gradient(135deg, #e3f0ff 0%, #cde2ff 100%);
+}
+
+.maze-current {
+  background: linear-gradient(135deg, #c0ddff 0%, #96c3ff 100%);
+}
+
+.maze-step-done {
+  background: linear-gradient(135deg, #f3f9ff 0%, #e2efff 100%);
+}
+
+.treasure-cell {
+  min-height: 74px;
+  font-size: 2rem;
+}
+
+.treasure-start {
+  background: linear-gradient(135deg, #b7f7c1 0%, #8de89c 100%);
+}
+
+.treasure-goal {
+  background: linear-gradient(135deg, #ffe38a 0%, #ffc95a 100%);
+}
+
+.treasure-done {
+  background: linear-gradient(135deg, #d9ecff 0%, #bfdfff 100%);
+}
+
+.story-card {
+  min-height: 110px;
+}
+
+.story-selected {
+  outline: 4px solid #f9b928;
+  transform: translateY(-2px);
+}
+
+.scene-zone-grid {
+  margin-top: 10px;
+}
+
+.scene-tray {
+  margin-top: 6px;
+}
+
+.scene-zone {
+  min-height: 120px;
+}
+
+.scene-zone-done {
+  background: linear-gradient(135deg, #d8f7dd 0%, #b9efc2 100%);
+}
+
+.scene-selected {
+  outline: 4px solid #f9b928;
+  transform: translateY(-2px);
+}
+
+.spot-layout {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.spot-panel {
+  background: #ffffffd9;
+  border: 2px solid #b7d6ff;
+  border-radius: 14px;
+  padding: 10px;
+}
+
+.spot-panel h3 {
+  margin: 4px 0 6px;
+  font-size: 1rem;
+}
+
+.spot-correct {
+  outline: 4px solid #2ea44f;
+}
+
+.mirror-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 12px;
+}
+
+.mirror-target {
+  background: #ffffffd9;
+  border: 2px solid #b7d6ff;
+  border-radius: 14px;
+  padding: 10px;
+}
+
+.mirror-target h3 {
+  margin: 4px 0 6px;
+  font-size: 1rem;
+}
+
+.mirror-target-card {
+  min-height: 130px;
+}
+
+.mirror-symbol {
+  display: inline-block;
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #1e355f;
+}
+
+.mirror-symbol.mirrored {
+  transform: scaleX(-1);
+}
+
+.rhythm-pads {
+  margin-top: 8px;
+}
+
+.rhythm-pad {
+  min-height: 120px;
+}
+
+.rhythm-active {
+  outline: 4px solid #2ea44f;
+  transform: scale(1.03);
+}
+
+.category-buckets {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 10px 0;
+}
+
+.category-bucket {
+  min-height: 120px;
+}
+
 .helper {
   color: #3052a0;
   font-weight: 700;
@@ -430,5 +582,17 @@ canvas {
   .row {
     grid-template-columns: 1fr;
     width: 100%;
+  }
+
+  .spot-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .mirror-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .category-buckets {
+    grid-template-columns: 1fr;
   }
 }

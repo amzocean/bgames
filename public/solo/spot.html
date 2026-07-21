@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BGames - Spot the Change</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="game-wrap">
+    <div class="topbar">
+      <a href="/solo/">Back to Solo</a>
+      <strong>Spot the Change</strong>
+      <button class="sound-toggle" data-sound-toggle type="button">Sound: On 🔊</button>
+    </div>
+    <section class="play-area">
+      <div class="hud">
+        <span class="pill">Score: <span id="score">0</span></span>
+        <span class="pill">Streak: <span id="streak">0</span></span>
+        <span class="pill target" id="targetPill">Find: 1 changed card</span>
+      </div>
+      <p id="prompt">Compare both boards, then tap the changed card on the right board.</p>
+      <p class="helper" id="feedback">Scan left to right. There is only one difference.</p>
+
+      <div class="spot-layout">
+        <section class="spot-panel">
+          <h3>Original</h3>
+          <div id="leftBoard" class="board"></div>
+        </section>
+        <section class="spot-panel">
+          <h3>Changed</h3>
+          <div id="rightBoard" class="board"></div>
+        </section>
+      </div>
+
+      <button id="newRound">New Round</button>
+    </section>
+  </main>
+  <script src="/sound.js"></script>
+  <script src="/solo/spot.js"></script>
+</body>
+</html>
