@@ -14,14 +14,24 @@ body {
   min-height: 100vh;
 }
 
+.home-wrap,
+.hub-wrap,
+.game-wrap {
+    width: min(1400px, calc(100vw - 16px));
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 8px 0 18px;
+    display: flex;
+    flex-direction: column;
+}
+
 .home-wrap {
-  width: min(1200px, 94vw);
-  margin: 20px auto 36px;
+    justify-content: center;
 }
 
 .home-hero {
-  text-align: center;
-  background: #ffffffd9;
+    text-align: center;
+    background: #ffffffd9;
   border: 3px solid #8dc8ff;
   border-radius: 26px;
   padding: 28px 18px;
@@ -52,6 +62,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
+  flex: 1;
 }
 
 .mode-tile {
@@ -94,12 +105,6 @@ body {
 .mode-tile p {
   margin: 0;
   font-size: clamp(1rem, 2.2vw, 1.35rem);
-}
-
-.hub-wrap,
-.game-wrap {
-  width: min(1200px, 95vw);
-  margin: 14px auto 30px;
 }
 
 .topbar {
@@ -243,12 +248,15 @@ button.secondary {
 .game-tile.orange { background: linear-gradient(135deg, #ffd2a6 0%, #ffb672 100%); }
 
 .play-area {
+  flex: 1;
   position: relative;
   background: #ffffffeb;
   border: 3px solid #9ecfff;
   border-radius: 24px;
   padding: 18px;
   box-shadow: 0 10px 22px #8db2d62b;
+  display: flex;
+  flex-direction: column;
 }
 
 .hud {
@@ -275,6 +283,8 @@ button.secondary {
   display: grid;
   gap: 12px;
   margin: 14px 0;
+  flex: 1;
+  align-content: start;
 }
 
 .tile {
@@ -310,7 +320,7 @@ button.secondary {
   border: 2px dashed #9bbef3;
   border-radius: 16px;
   overflow: hidden;
-  width: fit-content;
+  width: 100%;
   background: #fff;
   max-width: 100%;
 }
@@ -318,7 +328,7 @@ button.secondary {
 canvas {
   display: block;
   background: #fff;
-  width: min(100%, 1000px);
+  width: min(100%, 1200px);
   height: auto;
 }
 

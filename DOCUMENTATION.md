@@ -55,7 +55,11 @@ bgames/
 │   │   ├── detective.html / detective.js
 │   │   ├── memory.html / memory.js
 │   │   ├── hunt.html / hunt.js
-│   │   └── trace.html / trace.js
+│   │   ├── trace.html / trace.js
+│   │   ├── pattern.html / pattern.js
+│   │   ├── odd-one.html / odd-one.js
+│   │   ├── shadow.html / shadow.js
+│   │   └── bigger.html / bigger.js
 │   └── papa/
 │       ├── index.html
 │       ├── tictactoe.html / tictactoe.js
@@ -97,12 +101,33 @@ All games are client-side and use local state only.
 - **Memory Cards** — picture matching with peek time and streak feedback
 - **Letter/Number Hunt** — visual scanning game
 - **Trace/Connect-the-Dots** — guided tap order game
+- **Pattern Builder** — complete a repeating visual pattern
+- **Odd One Out** — spot the item that does not belong
+- **Shadow Match** — match colored pictures to their silhouette-style choices
+- **Bigger or Brighter** — compare size or brightness
 
 ### Papa games
 
 - **Tic-Tac-Toe** — two-player live sync via Socket.IO room state
 - **Memory Cards** — two-player live sync via Socket.IO room state
 - **Drawing Guessing** — shared drawing canvas with live stroke sync and shared prompts
+
+## 7. Current Implementation Status
+
+### Phase 1 (implemented)
+
+- Pattern Builder
+- Odd One Out
+- Shadow Match
+- Bigger or Brighter
+
+These are now wired into `/solo/index.html` and follow the same shared sound and difficulty model as the original solo games.
+
+## 8. UI and Layout
+
+- App pages are now configured to use near full-viewport layout for tablet play.
+- Layout remains responsive and collapses to single-column on smaller screens.
+- Existing large touch targets and high-contrast visual style are preserved.
 
 ## 9. Realtime Notes
 
@@ -129,7 +154,7 @@ All games are client-side and use local state only.
 - Clients send card flip requests and restart requests
 - Server resolves match logic and broadcasts the canonical board state
 
-## 7. Shared UI Conventions
+## 10. Shared UI Conventions
 
 - **Big tile-first layout** for iPad-friendly touch input
 - **Positive feedback only**; no harsh failure language
@@ -140,7 +165,18 @@ Sound state is saved in:
 
 - `bgames:soundOn`
 
-## 8. Notes for Future Work
+## 11. Next Plan
+
+Planned next solo batch (from the implementation plan):
+
+1. Sequence Sort
+2. Hidden Path / Maze
+3. Treasure Map
+4. Story Match
+5. Sound Hunt
+6. Build the Scene
+
+### Development pattern for each new game
 
 - Keep new pages visually large and touch-friendly.
 - If adding new games, follow the existing pattern:

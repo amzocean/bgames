@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BGames - Pattern Builder</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="game-wrap">
+    <div class="topbar">
+      <a href="/solo/">Back to Solo</a>
+      <strong>Pattern Builder</strong>
+      <button class="sound-toggle" data-sound-toggle type="button">Sound: On 🔊</button>
+    </div>
+    <section class="play-area">
+      <div class="hud">
+        <span class="pill">Score: <span id="score">0</span></span>
+        <span class="pill">Streak: <span id="streak">0</span></span>
+        <span class="pill target" id="targetPill">Pattern: -</span>
+      </div>
+      <p id="prompt"></p>
+      <p class="helper" id="feedback">Warm-up round.</p>
+      <div id="patternView" class="board"></div>
+      <div id="choices" class="board"></div>
+      <button id="next">New Pattern</button>
+    </section>
+  </main>
+  <script src="/sound.js"></script>
+  <script src="/solo/pattern.js"></script>
+</body>
+</html>
