@@ -4,6 +4,9 @@
   let audioCtx = null;
   let lastUiClickAt = 0;
   let preferredVoice = null;
+  let lastSpokenClue = '';
+  let lastSpokenAt = 0;
+  let clueSpeakTimer = null;
 
   function ensureAudio() {
     const Ctx = window.AudioContext || window.webkitAudioContext;
@@ -57,25 +60,25 @@
       default:
         tone(520, 0.08, 'triangle', 0.05);
     }
+  }
 
-    function pickPreferredVoice() {
-      if (!('speechSynthesis' in window)) return null;
-      const voices = window.speechSynthesis.getVoices();
-      if (!voices || voices.length === 0) return null;
+  function pickPreferredVoice() {
+    if (!('speechSynthesis' in window)) return null;
+    const voices = window.speechSynthesis.getVoices();
+    if (!voices || voices.length === 0) return null;
 
-      const scoreVoice = (voice) => {
-        const text = `${voice.name} ${voice.lang}`.toLowerCase();
-        let score = 0;
-        if (text.includes('en')) score += 3;
-        if (text.includes('us') || text.includes('uk')) score += 2;
-        if (text.includes('child') || text.includes('kid') || text.includes('young')) score += 8;
-        if (text.includes('girl') || text.includes('female') || text.includes('samantha') || text.includes('zira')) score += 4;
-        if (voice.default) score += 1;
-        return score;
-      };
+    const scoreVoice = (voice) => {
+      const text = `${voice.name} ${voice.lang}`.toLowerCase();
+      let score = 0;
+      if (text.includes('en')) score += 3;
+      if (text.includes('us') || text.includes('uk')) score += 2;
+      if (text.includes('child') || text.includes('kid') || text.includes('young')) score += 8;
+      if (text.includes('girl') || text.includes('female') || text.includes('samantha') || text.includes('zira')) score += 4;
+      if (voice.default) score += 1;
+      return score;
+    };
 
-      return [...voices].sort((a, b) => scoreVoice(b) - scoreVoice(a))[0] || null;
-    }
+    return [...voices].sort((a, b) => scoreVoice(b) - scoreVoice(a))[0] || null;
   }
 
   function say(text) {
@@ -149,6 +152,19 @@
     return '';
   }
 
+  function speakSoloClue(force = false) {
+    const clue = readSoloClueText();
+    if (!clue) return;
+    const now = Date.now();
+    if (!force) {
+      if (clue === lastSpokenClue && now - lastSpokenAt < 8000) return;
+      if (now - lastSpokenAt < 1200) return;
+    }
+    lastSpokenClue = clue;
+    lastSpokenAt = now;
+    say(clue);
+  }
+
   function initSoloClueAudio() {
     if (!window.location.pathname.startsWith('/solo/')) return;
     document.body.classList.add('solo-mode');
@@ -156,38 +172,53 @@
     const playArea = document.querySelector('.play-area');
     if (!playArea) return;
 
-    // If a page already has a dedicated clue button (e.g. Treasure Map), keep it as-is.
-    if (playArea.querySelector('#hearClue')) return;
+    let clueBtn = playArea.querySelector('#hearClue');
 
-    let toolsRow = playArea.querySelector('.mini-tools');
-    if (!toolsRow) {
-      toolsRow = document.createElement('div');
-      toolsRow.className = 'mini-tools';
-      const firstBoard = playArea.querySelector('.board, .canvas-box');
-      if (firstBoard) {
-        playArea.insertBefore(toolsRow, firstBoard);
-      } else {
-        playArea.appendChild(toolsRow);
-      }
-    }
-
-    let clueBtn = toolsRow.querySelector('[data-hear-clue]');
     if (!clueBtn) {
-      clueBtn = document.createElement('button');
-      clueBtn.type = 'button';
-      clueBtn.className = 'secondary';
-      clueBtn.dataset.hearClue = '1';
-      clueBtn.textContent = 'Hear Clue';
-      toolsRow.appendChild(clueBtn);
+      let toolsRow = playArea.querySelector('.mini-tools');
+      if (!toolsRow) {
+        toolsRow = document.createElement('div');
+        toolsRow.className = 'mini-tools';
+        const firstBoard = playArea.querySelector('.board, .canvas-box');
+        if (firstBoard) {
+          playArea.insertBefore(toolsRow, firstBoard);
+        } else {
+          playArea.appendChild(toolsRow);
+        }
+      }
+
+      clueBtn = toolsRow.querySelector('[data-hear-clue]');
+      if (!clueBtn) {
+        clueBtn = document.createElement('button');
+        clueBtn.type = 'button';
+        clueBtn.className = 'secondary';
+        clueBtn.dataset.hearClue = '1';
+        clueBtn.textContent = 'Hear Clue';
+        toolsRow.appendChild(clueBtn);
+      }
     }
 
     if (clueBtn.dataset.clueWired === '1') return;
     clueBtn.dataset.clueWired = '1';
     clueBtn.addEventListener('click', (event) => {
       event.preventDefault();
-      const clue = readSoloClueText();
-      if (clue) say(clue);
+      speakSoloClue(true);
     });
+
+    const feedbackEl = document.getElementById('feedback');
+    const promptEl = document.getElementById('prompt');
+    const watchTargets = [feedbackEl, promptEl].filter(Boolean);
+    if (watchTargets.length) {
+      const observer = new MutationObserver(() => {
+        if (clueSpeakTimer) clearTimeout(clueSpeakTimer);
+        clueSpeakTimer = setTimeout(() => speakSoloClue(false), 180);
+      });
+      watchTargets.forEach((target) => {
+        observer.observe(target, { childList: true, characterData: true, subtree: true });
+      });
+    }
+
+    setTimeout(() => speakSoloClue(false), 450);
   }
 
   window.bgamesSound = {
