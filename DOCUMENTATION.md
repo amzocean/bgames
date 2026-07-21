@@ -60,7 +60,6 @@ bgames/
 │   │   ├── odd-one.html / odd-one.js
 │   │   ├── shadow.html / shadow.js
 │   │   ├── bigger.html / bigger.js
-│   │   ├── sequence.html / sequence.js
 │   │   ├── maze.html / maze.js
 │   │   ├── treasure.html / treasure.js
 │   │   ├── story.html / story.js
@@ -115,7 +114,6 @@ All games are client-side and use local state only.
 - **Odd One Out** — spot the item that does not belong
 - **Shadow Match** — match colored pictures to their silhouette-style choices
 - **Bigger or Brighter** — compare size or brightness
-- **Sequence Sort** — tap cards in visual order (size, brightness, length)
 - **Hidden Path / Maze** — remember and follow a short path to treasure
 - **Treasure Map** — follow ordered landmark clues to reach treasure
 - **Story Match** — connect two cards that belong to the same mini-story
@@ -145,7 +143,6 @@ These are now wired into `/solo/index.html` and follow the same shared sound and
 
 ### Phase 2 (in progress)
 
-- Sequence Sort is now implemented and wired into `/solo/index.html`.
 - Hidden Path / Maze is now implemented and wired into `/solo/index.html`.
 - Treasure Map is now implemented and wired into `/solo/index.html`.
 - Story Match is now implemented and wired into `/solo/index.html`.
