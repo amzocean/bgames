@@ -16,26 +16,44 @@ const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 const promptEl = document.getElementById('prompt');
 const roomEl = document.getElementById('room');
+const syncStateEl = document.getElementById('syncState');
 const paletteEl = document.getElementById('palette');
 const clearBtn = document.getElementById('clear');
 const newPromptBtn = document.getElementById('newPrompt');
+const socket = io('/papa');
+const roomCode = localStorage.getItem('bgames:roomCode') || 'default';
 
+let strokeColor = paletteColors[0];
+let strokeSize = 6;
+let currentState = { promptIndex: 0, prompt: prompts[0], strokes: [] };
 let drawing = false;
 let lastX = 0;
 let lastY = 0;
-let strokeColor = paletteColors[0];
-let strokeSize = 6;
 
-function drawPrompt() {
-  const value = prompts[Math.floor(Math.random() * prompts.length)];
-  promptEl.textContent = `Prompt: ${value.icon} ${value.label}`;
-  window.bgamesSound?.play('good');
-  window.bgamesSound?.say(`Draw this: ${value.label}`);
+function drawPrompt(prompt) {
+  promptEl.textContent = `Prompt: ${prompt.icon} ${prompt.label}`;
 }
 
 function clearCanvas() {
   ctx.fillStyle = '#fff';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
+}
+
+function drawSegment(segment) {
+  ctx.beginPath();
+  ctx.moveTo(segment.from.x, segment.from.y);
+  ctx.lineTo(segment.to.x, segment.to.y);
+  ctx.lineWidth = segment.size;
+  ctx.strokeStyle = segment.color;
+  ctx.lineCap = 'round';
+  ctx.stroke();
+}
+
+function replayStrokes(strokes) {
+  clearCanvas();
+  for (const segment of strokes) {
+    drawSegment(segment);
+  }
 }
 
 function buildPalette() {
@@ -55,6 +73,10 @@ function buildPalette() {
   });
 }
 
+function joinRoom() {
+  socket.emit('papa:join', { game: 'draw', roomCode });
+}
+
 canvas.addEventListener('pointerdown', (e) => {
   drawing = true;
   canvas.setPointerCapture(e.pointerId);
@@ -72,13 +94,14 @@ canvas.addEventListener('pointermove', (e) => {
   const scaleY = canvas.height / rect.height;
   const x = (e.clientX - rect.left) * scaleX;
   const y = (e.clientY - rect.top) * scaleY;
-  ctx.beginPath();
-  ctx.moveTo(lastX, lastY);
-  ctx.lineTo(x, y);
-  ctx.lineWidth = strokeSize;
-  ctx.strokeStyle = strokeColor;
-  ctx.lineCap = 'round';
-  ctx.stroke();
+  const segment = {
+    from: { x: lastX, y: lastY },
+    to: { x, y },
+    color: strokeColor,
+    size: strokeSize
+  };
+  drawSegment(segment);
+  socket.emit('papa:draw:segment', { roomCode, segment });
   lastX = x;
   lastY = y;
 });
@@ -87,12 +110,41 @@ canvas.addEventListener('pointerup', () => { drawing = false; });
 canvas.addEventListener('pointerleave', () => { drawing = false; });
 
 clearBtn.addEventListener('click', () => {
-  clearCanvas();
   window.bgamesSound?.play('good');
+  socket.emit('papa:draw:clear', { roomCode });
 });
-newPromptBtn.addEventListener('click', drawPrompt);
 
-roomEl.textContent = `Room code: ${localStorage.getItem('bgames:roomCode') || 'Not set'}`;
+newPromptBtn.addEventListener('click', () => {
+  window.bgamesSound?.play('good');
+  socket.emit('papa:draw:newPrompt', { roomCode });
+});
+
+socket.on('connect', joinRoom);
+
+socket.on('papa:draw:state', (nextState) => {
+  currentState = {
+    promptIndex: nextState.promptIndex ?? 0,
+    prompt: nextState.prompt || prompts[0],
+    strokes: nextState.strokes || []
+  };
+  drawPrompt(currentState.prompt);
+  replayStrokes(currentState.strokes);
+  syncStateEl.textContent = 'Live sync on';
+  window.bgamesSound?.play('good');
+  window.bgamesSound?.say(`Draw this: ${currentState.prompt.label}`);
+});
+
+socket.on('papa:draw:segment', (segment) => {
+  currentState.strokes.push(segment);
+  drawSegment(segment);
+  syncStateEl.textContent = 'Live sync on';
+});
+
+socket.on('disconnect', () => {
+  syncStateEl.textContent = 'Disconnected';
+});
+
+roomEl.textContent = `Room code: ${roomCode}`;
 buildPalette();
 clearCanvas();
-drawPrompt();
+joinRoom();

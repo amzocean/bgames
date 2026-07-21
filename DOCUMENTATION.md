@@ -7,7 +7,7 @@
 - **Play Solo**
 - **Play with Papa**
 
-The app is intentionally simple: static HTML/CSS/JS served by a small Express server. Most behavior lives in client-side code and `localStorage`.
+The app is intentionally simple: static HTML/CSS/JS served by a small Express server. Most behavior lives in client-side code and `localStorage`, with Socket.IO used for papa-mode cross-device sync.
 
 ## 2. Repository
 
@@ -44,7 +44,7 @@ This repo is set up to run as a **Render Web Service**.
 
 ```text
 bgames/
-├── server.js          # Express server
+├── server.js          # Express + Socket.IO server
 ├── package.json       # Node metadata + start script
 ├── public/
 │   ├── index.html     # Home page with Solo / Papa entry tiles
@@ -59,6 +59,7 @@ bgames/
 │   └── papa/
 │       ├── index.html
 │       ├── tictactoe.html / tictactoe.js
+│       ├── memory.html / memory.js
 │       └── draw.html / draw.js
 └── DOCUMENTATION.md
 ```
@@ -84,6 +85,8 @@ bgames/
 
 - `bgames:roomCode`
 
+Papa games join a Socket.IO room using the shared room code. The server keeps in-memory room state so both devices see the same Tic-Tac-Toe board or drawing canvas.
+
 ## 6. Game Behavior
 
 All games are client-side and use local state only.
@@ -97,8 +100,34 @@ All games are client-side and use local state only.
 
 ### Papa games
 
-- **Tic-Tac-Toe** — two-player local turn-taking
-- **Drawing Guessing** — shared drawing canvas with prompt rotation
+- **Tic-Tac-Toe** — two-player live sync via Socket.IO room state
+- **Memory Cards** — two-player live sync via Socket.IO room state
+- **Drawing Guessing** — shared drawing canvas with live stroke sync and shared prompts
+
+## 9. Realtime Notes
+
+- Socket namespace: `/papa`
+- Room key format: `game:roomCode` (for example `tictactoe:family1`)
+- Room code is normalized to lowercase alphanumerics, `_`, and `-`
+- State is in-memory only; a Render restart clears active papa rooms
+
+### Tictactoe sync
+
+- Server owns board state, turn order, and win/draw detection
+- Clients send only moves and restarts
+- Clients render from the latest state broadcast by the server
+
+### Drawing sync
+
+- Server owns the active prompt and stroke list
+- Clients send drawing segments, clears, and new-prompt requests
+- Joining clients receive the full stroke history and replay it locally
+
+### Memory sync
+
+- Server owns deck order, flipped cards, match count, and lock state
+- Clients send card flip requests and restart requests
+- Server resolves match logic and broadcasts the canonical board state
 
 ## 7. Shared UI Conventions
 
@@ -120,4 +149,3 @@ Sound state is saved in:
   3. wire it into the relevant mode picker
   4. include `sound.js`
 - If real-time multiplayer is added later, Express alone will not be enough; add a realtime backend service.
-

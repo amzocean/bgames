@@ -16,6 +16,7 @@
     <section class="play-area">
       <p id="room"></p>
       <p id="prompt" class="helper">Prompt: Tree</p>
+      <p class="helper" id="syncState">Syncing...</p>
       <div class="hud">
         <span class="pill">Painter: pick a color</span>
       </div>
@@ -30,6 +31,7 @@
       <p>Tip: One draws while the other guesses, then switch roles.</p>
     </section>
   </main>
+  <script src="/socket.io/socket.io.js"></script>
   <script src="/sound.js"></script>
   <script src="/papa/draw.js"></script>
 </body>

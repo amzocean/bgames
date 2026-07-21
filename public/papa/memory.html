@@ -3,28 +3,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BGames - Papa Tic-Tac-Toe</title>
+  <title>BGames - Papa Memory Cards</title>
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
   <main class="game-wrap">
     <div class="topbar">
       <a href="/papa/">Back to Papa</a>
-      <strong>Papa Mode: Tic-Tac-Toe</strong>
+      <strong>Papa Mode: Memory Cards</strong>
       <button class="sound-toggle" data-sound-toggle type="button">Sound: On 🔊</button>
     </div>
     <section class="play-area">
       <p id="room"></p>
-      <p class="helper" id="state">Turn: X</p>
-      <p class="helper" id="syncState">Syncing...</p>
+      <p class="helper" id="state">Syncing...</p>
+      <p class="helper" id="syncState">Waiting for room...</p>
+      <div class="hud">
+        <span class="pill">Matches: <span id="matches">0</span></span>
+        <span class="pill">Cards left: <span id="left">0</span></span>
+      </div>
       <div id="board" class="board"></div>
       <div class="row actions">
-        <button id="restart">Restart</button>
+        <button id="restart">New Board</button>
       </div>
     </section>
   </main>
   <script src="/socket.io/socket.io.js"></script>
   <script src="/sound.js"></script>
-  <script src="/papa/tictactoe.js"></script>
+  <script src="/papa/memory.js"></script>
 </body>
 </html>
