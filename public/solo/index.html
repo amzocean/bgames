@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BGames - Solo Mode</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="hub-wrap">
+    <div class="topbar">
+      <a href="/">Back Home</a>
+      <strong>Solo Mode</strong>
+      <button class="sound-toggle" data-sound-toggle type="button">Sound: On 🔊</button>
+    </div>
+
+    <section class="hub-panel">
+      <h1>Pick a Solo Game</h1>
+      <p>Big tiles, quick starts.</p>
+      <div class="hub-row">
+        <span>Difficulty:</span>
+        <div class="difficulty-chips" role="group" aria-label="Difficulty">
+          <button class="chip" data-level="large" type="button">Large</button>
+          <button class="chip" data-level="medium" type="button">Medium</button>
+          <button class="chip" data-level="small" type="button">Small</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="game-tile-grid">
+      <a class="game-tile yellow" href="/solo/detective.html"><span>🕵️</span><h2>Detective Find-It</h2></a>
+      <a class="game-tile pink" href="/solo/memory.html"><span>🧠</span><h2>Memory Cards</h2></a>
+      <a class="game-tile blue" href="/solo/hunt.html"><span>🔎</span><h2>Letter/Number Hunt</h2></a>
+      <a class="game-tile green" href="/solo/trace.html"><span>✏️</span><h2>Trace and Dots</h2></a>
+    </section>
+  </main>
+
+  <script src="/sound.js"></script>
+  <script>
+    const key = 'bgames:difficulty';
+    const chips = [...document.querySelectorAll('.chip')];
+    const selected = localStorage.getItem(key) || 'large';
+    function setActive(level) {
+      chips.forEach((chip) => {
+        chip.classList.toggle('active', chip.dataset.level === level);
+      });
+      localStorage.setItem(key, level);
+      window.bgamesSound?.play('good');
+    }
+    setActive(selected);
+    chips.forEach((chip) => {
+      chip.addEventListener('click', () => setActive(chip.dataset.level));
+    });
+  </script>
+</body>
+</html>

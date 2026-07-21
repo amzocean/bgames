@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BGames - Papa Mode</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="hub-wrap">
+    <div class="topbar">
+      <a href="/">Back Home</a>
+      <strong>Papa Mode</strong>
+      <button class="sound-toggle" data-sound-toggle type="button">Sound: On 🔊</button>
+    </div>
+
+    <section class="hub-panel">
+      <h1>Pick a Game to Play Together</h1>
+      <p>Use the same room code on both sides.</p>
+      <div class="hub-row">
+        <label for="roomCode">Room code:</label>
+        <input id="roomCode" type="text" maxlength="10" placeholder="Enter code">
+        <button id="saveRoom" class="secondary">Save</button>
+      </div>
+    </section>
+
+    <section class="game-tile-grid two-up">
+      <a class="game-tile purple" href="/papa/tictactoe.html"><span>⭕</span><h2>Tic-Tac-Toe</h2></a>
+      <a class="game-tile orange" href="/papa/draw.html"><span>🎨</span><h2>Drawing Guessing</h2></a>
+    </section>
+  </main>
+
+  <script src="/sound.js"></script>
+  <script>
+    const key = 'bgames:roomCode';
+    const input = document.getElementById('roomCode');
+    const save = document.getElementById('saveRoom');
+    input.value = localStorage.getItem(key) || '';
+    save.addEventListener('click', () => {
+      localStorage.setItem(key, input.value.trim());
+      save.textContent = 'Saved';
+      window.bgamesSound?.play('good');
+      window.bgamesSound?.say('Room code saved');
+      setTimeout(() => { save.textContent = 'Save'; }, 800);
+    });
+  </script>
+</body>
+</html>

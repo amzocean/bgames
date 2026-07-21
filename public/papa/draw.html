@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BGames - Papa Drawing Guessing</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="game-wrap">
+    <div class="topbar">
+      <a href="/papa/">Back to Papa</a>
+      <strong>Papa Mode: Drawing Guessing</strong>
+      <button class="sound-toggle" data-sound-toggle type="button">Sound: On 🔊</button>
+    </div>
+    <section class="play-area">
+      <p id="room"></p>
+      <p id="prompt" class="helper">Prompt: Tree</p>
+      <div class="hud">
+        <span class="pill">Painter: pick a color</span>
+      </div>
+      <div class="mini-tools" id="palette"></div>
+      <div class="canvas-box">
+        <canvas id="canvas" width="820" height="420"></canvas>
+      </div>
+      <div class="row actions">
+        <button id="newPrompt">New Prompt</button>
+        <button id="clear" class="secondary">Clear Board</button>
+      </div>
+      <p>Tip: One draws while the other guesses, then switch roles.</p>
+    </section>
+  </main>
+  <script src="/sound.js"></script>
+  <script src="/papa/draw.js"></script>
+</body>
+</html>

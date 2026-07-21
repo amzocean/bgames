@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BGames - Papa Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="game-wrap">
+    <div class="topbar">
+      <a href="/papa/">Back to Papa</a>
+      <strong>Papa Mode: Tic-Tac-Toe</strong>
+      <button class="sound-toggle" data-sound-toggle type="button">Sound: On 🔊</button>
+    </div>
+    <section class="play-area">
+      <p id="room"></p>
+      <p class="helper" id="state">Turn: X</p>
+      <div id="board" class="board"></div>
+      <div class="row actions">
+        <button id="restart">Restart</button>
+      </div>
+    </section>
+  </main>
+  <script src="/sound.js"></script>
+  <script src="/papa/tictactoe.js"></script>
+</body>
+</html>

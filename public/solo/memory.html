@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BGames - Memory Cards</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="game-wrap">
+    <div class="topbar">
+      <a href="/solo/">Back to Solo</a>
+      <strong>Memory Cards</strong>
+      <button class="sound-toggle" data-sound-toggle type="button">Sound: On 🔊</button>
+    </div>
+    <section class="play-area">
+      <div class="hud">
+        <span class="pill">Matches: <span id="matches">0</span></span>
+        <span class="pill">Streak: <span id="streak">0</span></span>
+      </div>
+      <p class="helper" id="state">Warm-up round.</p>
+      <div id="board" class="board"></div>
+      <button id="restart">New Board</button>
+    </section>
+  </main>
+  <script src="/sound.js"></script>
+  <script src="/solo/memory.js"></script>
+</body>
+</html>
