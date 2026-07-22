@@ -87,7 +87,9 @@
   function say(text) {
     if (!soundOn || !('speechSynthesis' in window)) return;
     if (!preferredVoice) preferredVoice = pickPreferredVoice();
-    const utterance = new SpeechSynthesisUtterance(text);
+    const cleanText = stripEmojiFromSpeech(text);
+    if (!cleanText) return;
+    const utterance = new SpeechSynthesisUtterance(cleanText);
     if (preferredVoice) utterance.voice = preferredVoice;
     utterance.lang = 'en-US';
     utterance.rate = 0.56;
@@ -148,7 +150,7 @@
     const candidates = getSoloClueNodes();
     for (const node of candidates) {
       const text = String(node.textContent || '').trim().replace(/\s+/g, ' ');
-      if (text && !isPlaceholderClueText(text)) return text;
+      if (text && !isPlaceholderClueText(text)) return stripEmojiFromSpeech(text);
     }
     return '';
   }
@@ -172,7 +174,13 @@
   function readSoloInstructionText() {
     const explicit = document.querySelector('[data-game-instruction]');
     const text = explicit ? String(explicit.textContent || '').trim().replace(/\s+/g, ' ') : '';
-    return text || 'Listen carefully. Then follow the clue.';
+    return stripEmojiFromSpeech(text) || 'Listen carefully. Then follow the clue.';
+  }
+
+  function stripEmojiFromSpeech(text) {
+    const value = String(text || '');
+    const withoutEmoji = value.replace(/[\p{Extended_Pictographic}\u200D\uFE0F\u20E3]/gu, '');
+    return withoutEmoji.replace(/\s+/g, ' ').replace(/\s+([.,!?;:])/g, '$1').trim();
   }
 
   function speakSoloClue(force = false) {
