@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BGames - Falling Treasure</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="game-wrap">
+    <div class="topbar">
+      <a href="/solo/">Back to Solo</a>
+      <strong>Falling Treasure</strong>
+      <button class="sound-toggle" data-sound-toggle type="button">Sound: On 🔊</button>
+    </div>
+    <section class="play-area">
+      <div class="hud">
+        <span class="pill">Treasure: <span id="treasure">0</span></span>
+        <span class="pill">Bombs: <span id="bombs">0</span></span>
+        <span class="pill target" id="targetPill">Goal: catch treasure</span>
+      </div>
+      <p id="prompt" data-game-instruction>Catch the treasure. Avoid the bombs.</p>
+      <p class="helper" id="feedback">Treasure falls from the sky. Tap it before it disappears.</p>
+      <div class="mini-tools">
+        <button id="newRound" class="secondary" type="button">New Wave</button>
+      </div>
+      <div id="board" class="falling-board treasure-board" aria-live="polite">
+        <div id="basket" class="basket" aria-hidden="true">🧺</div>
+      </div>
+      <div class="basket-controls" aria-label="Move basket">
+        <button type="button" data-basket-lane="0">Left Basket</button>
+        <button type="button" data-basket-lane="1">Middle Basket</button>
+        <button type="button" data-basket-lane="2">Right Basket</button>
+      </div>
+    </section>
+  </main>
+  <script src="/sound.js"></script>
+  <script src="/solo/falling-treasure.js"></script>
+</body>
+</html>

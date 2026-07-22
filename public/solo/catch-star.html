@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BGames - Catch the Star</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="game-wrap">
+    <div class="topbar">
+      <a href="/solo/">Back to Solo</a>
+      <strong>Catch the Star</strong>
+      <button class="sound-toggle" data-sound-toggle type="button">Sound: On 🔊</button>
+    </div>
+    <section class="play-area">
+      <div class="hud">
+        <span class="pill">Caught: <span id="caught">0</span></span>
+        <span class="pill">Bombs: <span id="bombs">0</span></span>
+        <span class="pill target" id="targetPill">Goal: catch the star</span>
+      </div>
+      <p id="prompt" data-game-instruction>Tap the falling star. Avoid the bombs.</p>
+      <p class="helper" id="feedback">Watch the sky and tap the star before it reaches the bottom.</p>
+      <div class="mini-tools">
+        <button id="newRound" class="secondary" type="button">New Wave</button>
+      </div>
+      <div id="board" class="falling-board" aria-live="polite"></div>
+    </section>
+  </main>
+  <script src="/sound.js"></script>
+  <script src="/solo/catch-star.js"></script>
+</body>
+</html>

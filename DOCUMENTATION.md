@@ -55,11 +55,8 @@ bgames/
 │   │   ├── detective.html / detective.js
 │   │   ├── memory.html / memory.js
 │   │   ├── hunt.html / hunt.js
-│   │   ├── trace.html / trace.js
 │   │   ├── pattern.html / pattern.js
 │   │   ├── odd-one.html / odd-one.js
-│   │   ├── shadow.html / shadow.js
-│   │   ├── bigger.html / bigger.js
 │   │   ├── maze.html / maze.js
 │   │   ├── treasure.html / treasure.js
 │   │   ├── story.html / story.js
@@ -112,8 +109,8 @@ All games are client-side and use local state only.
 - **Trace/Connect-the-Dots** — guided tap order game
 - **Pattern Builder** — complete a repeating visual pattern
 - **Odd One Out** — spot the item that does not belong
-- **Shadow Match** — match colored pictures to their silhouette-style choices
-- **Bigger or Brighter** — compare size or brightness
+- **Catch the Star** — tap the falling star and avoid bombs
+- **Falling Treasure** — catch treasure as it falls while dodging bombs
 - **Hidden Path / Maze** — remember and follow a short path to treasure
 - **Treasure Map** — follow ordered landmark clues to reach treasure
 - **Story Match** — connect two cards that belong to the same mini-story
@@ -136,9 +133,6 @@ All games are client-side and use local state only.
 
 - Pattern Builder
 - Odd One Out
-- Shadow Match
-- Bigger or Brighter
-
 These are now wired into `/solo/index.html` and follow the same shared sound and difficulty model as the original solo games.
 
 ### Phase 2 (in progress)
@@ -152,6 +146,7 @@ These are now wired into `/solo/index.html` and follow the same shared sound and
 - Mirror Match is now implemented and wired into `/solo/index.html`.
 - Repeat the Rhythm is now implemented and wired into `/solo/index.html`.
 - Quick Categories is now implemented and wired into `/solo/index.html`.
+- Catch the Star and Falling Treasure are now implemented and wired into `/solo/index.html`.
 
 ## 8. UI and Layout
 
