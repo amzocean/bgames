@@ -6,11 +6,13 @@ const resetInputBtn = document.getElementById('resetInput');
 const nextRoundBtn = document.getElementById('nextRound');
 const padsEl = document.getElementById('pads');
 
-const PAD_SET = [
+const ALL_PADS = [
   { id: 0, icon: '🔴', color: '#ff9aa2', freq: 392 },
   { id: 1, icon: '🟡', color: '#ffe28a', freq: 440 },
   { id: 2, icon: '🟢', color: '#baf3c0', freq: 523 },
-  { id: 3, icon: '🔵', color: '#b9dcff', freq: 659 }
+  { id: 3, icon: '🔵', color: '#b9dcff', freq: 659 },
+  { id: 4, icon: '🟣', color: '#d5c2ff', freq: 784 },
+  { id: 5, icon: '🟠', color: '#ffd1a6', freq: 880 }
 ];
 
 let sequence = [];
@@ -24,11 +26,18 @@ function difficulty() {
   return localStorage.getItem('bgames:difficulty') || 'large';
 }
 
+function activePads() {
+  const d = difficulty();
+  if (d === 'small') return ALL_PADS.slice(0, 6);
+  if (d === 'medium') return ALL_PADS.slice(0, 5);
+  return ALL_PADS.slice(0, 4);
+}
+
 function sequenceLength() {
   const d = difficulty();
-  if (d === 'small') return 6;
-  if (d === 'medium') return 5;
-  return 4;
+  const base = d === 'small' ? 6 : d === 'medium' ? 5 : 4;
+  const ramp = Math.min(4, Math.floor((level - 1) / 2));
+  return base + ramp;
 }
 
 function pulsePad(id) {
@@ -58,11 +67,13 @@ function playTone(freq, duration = 0.2) {
 async function playSequence() {
   if (locked) return;
   locked = true;
+  const padsPool = activePads();
+  const beatMs = Math.max(280, 520 - Math.min(180, level * 14));
   feedbackEl.textContent = 'Watch and listen...';
   for (const id of sequence) {
     pulsePad(id);
-    playTone(PAD_SET[id].freq);
-    await new Promise((resolve) => setTimeout(resolve, 460));
+    playTone(padsPool[id].freq);
+    await new Promise((resolve) => setTimeout(resolve, beatMs));
   }
   feedbackEl.textContent = 'Now copy the pattern.';
   locked = false;
@@ -76,18 +87,20 @@ function updateUi() {
 function buildRound() {
   input = [];
   sequence = [];
+  const padsPool = activePads();
   const len = sequenceLength();
   for (let i = 0; i < len; i += 1) {
-    sequence.push(Math.floor(Math.random() * PAD_SET.length));
+    sequence.push(Math.floor(Math.random() * padsPool.length));
   }
-  feedbackEl.textContent = 'Tap Play Pattern, then repeat it.';
+  feedbackEl.textContent = `Tap Play Pattern, then repeat ${len} beats.`;
   updateUi();
 }
 
 function handlePadTap(id) {
   if (locked) return;
+  const padsPool = activePads();
   pulsePad(id);
-  playTone(PAD_SET[id].freq, 0.16);
+  playTone(padsPool[id].freq, 0.16);
   input.push(id);
   const index = input.length - 1;
   const ok = input[index] === sequence[index];
@@ -113,14 +126,16 @@ function handlePadTap(id) {
 
 function renderPads() {
   padsEl.innerHTML = '';
-  padsEl.style.gridTemplateColumns = 'repeat(2, minmax(0, 1fr))';
-  PAD_SET.forEach((padInfo) => {
+  const padsPool = activePads();
+  const cols = padsPool.length <= 4 ? 2 : 3;
+  padsEl.style.gridTemplateColumns = `repeat(${cols}, minmax(0, 1fr))`;
+  padsPool.forEach((padInfo, index) => {
     const btn = document.createElement('button');
     btn.className = 'tile large rhythm-pad';
-    btn.dataset.id = String(padInfo.id);
+    btn.dataset.id = String(index);
     btn.style.background = `linear-gradient(135deg, ${padInfo.color} 0%, #ffffff 100%)`;
-    btn.innerHTML = `<div class="rhythm-pad-icon">${padInfo.icon}</div><div class="rhythm-pad-label">Pad ${padInfo.id + 1}</div>`;
-    btn.addEventListener('click', () => handlePadTap(padInfo.id));
+    btn.innerHTML = `<div class="rhythm-pad-icon">${padInfo.icon}</div><div class="rhythm-pad-label">Pad ${index + 1}</div>`;
+    btn.addEventListener('click', () => handlePadTap(index));
     padsEl.appendChild(btn);
   });
   pads = [...padsEl.querySelectorAll('.rhythm-pad')];
@@ -134,6 +149,7 @@ resetInputBtn.addEventListener('click', () => {
 nextRoundBtn.addEventListener('click', () => {
   level = 1;
   streak = 0;
+  renderPads();
   buildRound();
 });
 

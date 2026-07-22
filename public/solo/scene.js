@@ -14,7 +14,8 @@ const SCENES = [
       { id: 'sun', hint: 'sky', icon: '☀️', label: 'sun' },
       { id: 'boat', hint: 'water', icon: '⛵', label: 'boat' },
       { id: 'shell', hint: 'sand', icon: '🐚', label: 'shell' },
-      { id: 'crab', hint: 'shore', icon: '🦀', label: 'crab' }
+      { id: 'crab', hint: 'shore', icon: '🦀', label: 'crab' },
+      { id: 'umbrella', hint: 'shade', icon: '⛱️', label: 'umbrella' }
     ]
   },
   {
@@ -24,7 +25,8 @@ const SCENES = [
       { id: 'tree', hint: 'grass', icon: '🌳', label: 'tree' },
       { id: 'kite', hint: 'sky', icon: '🪁', label: 'kite' },
       { id: 'bench', hint: 'path', icon: '🪑', label: 'bench' },
-      { id: 'ball', hint: 'field', icon: '⚽', label: 'ball' }
+      { id: 'ball', hint: 'field', icon: '⚽', label: 'ball' },
+      { id: 'fountain', hint: 'center', icon: '⛲', label: 'fountain' }
     ]
   },
   {
@@ -34,7 +36,41 @@ const SCENES = [
       { id: 'rocket', hint: 'launch', icon: '🚀', label: 'rocket' },
       { id: 'moon', hint: 'orbit', icon: '🌙', label: 'moon' },
       { id: 'star', hint: 'night sky', icon: '⭐', label: 'star' },
-      { id: 'planet', hint: 'far side', icon: '🪐', label: 'planet' }
+      { id: 'planet', hint: 'far side', icon: '🪐', label: 'planet' },
+      { id: 'satellite', hint: 'signal', icon: '🛰️', label: 'satellite' }
+    ]
+  },
+  {
+    id: 'farm',
+    title: 'Farm Morning',
+    zones: [
+      { id: 'barn', hint: 'big red house', icon: '🏠', label: 'barn' },
+      { id: 'cow', hint: 'grass patch', icon: '🐄', label: 'cow' },
+      { id: 'tractor', hint: 'field road', icon: '🚜', label: 'tractor' },
+      { id: 'chicken', hint: 'fence', icon: '🐔', label: 'chicken' },
+      { id: 'hay', hint: 'stack corner', icon: '🌾', label: 'hay' }
+    ]
+  },
+  {
+    id: 'city',
+    title: 'City Street',
+    zones: [
+      { id: 'bus', hint: 'bus stop', icon: '🚌', label: 'bus' },
+      { id: 'light', hint: 'crosswalk', icon: '🚦', label: 'traffic light' },
+      { id: 'taxi', hint: 'main road', icon: '🚕', label: 'taxi' },
+      { id: 'store', hint: 'corner shop', icon: '🏪', label: 'store' },
+      { id: 'mail', hint: 'mailbox lane', icon: '📮', label: 'mailbox' }
+    ]
+  },
+  {
+    id: 'ocean',
+    title: 'Ocean Friends',
+    zones: [
+      { id: 'dolphin', hint: 'near waves', icon: '🐬', label: 'dolphin' },
+      { id: 'turtle', hint: 'reef', icon: '🐢', label: 'turtle' },
+      { id: 'octopus', hint: 'deep water', icon: '🐙', label: 'octopus' },
+      { id: 'coral', hint: 'sea floor', icon: '🪸', label: 'coral' },
+      { id: 'whale', hint: 'far sea', icon: '🐋', label: 'whale' }
     ]
   }
 ];
@@ -56,6 +92,13 @@ function activeZoneCount() {
   return 3;
 }
 
+function decoyCount() {
+  const l = level();
+  if (l === 'small') return 2;
+  if (l === 'medium') return 1;
+  return 0;
+}
+
 function shuffle(items) {
   const copy = [...items];
   for (let i = copy.length - 1; i > 0; i -= 1) {
@@ -72,7 +115,8 @@ function clearSelection() {
 
 function renderTray(pieces) {
   trayEl.innerHTML = '';
-  trayEl.style.gridTemplateColumns = `repeat(${pieces.length}, minmax(0, 1fr))`;
+  const cols = Math.min(4, Math.max(2, pieces.length));
+  trayEl.style.gridTemplateColumns = `repeat(${cols}, minmax(0, 1fr))`;
   pieces.forEach((piece) => {
     const btn = document.createElement('button');
     btn.className = 'tile large story-card';
@@ -149,12 +193,18 @@ function startRound() {
   zoneState = new Map();
   const scene = shuffle(SCENES)[0];
   const zones = shuffle(scene.zones).slice(0, activeZoneCount());
+  const decoys = shuffle(
+    SCENES.filter((item) => item.id !== scene.id).flatMap((item) => item.zones)
+  )
+    .slice(0, decoyCount())
+    .map((item, index) => ({ ...item, id: `decoy-${scene.id}-${index}` }));
+  const trayPieces = shuffle([...zones, ...decoys]);
   currentScene = { ...scene, zones };
   scenePillEl.textContent = `Scene: ${scene.title}`;
   placedEl.textContent = `0/${zones.length}`;
   feedbackEl.textContent = 'Tap a piece, then tap its matching place.';
   renderZones(zones);
-  renderTray(shuffle(zones));
+  renderTray(trayPieces);
 }
 
 newRoundBtn.addEventListener('click', startRound);

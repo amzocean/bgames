@@ -5,7 +5,7 @@ const targetCardEl = document.getElementById('targetCard');
 const choicesEl = document.getElementById('choices');
 const newRoundBtn = document.getElementById('newRound');
 
-const SHAPES = ['F', 'L', 'P', 'R', 'J', 'C', 'S', 'G'];
+const SHAPES = ['F', 'L', 'P', 'R', 'J', 'C', 'S', 'G', 'K', 'B', '2', '3', '4', '5', '7', '9'];
 
 let score = 0;
 let streak = 0;
@@ -18,9 +18,9 @@ function level() {
 
 function choiceCount() {
   const l = level();
-  if (l === 'small') return 4;
-  if (l === 'medium') return 3;
-  return 2;
+  if (l === 'small') return 5;
+  if (l === 'medium') return 4;
+  return 3;
 }
 
 function shuffle(items) {

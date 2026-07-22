@@ -6,7 +6,13 @@ const BANK = [
   { id: 'heart', icon: '💖', label: 'heart', color: '#ff7ac8' },
   { id: 'rocket', icon: '🚀', label: 'rocket', color: '#9d8cff' },
   { id: 'fish', icon: '🐟', label: 'fish', color: '#79d7ff' },
-  { id: 'ball', icon: '⚽', label: 'ball', color: '#78ffb3' }
+  { id: 'ball', icon: '⚽', label: 'ball', color: '#78ffb3' },
+  { id: 'kite', icon: '🪁', label: 'kite', color: '#9ee5ff' },
+  { id: 'flower', icon: '🌸', label: 'flower', color: '#ff9fda' },
+  { id: 'car', icon: '🚗', label: 'car', color: '#ffc27a' },
+  { id: 'tree', icon: '🌳', label: 'tree', color: '#84dd98' },
+  { id: 'cloud', icon: '☁️', label: 'cloud', color: '#cfd9ff' },
+  { id: 'gift', icon: '🎁', label: 'gift', color: '#ffb08a' }
 ];
 
 const patternView = document.getElementById('patternView');
@@ -23,6 +29,7 @@ let answer = null;
 let locked = false;
 let score = 0;
 let streak = 0;
+let hiddenIndex = 0;
 
 function level() {
   return localStorage.getItem('bgames:difficulty') || 'large';
@@ -52,7 +59,7 @@ function renderPattern() {
     tile.className = 'tile large';
     tile.style.background = item.color;
     tile.style.color = '#16304b';
-    tile.textContent = index === pattern.length - 1 ? '❓' : item.icon;
+    tile.textContent = index === hiddenIndex ? '❓' : item.icon;
     patternView.appendChild(tile);
   });
 }
@@ -99,11 +106,15 @@ function renderChoices() {
 function buildRound() {
   const cfg = config();
   const motif = shuffle(BANK).slice(0, cfg.motif);
-  pattern = [];
-  while (pattern.length < cfg.total) {
-    pattern.push(motif[pattern.length % motif.length]);
+  const offset = Math.floor(Math.random() * motif.length);
+  const fullSequence = [];
+  while (fullSequence.length < cfg.total + cfg.motif + 1) {
+    const idx = (fullSequence.length + offset) % motif.length;
+    fullSequence.push(motif[idx]);
   }
-  answer = pattern[pattern.length - 1];
+  pattern = fullSequence.slice(0, cfg.total);
+  hiddenIndex = Math.max(1, Math.floor(Math.random() * cfg.total));
+  answer = pattern[hiddenIndex];
   const pool = shuffle([
     ...motif,
     ...shuffle(BANK).filter((item) => item.id !== answer.id)
@@ -114,7 +125,7 @@ function buildRound() {
   }
   promptEl.textContent = 'What comes next in the pattern?';
   feedbackEl.textContent = 'Tap the matching picture.';
-  targetPillEl.textContent = `Pattern: ${pattern.slice(0, -1).map((item) => item.icon).join(' ')} ❓`;
+  targetPillEl.textContent = `Pattern: ${pattern.map((item, index) => (index === hiddenIndex ? '❓' : item.icon)).join(' ')}`;
   renderPattern();
   renderChoices();
 }
