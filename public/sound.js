@@ -7,6 +7,9 @@
   let lastSpokenClue = '';
   let lastSpokenAt = 0;
   let clueSpeakTimer = null;
+  let initialClueTimer = null;
+  let initialCluePending = false;
+  let initialClueSession = 0;
 
   function ensureAudio() {
     const Ctx = window.AudioContext || window.webkitAudioContext;
@@ -86,11 +89,13 @@
     if (!preferredVoice) preferredVoice = pickPreferredVoice();
     const utterance = new SpeechSynthesisUtterance(text);
     if (preferredVoice) utterance.voice = preferredVoice;
-    utterance.rate = 0.8;
-    utterance.pitch = 1.25;
+    utterance.lang = 'en-US';
+    utterance.rate = 0.56;
+    utterance.pitch = 1.12;
     utterance.volume = 1;
     window.speechSynthesis.cancel();
     window.speechSynthesis.speak(utterance);
+    return utterance;
   }
 
   function setSound(on) {
@@ -140,16 +145,34 @@
   }
 
   function readSoloClueText() {
-    const candidates = [
-      document.querySelector('[data-clue-source]'),
-      document.getElementById('prompt'),
-      document.getElementById('feedback')
-    ].filter(Boolean);
+    const candidates = getSoloClueNodes();
     for (const node of candidates) {
       const text = String(node.textContent || '').trim().replace(/\s+/g, ' ');
-      if (text) return text;
+      if (text && !isPlaceholderClueText(text)) return text;
     }
     return '';
+  }
+
+  function isPlaceholderClueText(text) {
+    const normalized = String(text || '').trim().toLowerCase();
+    if (!normalized) return true;
+    if (normalized === '-' || normalized === '...') return true;
+    if (/^(clue|target):\s*[-–—]+$/.test(normalized)) return true;
+    if (/^(first|next) clue:\s*\.\.\.$/.test(normalized)) return true;
+    if (normalized === 'goal: follow clues') return true;
+    return false;
+  }
+
+  function getSoloClueNodes() {
+    const explicit = [...document.querySelectorAll('[data-clue-source]')];
+    if (explicit.length) return explicit;
+    return [document.getElementById('prompt'), document.getElementById('feedback')].filter(Boolean);
+  }
+
+  function readSoloInstructionText() {
+    const explicit = document.querySelector('[data-game-instruction]');
+    const text = explicit ? String(explicit.textContent || '').trim().replace(/\s+/g, ' ') : '';
+    return text || 'Listen carefully. Then follow the clue.';
   }
 
   function speakSoloClue(force = false) {
@@ -163,6 +186,50 @@
     lastSpokenClue = clue;
     lastSpokenAt = now;
     say(clue);
+  }
+
+  function estimateSpeechDelay(text) {
+    const words = String(text || '').trim().split(/\s+/).filter(Boolean).length;
+    return Math.max(1800, 500 + words * 320);
+  }
+
+  function speakSoloInstructionThenClue() {
+    initialClueSession += 1;
+    const session = initialClueSession;
+    initialCluePending = true;
+    if (initialClueTimer) clearTimeout(initialClueTimer);
+    if (clueSpeakTimer) clearTimeout(clueSpeakTimer);
+
+    const instruction = readSoloInstructionText();
+    const speakInitialClue = (attempt = 0) => {
+      if (session !== initialClueSession || !initialCluePending) return;
+      const clue = readSoloClueText();
+      if (!clue) {
+        if (attempt >= 8) {
+          initialCluePending = false;
+          return;
+        }
+        initialClueTimer = setTimeout(() => speakInitialClue(attempt + 1), 250);
+        return;
+      }
+      initialCluePending = false;
+      speakSoloClue(true);
+    };
+
+    const instructionUtterance = instruction ? say(instruction) : null;
+    const fallbackDelay = Math.max(1800, estimateSpeechDelay(instruction) + 300);
+
+    initialClueTimer = setTimeout(() => {
+      speakInitialClue();
+    }, fallbackDelay);
+
+    if (instructionUtterance) {
+      instructionUtterance.onend = () => {
+        if (session !== initialClueSession || !initialCluePending) return;
+        if (initialClueTimer) clearTimeout(initialClueTimer);
+        initialClueTimer = setTimeout(() => speakInitialClue(), 150);
+      };
+    }
   }
 
   function initSoloClueAudio() {
@@ -205,11 +272,10 @@
       });
     }
 
-    const feedbackEl = document.getElementById('feedback');
-    const promptEl = document.getElementById('prompt');
-    const watchTargets = [feedbackEl, promptEl].filter(Boolean);
+    const watchTargets = getSoloClueNodes();
     if (watchTargets.length) {
       const observer = new MutationObserver(() => {
+        if (initialCluePending) return;
         if (clueSpeakTimer) clearTimeout(clueSpeakTimer);
         clueSpeakTimer = setTimeout(() => speakSoloClue(false), 180);
       });
@@ -218,7 +284,7 @@
       });
     }
 
-    setTimeout(() => speakSoloClue(false), 450);
+    setTimeout(() => speakSoloInstructionThenClue(), 450);
   }
 
   function initViewportChangeSignal() {

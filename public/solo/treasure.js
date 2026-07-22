@@ -3,6 +3,7 @@ const stepEl = document.getElementById('step');
 const winsEl = document.getElementById('wins');
 const goalPillEl = document.getElementById('goalPill');
 const promptEl = document.getElementById('prompt');
+const clueTextEl = document.getElementById('clueText');
 const feedbackEl = document.getElementById('feedback');
 const newRoundBtn = document.getElementById('newRound');
 const hearClueBtn = document.getElementById('hearClue');
@@ -104,19 +105,26 @@ function renderBoard() {
       return;
     }
     if (idx === route.length - 1) {
-      paintCell(cell, 'treasure-goal', '🏆');
+      paintCell(cell, 'treasure-goal', `${cell.dataset.landmarkIcon} 🏆`);
     }
   });
 }
 
+function currentClueIndex() {
+  if (route.length <= 1) return 0;
+  if (currentStep === 0) return 1;
+  return Math.min(currentStep, route.length - 1);
+}
+
 function nextClueText() {
-  const nextIndex = currentStep;
-  if (nextIndex >= route.length) return 'Treasure found!';
-  if (nextIndex === 0) return 'Next clue: START tile.';
+  if (currentStep >= route.length) return 'Treasure found!';
+  const nextIndex = currentClueIndex();
   const key = route[nextIndex];
   const cell = cellByKey(key);
   if (!cell) return 'Follow the map.';
-  return `Next clue: ${cell.dataset.landmarkLabel}`;
+  return currentStep === 0
+    ? `First clue: ${cell.dataset.landmarkIcon} ${cell.dataset.landmarkLabel}`
+    : `Next clue: ${cell.dataset.landmarkIcon} ${cell.dataset.landmarkLabel}`;
 }
 
 function speakClue() {
@@ -132,7 +140,7 @@ function handleTap(key) {
     window.bgamesSound?.play('good');
     currentStep += 1;
     stepEl.textContent = `${currentStep}/${route.length}`;
-    feedbackEl.textContent = nextClueText();
+    clueTextEl.textContent = nextClueText();
     if (currentStep < route.length) speakClue();
     renderBoard();
     if (currentStep === route.length) {
@@ -153,6 +161,7 @@ function handleTap(key) {
   stepEl.textContent = `0/${route.length}`;
   feedbackEl.textContent = 'Oops. Start again from S.';
   renderBoard();
+  clueTextEl.textContent = nextClueText();
   speakClue();
 }
 
@@ -188,9 +197,9 @@ function startRound() {
   stepEl.textContent = `0/${route.length}`;
   goalPillEl.textContent = `Goal: ${route.length} clues`;
   promptEl.textContent = 'Tap landmarks in route order from START to TREASURE.';
-  feedbackEl.textContent = 'First clue: START tile (S).';
+  clueTextEl.textContent = nextClueText();
+  feedbackEl.textContent = 'Tap START to begin.';
   renderBoard();
-  speakClue();
 }
 
 newRoundBtn.addEventListener('click', startRound);
