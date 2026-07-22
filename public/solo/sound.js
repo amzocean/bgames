@@ -65,7 +65,7 @@ function makeRound() {
   picks.forEach((item) => {
     const btn = document.createElement('button');
     btn.className = 'tile large';
-    btn.innerHTML = `<div>${item.icon}</div><div style="font-size:0.95rem; margin-top:6px;">${item.label}</div>`;
+    btn.innerHTML = `<div class="sound-choice-icon">${item.icon}</div><div class="sound-choice-label">${item.label}</div>`;
     btn.addEventListener('click', () => {
       if (locked) return;
       const ok = item.id === target.id;

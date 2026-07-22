@@ -77,7 +77,7 @@ function renderTray(pieces) {
     const btn = document.createElement('button');
     btn.className = 'tile large story-card';
     btn.dataset.zoneId = piece.id;
-    btn.innerHTML = `<div>${piece.icon}</div><div style="font-size:0.95rem; margin-top:6px;">${piece.label}</div>`;
+    btn.innerHTML = `<div class="scene-piece-icon">${piece.icon}</div><div class="scene-piece-label">${piece.label}</div>`;
     btn.addEventListener('click', () => {
       if (btn.disabled) return;
       clearSelection();
@@ -99,7 +99,7 @@ function renderZones(zones) {
     const btn = document.createElement('button');
     btn.className = 'tile large scene-zone';
     btn.dataset.zoneId = zone.id;
-    btn.innerHTML = `<div style="font-size:1.1rem; font-weight:800;">${zone.hint}</div><div style="font-size:2rem; margin-top:6px;">❔</div>`;
+    btn.innerHTML = `<div class="scene-zone-hint">${zone.hint}</div><div class="scene-zone-mark">❔</div>`;
     btn.addEventListener('click', () => {
       if (!selectedPiece) {
         feedbackEl.textContent = 'Pick an item from the tray first.';
@@ -117,7 +117,7 @@ function renderZones(zones) {
       placedCount += 1;
       placedEl.textContent = `${placedCount}/${zones.length}`;
       btn.classList.add('scene-zone-done');
-      btn.innerHTML = `<div style="font-size:1.1rem; font-weight:800;">${zone.hint}</div><div style="font-size:2.4rem; margin-top:6px;">${zone.icon}</div>`;
+      btn.innerHTML = `<div class="scene-zone-hint">${zone.hint}</div><div class="scene-zone-icon">${zone.icon}</div>`;
       feedbackEl.textContent = `Great. ${zone.label} placed.`;
       window.bgamesSound?.play('good');
 

@@ -56,7 +56,7 @@ function buildBiggerRound() {
     btn.className = 'tile large';
     btn.style.background = index === answerIndex ? 'linear-gradient(135deg, #fff6b8 0%, #ffd85c 100%)' : 'linear-gradient(135deg, #eff7ff 0%, #dcebff 100%)';
     btn.style.transform = `scale(${scale})`;
-    btn.innerHTML = `<div style="font-size: 4rem;">${item.icon}</div><div style="font-size: 1rem; margin-top: 4px;">${index === answerIndex ? 'Bigger' : 'Smaller'}</div>`;
+    btn.innerHTML = `<div class="bigger-icon">${item.icon}</div><div class="bigger-label">${index === answerIndex ? 'Bigger' : 'Smaller'}</div>`;
     btn.addEventListener('click', () => pick(index, answerIndex, 'bigger'));
     board.appendChild(btn);
   });
@@ -78,7 +78,7 @@ function buildBrighterRound() {
     const btn = document.createElement('button');
     btn.className = 'tile large';
     btn.style.background = `linear-gradient(135deg, rgba(255,255,255,${Math.min(1, amount)}) 0%, rgba(255,255,255,0.5) 100%), ${item.color}`;
-    btn.innerHTML = `<div style="font-size: 4rem; filter: brightness(${amount});">${item.icon}</div><div style="font-size: 1rem; margin-top: 4px;">${index === answerIndex ? 'Brighter' : 'Darker'}</div>`;
+    btn.innerHTML = `<div class="bigger-icon" style="filter: brightness(${amount});">${item.icon}</div><div class="bigger-label">${index === answerIndex ? 'Brighter' : 'Darker'}</div>`;
     btn.addEventListener('click', () => pick(index, answerIndex, 'brighter'));
     board.appendChild(btn);
   });

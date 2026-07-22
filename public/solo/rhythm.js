@@ -119,7 +119,7 @@ function renderPads() {
     btn.className = 'tile large rhythm-pad';
     btn.dataset.id = String(padInfo.id);
     btn.style.background = `linear-gradient(135deg, ${padInfo.color} 0%, #ffffff 100%)`;
-    btn.innerHTML = `<div>${padInfo.icon}</div><div style="font-size:0.95rem; margin-top:6px;">Pad ${padInfo.id + 1}</div>`;
+    btn.innerHTML = `<div class="rhythm-pad-icon">${padInfo.icon}</div><div class="rhythm-pad-label">Pad ${padInfo.id + 1}</div>`;
     btn.addEventListener('click', () => handlePadTap(padInfo.id));
     padsEl.appendChild(btn);
   });

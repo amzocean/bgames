@@ -47,7 +47,7 @@ function renderTarget(icon) {
   const card = document.createElement('div');
   card.className = 'tile large';
   card.style.background = `linear-gradient(135deg, ${icon.color} 0%, #fff 100%)`;
-  card.innerHTML = `<div style="font-size: 1.1rem; font-weight: 800; margin-bottom: 6px;">${icon.label}</div><div style="font-size: 4rem;">${icon.icon}</div>`;
+  card.innerHTML = `<div class="shadow-target-label">${icon.label}</div><div class="shadow-target-icon">${icon.icon}</div>`;
   targetEl.appendChild(card);
 }
 
@@ -69,7 +69,7 @@ function makeRound() {
   choices.forEach((item) => {
     const btn = document.createElement('button');
     btn.className = 'tile large';
-    btn.innerHTML = `<div class="shadow-icon" aria-hidden="true">${item.icon}</div><div style="font-size: 1rem; margin-top: 4px;">${item.label}</div>`;
+    btn.innerHTML = `<div class="shadow-choice-icon" aria-hidden="true">${item.icon}</div><div class="shadow-choice-label">${item.label}</div>`;
     btn.addEventListener('click', () => {
       if (locked) return;
       const ok = item.id === answer.id;

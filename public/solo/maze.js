@@ -18,9 +18,9 @@ function level() {
 
 function config() {
   const l = level();
-  if (l === 'small') return { cols: 6, rows: 6, pathLen: 11, revealMs: 1300 };
-  if (l === 'medium') return { cols: 5, rows: 5, pathLen: 9, revealMs: 1500 };
-  return { cols: 4, rows: 4, pathLen: 7, revealMs: 1700 };
+  if (l === 'small') return { cols: 6, rows: 6, pathLen: 11, revealMs: 2600 };
+  if (l === 'medium') return { cols: 5, rows: 5, pathLen: 9, revealMs: 3000 };
+  return { cols: 4, rows: 4, pathLen: 7, revealMs: 3600 };
 }
 
 function keyOf(col, row) {

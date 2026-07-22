@@ -81,7 +81,7 @@ function renderTray() {
     btn.disabled = card.done;
     btn.style.opacity = card.done ? '0.3' : '1';
     if (!card.done && selectedCardId === card.id) btn.classList.add('scene-selected');
-    btn.innerHTML = `<div>${card.icon}</div><div style="font-size:0.95rem; margin-top:6px;">${card.label}</div>`;
+    btn.innerHTML = `<div class="category-icon">${card.icon}</div><div class="category-label">${card.label}</div>`;
     btn.addEventListener('click', () => {
       if (card.done) return;
       selectedCardId = card.id;
@@ -136,8 +136,8 @@ function startRound() {
   sorted = 0;
   streak = 0;
 
-  bucketAEl.innerHTML = `<div style="font-size:2rem;">${set.a.icon}</div><div style="font-size:1rem; margin-top:6px;">${set.a.name}</div>`;
-  bucketBEl.innerHTML = `<div style="font-size:2rem;">${set.b.icon}</div><div style="font-size:1rem; margin-top:6px;">${set.b.name}</div>`;
+  bucketAEl.innerHTML = `<div class="category-bucket-icon">${set.a.icon}</div><div class="category-bucket-label">${set.a.name}</div>`;
+  bucketBEl.innerHTML = `<div class="category-bucket-icon">${set.b.icon}</div><div class="category-bucket-label">${set.b.name}</div>`;
   feedbackEl.textContent = 'Pick a card, then pick its category bucket.';
   updateHud();
   renderTray();

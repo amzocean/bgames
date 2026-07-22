@@ -312,6 +312,45 @@ button.secondary {
 .tile.medium { font-size: 2rem; min-height: 86px; }
 .tile.large { font-size: 2.8rem; min-height: 104px; }
 
+.bigger-icon,
+.category-icon,
+.category-bucket-icon,
+.shadow-target-icon,
+.shadow-choice-icon,
+.sound-choice-icon,
+.story-card-icon,
+.rhythm-pad-icon {
+  font-size: clamp(3.4rem, 5.4vw, 5rem);
+  line-height: 1;
+}
+
+.bigger-label,
+.category-label,
+.category-bucket-label,
+.shadow-target-label,
+.shadow-choice-label,
+.sound-choice-label,
+.story-card-label,
+.rhythm-pad-label {
+  margin-top: 6px;
+  font-size: clamp(1.3rem, 2.5vw, 1.9rem);
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.shadow-target-icon {
+  font-size: clamp(4rem, 6vw, 5.2rem);
+}
+
+.shadow-target-label {
+  margin-bottom: 6px;
+}
+
+.bigger-icon,
+.shadow-target-icon {
+  min-height: 1em;
+}
+
 .maze-cell {
   min-height: 72px;
   font-size: 1.6rem;
@@ -373,6 +412,30 @@ button.secondary {
 
 .scene-zone {
   min-height: 120px;
+}
+
+.scene-piece-icon {
+  font-size: clamp(3rem, 5vw, 4.4rem);
+  line-height: 1;
+}
+
+.scene-piece-label {
+  margin-top: 8px;
+  font-size: clamp(1.45rem, 2.8vw, 2.1rem);
+  font-weight: 900;
+}
+
+.scene-zone-hint {
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.scene-zone-mark,
+.scene-zone-icon {
+  font-size: clamp(2.8rem, 4.8vw, 4rem);
+  margin-top: 6px;
+  line-height: 1;
 }
 
 .scene-zone-done {

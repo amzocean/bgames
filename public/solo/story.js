@@ -58,7 +58,7 @@ function render() {
     if (selected && selected.id === card.id && !card.done) {
       btn.classList.add('story-selected');
     }
-    btn.innerHTML = `<div>${card.icon}</div><div style="font-size:0.95rem; margin-top:6px;">${card.label}</div>`;
+    btn.innerHTML = `<div class="story-card-icon">${card.icon}</div><div class="story-card-label">${card.label}</div>`;
     btn.addEventListener('click', () => selectCard(card));
     boardEl.appendChild(btn);
   });
