@@ -8,6 +8,7 @@
 - **Play with Papa**
 
 The app is intentionally simple: static HTML/CSS/JS served by a small Express server. Most behavior lives in client-side code and `localStorage`, with Socket.IO used for papa-mode cross-device sync.
+Shared audio helpers live in `public/sound.js`, and the shared success clip is `public/Good2.mp3`.
 
 ## 2. Repository
 
@@ -50,6 +51,7 @@ bgames/
 │   ├── index.html     # Home page with Solo / Papa entry tiles
 │   ├── styles.css     # Shared UI styles
 │   ├── sound.js       # Shared sound toggle + audio helpers
+│   ├── Good2.mp3      # Shared win / success audio
 │   ├── solo/
 │   │   ├── index.html
 │   │   ├── detective.html / detective.js
@@ -185,6 +187,7 @@ These are now wired into `/solo/index.html` and follow the same shared sound and
 - **Positive feedback only**; no harsh failure language
 - **Sound toggle on every page**
 - Shared audio helpers live in `public/sound.js`
+- Shared success audio lives in `public/Good2.mp3` and is used for all shared win states
 
 Sound state is saved in:
 
