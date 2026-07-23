@@ -10,6 +10,8 @@
   let initialClueTimer = null;
   let initialCluePending = false;
   let initialClueSession = 0;
+  let lastIntroFlow = '';
+  let lastIntroAt = 0;
 
   function ensureAudio() {
     const Ctx = window.AudioContext || window.webkitAudioContext;
@@ -178,9 +180,13 @@
   }
 
   function readSoloHelperText() {
-    const explicit = document.querySelector('.helper, [data-game-helper], [data-clue-helper]');
-    const text = explicit ? String(explicit.textContent || '').trim().replace(/\s+/g, ' ') : '';
-    return stripEmojiFromSpeech(text);
+    const explicit = [...document.querySelectorAll('.helper, [data-game-helper], [data-clue-helper]')];
+    for (let i = explicit.length - 1; i >= 0; i -= 1) {
+      const text = String(explicit[i].textContent || '').trim().replace(/\s+/g, ' ');
+      const clean = stripEmojiFromSpeech(text);
+      if (clean) return clean;
+    }
+    return '';
   }
 
   function stripEmojiFromSpeech(text) {
@@ -208,26 +214,23 @@
     initialCluePending = true;
     if (initialClueTimer) clearTimeout(initialClueTimer);
     if (clueSpeakTimer) clearTimeout(clueSpeakTimer);
-    const speakInitialClue = (attempt = 0) => {
+    const speakInitialClue = () => {
       if (session !== initialClueSession || !initialCluePending) return;
-      const clue = readSoloClueText();
-      if (!clue) {
-        if (attempt >= 8) {
-          initialCluePending = false;
-          return;
-        }
-        initialClueTimer = setTimeout(() => speakInitialClue(attempt + 1), 250);
-        return;
-      }
-      initialCluePending = false;
-      const parts = [readSoloInstructionText(), clue, readSoloHelperText()]
+      const parts = [readSoloInstructionText(), readSoloClueText(), readSoloHelperText()]
         .map((part) => String(part || '').trim())
         .filter(Boolean);
       const flow = [...new Set(parts)];
-      if (flow.length) say(flow.join('. '));
+      initialCluePending = false;
+      const text = flow.join('. ');
+      if (!text) return;
+      const now = Date.now();
+      if (text === lastIntroFlow && now - lastIntroAt < 2000) return;
+      lastIntroFlow = text;
+      lastIntroAt = now;
+      say(text);
     };
 
-    initialClueTimer = setTimeout(() => speakInitialClue(), 250);
+    initialClueTimer = setTimeout(speakInitialClue, 250);
   }
 
   function initSoloClueAudio() {
@@ -306,7 +309,8 @@
     isOn: () => soundOn,
     setOn: setSound,
     toggle: toggleSound,
-    refreshToggleUi: updateToggleLabels
+    refreshToggleUi: updateToggleLabels,
+    speakSoloIntro: speakSoloInstructionThenClue
   };
 
   if ('speechSynthesis' in window) {

@@ -141,6 +141,7 @@ function startRound() {
   feedbackEl.textContent = 'Pick a card, then pick its category bucket.';
   updateHud();
   renderTray();
+  window.bgamesSound?.speakSoloIntro?.();
 }
 
 bucketAEl.addEventListener('click', () => sortInto('a'));

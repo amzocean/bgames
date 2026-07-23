@@ -195,6 +195,7 @@ function startRound() {
     feedbackEl.textContent = 'Now tap from S to the treasure.';
     render();
   }, cfg.revealMs);
+  window.bgamesSound?.speakSoloIntro?.();
 }
 
 newRoundBtn.addEventListener('click', startRound);

@@ -205,6 +205,7 @@ function startRound() {
   feedbackEl.textContent = 'Tap a piece, then tap its matching place.';
   renderZones(zones);
   renderTray(trayPieces);
+  window.bgamesSound?.speakSoloIntro?.();
 }
 
 newRoundBtn.addEventListener('click', startRound);

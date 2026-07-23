@@ -100,6 +100,7 @@ function newRound() {
     });
     boardEl.appendChild(btn);
   }
+  window.bgamesSound?.speakSoloIntro?.();
 }
 
 newRoundBtn.addEventListener('click', newRound);

@@ -91,6 +91,7 @@ function startRound() {
     board.appendChild(btn);
   }
   leftEl.textContent = String(totalTargets);
+  window.bgamesSound?.speakSoloIntro?.();
 }
 
 nextBtn.addEventListener('click', startRound);

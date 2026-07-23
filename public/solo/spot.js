@@ -88,6 +88,7 @@ function buildRound() {
   rightItems[answerIndex] = shuffle(replacementOptions)[0];
   feedbackEl.textContent = 'Scan left to right. There is only one difference.';
   renderPair(leftItems, rightItems);
+  window.bgamesSound?.speakSoloIntro?.();
 }
 
 newRoundBtn.addEventListener('click', buildRound);

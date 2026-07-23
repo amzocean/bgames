@@ -68,6 +68,7 @@ function resetBoard() {
     });
     stateEl.textContent = 'Go! Find matching pairs.';
   }, 1200);
+  window.bgamesSound?.speakSoloIntro?.();
 }
 
 function flip(btn) {

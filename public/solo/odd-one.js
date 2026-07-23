@@ -92,6 +92,7 @@ function makeRound() {
     if (btn.dataset.kind === 'odd') correctBtn = btn;
     board.appendChild(btn);
   });
+  window.bgamesSound?.speakSoloIntro?.();
 }
 
 newRoundBtn.addEventListener('click', makeRound);

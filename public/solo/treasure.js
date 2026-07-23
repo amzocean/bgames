@@ -27,6 +27,8 @@ let currentStep = 0;
 let wins = 0;
 let roundLocked = false;
 
+document.body.classList.add('treasure-map');
+
 function level() {
   return localStorage.getItem('bgames:difficulty') || 'large';
 }
@@ -112,17 +114,18 @@ function renderBoard() {
 
 function currentClueIndex() {
   if (route.length <= 1) return 0;
-  if (currentStep === 0) return 1;
+  if (currentStep <= 0) return 1;
   return Math.min(currentStep, route.length - 1);
 }
 
 function nextClueText() {
   if (currentStep >= route.length) return 'Treasure found!';
+  if (currentStep === 0) return '';
   const nextIndex = currentClueIndex();
   const key = route[nextIndex];
   const cell = cellByKey(key);
   if (!cell) return 'Follow the map.';
-  return currentStep === 0
+  return currentStep === 1
     ? `First clue: ${cell.dataset.landmarkIcon} ${cell.dataset.landmarkLabel}`
     : `Next clue: ${cell.dataset.landmarkIcon} ${cell.dataset.landmarkLabel}`;
 }
@@ -141,6 +144,7 @@ function handleTap(key) {
     currentStep += 1;
     stepEl.textContent = `${currentStep}/${route.length}`;
     clueTextEl.textContent = nextClueText();
+    feedbackEl.textContent = currentStep === 0 ? 'Tap S to begin.' : '';
     if (currentStep < route.length) speakClue();
     renderBoard();
     if (currentStep === route.length) {
@@ -177,6 +181,7 @@ function startRound() {
   cells = [];
   boardEl.innerHTML = '';
   boardEl.style.gridTemplateColumns = `repeat(${cfg.cols}, minmax(0, 1fr))`;
+  boardEl.style.gridTemplateRows = `repeat(${cfg.rows}, minmax(0, 1fr))`;
   const shuffledLandmarks = shuffle(LANDMARKS);
   for (let row = 0; row < cfg.rows; row += 1) {
     for (let col = 0; col < cfg.cols; col += 1) {
@@ -197,9 +202,10 @@ function startRound() {
   stepEl.textContent = `0/${route.length}`;
   goalPillEl.textContent = `Goal: ${route.length} clues`;
   promptEl.textContent = 'Tap landmarks in route order from START to TREASURE.';
-  clueTextEl.textContent = nextClueText();
-  feedbackEl.textContent = 'Tap START to begin.';
+  clueTextEl.textContent = '';
+  feedbackEl.textContent = 'Tap S to begin.';
   renderBoard();
+  window.bgamesSound?.speakSoloIntro?.();
 }
 
 newRoundBtn.addEventListener('click', startRound);

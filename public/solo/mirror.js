@@ -80,6 +80,7 @@ function makeRound() {
     });
     choicesEl.appendChild(btn);
   });
+  window.bgamesSound?.speakSoloIntro?.();
 }
 
 newRoundBtn.addEventListener('click', makeRound);

@@ -219,6 +219,7 @@ function startWave() {
   };
 
   loopFrame = requestAnimationFrame(step);
+  window.bgamesSound?.speakSoloIntro?.();
 }
 
 function boardClientX(clientX) {

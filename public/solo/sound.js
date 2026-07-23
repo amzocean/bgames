@@ -93,6 +93,7 @@ function makeRound() {
     });
     boardEl.appendChild(btn);
   });
+  window.bgamesSound?.speakSoloIntro?.();
 }
 
 hearClueBtn.addEventListener('click', sayClue);

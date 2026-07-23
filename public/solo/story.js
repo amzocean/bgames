@@ -131,6 +131,7 @@ function startRound() {
   cards = shuffle(cards);
   feedbackEl.textContent = 'Tap one card, then its matching story card.';
   render();
+  window.bgamesSound?.speakSoloIntro?.();
 }
 
 newRoundBtn.addEventListener('click', startRound);

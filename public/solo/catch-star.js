@@ -207,6 +207,7 @@ function startWave() {
   boardEl.classList.add('moving-board');
   createBombs(cfg);
   spawnStar(cfg);
+  window.bgamesSound?.speakSoloIntro?.();
 }
 
 newRoundBtn.addEventListener('click', startWave);

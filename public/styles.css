@@ -381,6 +381,44 @@ button.secondary {
   font-size: 2rem;
 }
 
+.treasure-map .play-area {
+  gap: 8px;
+}
+
+.treasure-map .play-area p {
+  margin: 0.1rem 0;
+  line-height: 1.15;
+}
+
+.treasure-map #prompt {
+  font-size: clamp(1.15rem, 2vw, 1.55rem);
+}
+
+.treasure-map .helper {
+  font-size: clamp(1rem, 1.8vw, 1.35rem);
+}
+
+.treasure-map .clue-focus {
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+}
+
+.treasure-map .mini-tools {
+  margin-top: 0;
+}
+
+.treasure-map .board {
+  align-content: stretch;
+}
+
+.treasure-map .treasure-cell {
+  min-height: 0;
+  height: 100%;
+}
+
+.treasure-map #board {
+  flex: 1.2;
+}
+
 .treasure-start {
   background: linear-gradient(135deg, #b7f7c1 0%, #8de89c 100%);
 }
@@ -673,6 +711,15 @@ button.secondary {
   line-height: 1.25;
 }
 
+.solo-mode .play-area {
+  gap: 8px;
+}
+
+.solo-mode .play-area p {
+  margin: 0.1rem 0;
+  line-height: 1.15;
+}
+
 .solo-mode #prompt {
   font-size: clamp(1.7rem, 3.2vw, 2.6rem);
   font-weight: 800;
@@ -691,6 +738,14 @@ button.secondary {
 .solo-mode .mini-tools button {
   font-size: clamp(1.15rem, 2.2vw, 1.5rem);
   padding: 12px 18px;
+}
+
+.solo-mode .board {
+  align-content: stretch;
+}
+
+.solo-mode .mini-tools {
+  margin-top: 0;
 }
 
 .papa-mode .hub-panel h1 {

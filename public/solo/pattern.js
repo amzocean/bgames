@@ -128,6 +128,7 @@ function buildRound() {
   targetPillEl.textContent = `Pattern: ${pattern.map((item, index) => (index === hiddenIndex ? '❓' : item.icon)).join(' ')}`;
   renderPattern();
   renderChoices();
+  window.bgamesSound?.speakSoloIntro?.();
 }
 
 let choices = [];

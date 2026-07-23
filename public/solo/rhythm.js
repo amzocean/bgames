@@ -94,6 +94,7 @@ function buildRound() {
   }
   feedbackEl.textContent = `Tap Play Pattern, then repeat ${len} beats.`;
   updateUi();
+  window.bgamesSound?.speakSoloIntro?.();
 }
 
 function handlePadTap(id) {
