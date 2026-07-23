@@ -174,7 +174,13 @@
   function readSoloInstructionText() {
     const explicit = document.querySelector('[data-game-instruction]');
     const text = explicit ? String(explicit.textContent || '').trim().replace(/\s+/g, ' ') : '';
-    return stripEmojiFromSpeech(text) || 'Listen carefully. Then follow the clue.';
+    return stripEmojiFromSpeech(text);
+  }
+
+  function readSoloHelperText() {
+    const explicit = document.querySelector('.helper, [data-game-helper], [data-clue-helper]');
+    const text = explicit ? String(explicit.textContent || '').trim().replace(/\s+/g, ' ') : '';
+    return stripEmojiFromSpeech(text);
   }
 
   function stripEmojiFromSpeech(text) {
@@ -196,19 +202,12 @@
     say(clue);
   }
 
-  function estimateSpeechDelay(text) {
-    const words = String(text || '').trim().split(/\s+/).filter(Boolean).length;
-    return Math.max(1800, 500 + words * 320);
-  }
-
   function speakSoloInstructionThenClue() {
     initialClueSession += 1;
     const session = initialClueSession;
     initialCluePending = true;
     if (initialClueTimer) clearTimeout(initialClueTimer);
     if (clueSpeakTimer) clearTimeout(clueSpeakTimer);
-
-    const instruction = readSoloInstructionText();
     const speakInitialClue = (attempt = 0) => {
       if (session !== initialClueSession || !initialCluePending) return;
       const clue = readSoloClueText();
@@ -221,23 +220,14 @@
         return;
       }
       initialCluePending = false;
-      speakSoloClue(true);
+      const parts = [readSoloInstructionText(), clue, readSoloHelperText()]
+        .map((part) => String(part || '').trim())
+        .filter(Boolean);
+      const flow = [...new Set(parts)];
+      if (flow.length) say(flow.join('. '));
     };
 
-    const instructionUtterance = instruction ? say(instruction) : null;
-    const fallbackDelay = Math.max(1800, estimateSpeechDelay(instruction) + 300);
-
-    initialClueTimer = setTimeout(() => {
-      speakInitialClue();
-    }, fallbackDelay);
-
-    if (instructionUtterance) {
-      instructionUtterance.onend = () => {
-        if (session !== initialClueSession || !initialCluePending) return;
-        if (initialClueTimer) clearTimeout(initialClueTimer);
-        initialClueTimer = setTimeout(() => speakInitialClue(), 150);
-      };
-    }
+    initialClueTimer = setTimeout(() => speakInitialClue(), 250);
   }
 
   function initSoloClueAudio() {
