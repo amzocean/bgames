@@ -12,6 +12,38 @@
   let initialClueSession = 0;
   let lastIntroFlow = '';
   let lastIntroAt = 0;
+  let lastVictoryAt = 0;
+  let victoryFetchPromise = fetch('/Godjob.m4a').then((res) => {
+    if (!res.ok) throw new Error(`Victory audio request failed: ${res.status}`);
+    return res.arrayBuffer();
+  }).catch(() => null);
+  let victoryBuffer = null;
+
+  async function loadVictoryBuffer() {
+    if (victoryBuffer) return victoryBuffer;
+    const ctx = ensureAudio();
+    if (!ctx) return null;
+    const arrayBuffer = await victoryFetchPromise;
+    if (!arrayBuffer) return null;
+    victoryBuffer = await ctx.decodeAudioData(arrayBuffer.slice(0));
+    return victoryBuffer;
+  }
+
+  async function playVictoryAudio() {
+    const ctx = ensureAudio();
+    if (!ctx) return false;
+    try {
+      const buffer = await loadVictoryBuffer();
+      if (!buffer) return false;
+      const source = ctx.createBufferSource();
+      source.buffer = buffer;
+      source.connect(ctx.destination);
+      source.start();
+      return true;
+    } catch {
+      return false;
+    }
+  }
 
   function ensureAudio() {
     const Ctx = window.AudioContext || window.webkitAudioContext;
@@ -58,8 +90,11 @@
         tone(740, 0.08, 'square', 0.06);
         break;
       case 'win':
-        [523.25, 659.25, 783.99, 1046.5].forEach((freq, i) => {
-          tone(freq, 0.16, 'triangle', 0.13, i * 0.11);
+        lastVictoryAt = Date.now();
+        playVictoryAudio().catch(() => {
+          [523.25, 659.25, 783.99, 1046.5].forEach((freq, i) => {
+            tone(freq, 0.16, 'triangle', 0.13, i * 0.11);
+          });
         });
         break;
       default:
@@ -88,6 +123,7 @@
 
   function say(text) {
     if (!soundOn || !('speechSynthesis' in window)) return;
+    if (Date.now() - lastVictoryAt < 1600) return;
     if (!preferredVoice) preferredVoice = pickPreferredVoice();
     const cleanText = stripEmojiFromSpeech(text);
     if (!cleanText) return;
