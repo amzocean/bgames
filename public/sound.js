@@ -13,35 +13,26 @@
   let lastIntroFlow = '';
   let lastIntroAt = 0;
   let lastVictoryAt = 0;
-  let victoryFetchPromise = fetch('/Godjob.m4a').then((res) => {
-    if (!res.ok) throw new Error(`Victory audio request failed: ${res.status}`);
-    return res.arrayBuffer();
-  }).catch(() => null);
-  let victoryBuffer = null;
+  const victoryAudio = new Audio('/Good2.mp3');
+  victoryAudio.preload = 'auto';
+  victoryAudio.playsInline = true;
+  let victoryAudioPrimed = false;
 
-  async function loadVictoryBuffer() {
-    if (victoryBuffer) return victoryBuffer;
-    const ctx = ensureAudio();
-    if (!ctx) return null;
-    const arrayBuffer = await victoryFetchPromise;
-    if (!arrayBuffer) return null;
-    victoryBuffer = await ctx.decodeAudioData(arrayBuffer.slice(0));
-    return victoryBuffer;
-  }
-
-  async function playVictoryAudio() {
-    const ctx = ensureAudio();
-    if (!ctx) return false;
-    try {
-      const buffer = await loadVictoryBuffer();
-      if (!buffer) return false;
-      const source = ctx.createBufferSource();
-      source.buffer = buffer;
-      source.connect(ctx.destination);
-      source.start();
-      return true;
-    } catch {
-      return false;
+  function primeVictoryAudio() {
+    if (victoryAudioPrimed) return;
+    victoryAudioPrimed = true;
+    victoryAudio.muted = true;
+    const result = victoryAudio.play();
+    if (result && typeof result.then === 'function') {
+      result.then(() => {
+        victoryAudio.pause();
+        victoryAudio.currentTime = 0;
+        victoryAudio.muted = false;
+      }).catch(() => {
+        victoryAudio.muted = false;
+      });
+    } else {
+      victoryAudio.muted = false;
     }
   }
 
@@ -91,7 +82,8 @@
         break;
       case 'win':
         lastVictoryAt = Date.now();
-        playVictoryAudio().catch(() => {
+        victoryAudio.currentTime = 0;
+        victoryAudio.play().catch(() => {
           [523.25, 659.25, 783.99, 1046.5].forEach((freq, i) => {
             tone(freq, 0.16, 'triangle', 0.13, i * 0.11);
           });
@@ -123,7 +115,7 @@
 
   function say(text) {
     if (!soundOn || !('speechSynthesis' in window)) return;
-    if (Date.now() - lastVictoryAt < 1600) return;
+    if (Date.now() - lastVictoryAt < 4000) return;
     if (!preferredVoice) preferredVoice = pickPreferredVoice();
     const cleanText = stripEmojiFromSpeech(text);
     if (!cleanText) return;
@@ -177,6 +169,7 @@
       if (!(target instanceof Element)) return;
       if (target.closest('[data-sound-toggle]')) return;
       if (!target.closest('button, a, .tile, .game-tile, .mode-tile, .chip, .color-dot')) return;
+      primeVictoryAudio();
       const now = Date.now();
       if (now - lastUiClickAt < 70) return;
       lastUiClickAt = now;
@@ -355,6 +348,7 @@
       preferredVoice = pickPreferredVoice();
     });
   }
+  victoryAudio.load();
 
   initUiClickSounds();
   if (document.readyState === 'loading') {
