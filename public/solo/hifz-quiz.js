@@ -16,6 +16,9 @@ const nextAyahBtn = document.getElementById('nextAyah');
 const quranFontEl = document.getElementById('quranFont');
 const audio = new Audio();
 
+let activeSurahs = KNOWN_SURAHS;
+let activeSurahNumbers = new Set(KNOWN_SURAHS.map((surah) => surah.number));
+let activeThroughNumber = KNOWN_SURAHS.at(-1).number;
 let manifest = null;
 let currentAyah = null;
 let currentPassage = [];
@@ -45,9 +48,10 @@ function difficulty() {
 
 function choiceCount() {
   const level = difficulty();
-  if (level === 'small') return 5;
-  if (level === 'medium') return 4;
-  return 3;
+  let requested = 3;
+  if (level === 'small') requested = 5;
+  if (level === 'medium') requested = 4;
+  return Math.min(requested, activeSurahs.length);
 }
 
 function shuffle(values) {
@@ -91,7 +95,10 @@ function buildPassage(seed) {
 
 function createRoundData(excludedKeys = new Set()) {
   const candidates = manifest.ayahs.filter((ayah) => {
-    if (excludedKeys.has(ayah.key)) return false;
+    if (!activeSurahNumbers.has(Number(ayah.surahNumber)) ||
+        excludedKeys.has(ayah.key)) {
+      return false;
+    }
     return buildPassage(ayah).every((passageAyah) => !excludedKeys.has(passageAyah.key));
   });
   const seed = candidates[Math.floor(Math.random() * candidates.length)];
@@ -212,7 +219,8 @@ function showSessionSuccess() {
   window.bgamesQuranSuccess.show({
     accuracy,
     detail: `${perfectRounds} of ${SESSION_LENGTH} passages solved on the first try.`,
-    onRestart: startSession
+    onRestart: () => startSession(),
+    onChangeRange: showRangeSetup
   });
 }
 
@@ -288,10 +296,10 @@ async function playAyah(userInitiated = false) {
     await audio.play();
     if (locked) {
       feedbackEl.textContent = 'Listen again, then tap Next Ayah when you are ready.';
-    } else if (wrongAttempts >= 2) {
+    } else if (wrongAttempts > 0) {
       feedbackEl.textContent = currentPassage.length > 1
-        ? 'Listen to both ayat again, choose another surah, or show the answer.'
-        : 'Listen again, choose another surah, or show the answer.';
+        ? 'Listen to both ayat again, then choose another surah.'
+        : 'Listen again, then choose another surah.';
     } else {
       feedbackEl.textContent = currentPassage.length > 1
         ? 'Listen carefully to both ayat, then choose the surah.'
@@ -310,11 +318,11 @@ async function playAyah(userInitiated = false) {
 
 function buildChoices() {
   const total = choiceCount();
-  const correctSurah = KNOWN_SURAHS.find(
+  const correctSurah = activeSurahs.find(
     (surah) => surah.number === Number(currentAyah.surahNumber)
   );
   const distractors = shuffle(
-    KNOWN_SURAHS.filter((surah) => surah.number !== correctSurah.number)
+    activeSurahs.filter((surah) => surah.number !== correctSurah.number)
   ).slice(0, total - 1);
   const choices = shuffle([correctSurah, ...distractors]);
   choicePillEl.textContent = `Choices: ${total}`;
@@ -440,10 +448,27 @@ async function initialize() {
   const data = await response.json();
   validateManifest(data);
   manifest = data;
-  startSession();
+  showRangeSetup();
 }
 
-function startSession() {
+function applyActiveRange(throughNumber) {
+  const endpoint = KNOWN_SURAHS.findIndex((surah) => surah.number === throughNumber);
+  const safeEndpoint = endpoint >= 2 ? endpoint : KNOWN_SURAHS.length - 1;
+  activeSurahs = KNOWN_SURAHS.slice(0, safeEndpoint + 1);
+  activeSurahNumbers = new Set(activeSurahs.map((surah) => surah.number));
+  activeThroughNumber = activeSurahs.at(-1).number;
+}
+
+function showRangeSetup() {
+  audio.pause();
+  discardPreparedRound();
+  releaseAudioUrls(currentAudioUrls);
+  currentAudioUrls = [];
+  window.bgamesQuranRangeSetup.show({ onStart: startSession });
+}
+
+function startSession(throughNumber = activeThroughNumber) {
+  applyActiveRange(throughNumber);
   if (successTimer) {
     clearTimeout(successTimer);
     successTimer = null;

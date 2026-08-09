@@ -9,6 +9,8 @@ const streakEl = document.getElementById('streak');
 const groupPillEl = document.getElementById('groupPill');
 const newRoundBtn = document.getElementById('newRound');
 
+let activeSurahs = SURAH_SEQUENCE;
+let activeThroughNumber = SURAH_SEQUENCE.at(-1).number;
 let sequence = [];
 let selectedCount = 0;
 let completed = 0;
@@ -25,9 +27,10 @@ function difficulty() {
 
 function sequenceLength() {
   const level = difficulty();
-  if (level === 'small') return 5;
-  if (level === 'medium') return 4;
-  return 3;
+  let requested = 3;
+  if (level === 'small') requested = 5;
+  if (level === 'medium') requested = 4;
+  return Math.min(requested, activeSurahs.length);
 }
 
 function shuffle(values) {
@@ -59,7 +62,8 @@ function showSessionSuccess() {
   window.bgamesQuranSuccess.show({
     accuracy,
     detail: `${perfectRounds} of ${SESSION_LENGTH} groups ordered without a mistake.`,
-    onRestart: startSession
+    onRestart: () => startSession(),
+    onChangeRange: showRangeSetup
   });
 }
 
@@ -131,13 +135,13 @@ function startRound() {
   newRoundBtn.hidden = true;
   newRoundBtn.classList.remove('show');
   const count = sequenceLength();
-  const maxStart = SURAH_SEQUENCE.length - count;
+  const maxStart = activeSurahs.length - count;
   let start = Math.floor(Math.random() * (maxStart + 1));
   if (maxStart > 0 && start === previousStart) {
     start = (start + 1) % (maxStart + 1);
   }
   previousStart = start;
-  sequence = SURAH_SEQUENCE.slice(start, start + count);
+  sequence = activeSurahs.slice(start, start + count);
   selectedCount = 0;
   locked = false;
   hadMistake = false;
@@ -158,7 +162,19 @@ function startRound() {
 
 }
 
-function startSession() {
+function applyActiveRange(throughNumber) {
+  const endpoint = SURAH_SEQUENCE.findIndex((surah) => surah.number === throughNumber);
+  const safeEndpoint = endpoint >= 2 ? endpoint : SURAH_SEQUENCE.length - 1;
+  activeSurahs = SURAH_SEQUENCE.slice(0, safeEndpoint + 1);
+  activeThroughNumber = activeSurahs.at(-1).number;
+}
+
+function showRangeSetup() {
+  window.bgamesQuranRangeSetup.show({ onStart: startSession });
+}
+
+function startSession(throughNumber = activeThroughNumber) {
+  applyActiveRange(throughNumber);
   if (successTimer) {
     clearTimeout(successTimer);
     successTimer = null;
@@ -176,4 +192,4 @@ function startSession() {
 }
 
 newRoundBtn.addEventListener('click', startRound);
-startSession();
+showRangeSetup();

@@ -24,6 +24,7 @@
 
   let previousTheme = -1;
   let restartHandler = null;
+  let changeRangeHandler = null;
 
   function createOverlay() {
     const overlay = document.createElement('section');
@@ -42,7 +43,8 @@
         <p class="quran-success-score"></p>
         <p class="quran-success-detail"></p>
         <div class="quran-success-actions">
-          <button class="quran-success-restart" type="button">Play Another Set</button>
+          <button class="quran-success-restart" type="button">Play Again — Same Surahs</button>
+          <button class="quran-success-change" type="button">Change Learned Surahs</button>
           <a href="/solo/">Back to Solo Games</a>
         </div>
       </div>
@@ -52,6 +54,10 @@
     overlay.querySelector('.quran-success-restart').addEventListener('click', () => {
       overlay.hidden = true;
       restartHandler?.();
+    });
+    overlay.querySelector('.quran-success-change').addEventListener('click', () => {
+      overlay.hidden = true;
+      changeRangeHandler?.();
     });
     return overlay;
   }
@@ -78,10 +84,11 @@
     }
   }
 
-  function show({ accuracy, detail, onRestart }) {
+  function show({ accuracy, detail, onRestart, onChangeRange }) {
     const overlay = document.querySelector('.quran-success') || createOverlay();
     const theme = pickTheme();
     restartHandler = onRestart;
+    changeRangeHandler = onChangeRange;
     overlay.className = `quran-success ${theme.className}`;
     overlay.querySelector('#quranSuccessTitle').textContent = theme.title;
     overlay.querySelector('.quran-success-score').textContent =

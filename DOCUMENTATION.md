@@ -237,6 +237,11 @@ All distractors must be different surahs from the known range. Choice order is r
 #### Ten-challenge sets
 
 - Each Hifz Quiz or Surah Order session contains 10 scored challenges.
+- Before each set, a shared child-friendly stepper asks which surah has been memorized through, beginning from An-Nas.
+- The selector remembers the last endpoint and requires at least three learned surahs.
+- Hifz Quiz limits both target ayat and distractor choices to the selected range.
+- Surah Order creates contiguous groups only inside the selected range.
+- Result screens offer **Play Again — Same Surahs** or **Change Learned Surahs**.
 - Accuracy is the percentage completed without a wrong choice.
 - After challenge 10, a randomized Quran-themed reward screen shows `Solved with X% accuracy!`.
 - Reward themes vary between moon, star, geometric, emerald, gold, and night-sky treatments.

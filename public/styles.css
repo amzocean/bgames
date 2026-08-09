@@ -578,6 +578,201 @@ button.secondary {
   text-align: center;
 }
 
+.quran-range-setup[hidden] {
+  display: none;
+}
+
+.quran-range-setup {
+  position: fixed;
+  z-index: 1100;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  overflow: auto;
+  background:
+    radial-gradient(circle at 18% 18%, #ffe7a8 0 7%, transparent 8%),
+    radial-gradient(circle at 82% 16%, #c6f3df 0 9%, transparent 10%),
+    linear-gradient(145deg, #effff8 0%, #dff3ff 52%, #fff3c8 100%);
+}
+
+.quran-range-pattern {
+  position: absolute;
+  inset: 0;
+  opacity: 0.08;
+  background:
+    repeating-conic-gradient(from 22.5deg, #087052 0 12.5%, transparent 0 25%)
+      0 0 / 120px 120px;
+}
+
+.quran-range-card {
+  position: relative;
+  width: min(980px, 96vw);
+  padding: clamp(24px, 4vw, 52px);
+  border: 5px solid #e2b844;
+  border-radius: 34px;
+  background: #fffef7f5;
+  box-shadow: 0 24px 70px #174f4338, inset 0 0 0 8px #fff3bd;
+  text-align: center;
+}
+
+.quran-range-symbols {
+  margin: 0;
+  color: #c58d00;
+  font-size: clamp(1.5rem, 3vw, 2.4rem);
+  letter-spacing: 0.35em;
+}
+
+.quran-range-kicker {
+  margin: 8px 0 0;
+  color: #087052;
+  font-size: clamp(1rem, 1.8vw, 1.35rem);
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.quran-range-card h2 {
+  margin: 10px 0 24px;
+  color: #153f37;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.15;
+}
+
+.quran-range-stepper {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.55fr) minmax(320px, 1.4fr) minmax(150px, 0.55fr);
+  align-items: stretch;
+  gap: 16px;
+}
+
+.quran-range-less,
+.quran-range-more {
+  min-height: 190px;
+  border: 4px solid #2e6cb4;
+  background: #eef7ff;
+  color: #174275;
+  font-size: clamp(1.35rem, 2.5vw, 2rem);
+}
+
+.quran-range-less span,
+.quran-range-more span {
+  display: block;
+  font-size: 2em;
+  line-height: 0.8;
+}
+
+.quran-range-less:disabled,
+.quran-range-more:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.quran-range-selection {
+  display: flex;
+  min-height: 190px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 5px solid #13805c;
+  border-radius: 26px;
+  background: linear-gradient(180deg, #f1fff9 0%, #d8f7e9 100%);
+  box-shadow: inset 0 0 0 5px #ffffffa8;
+}
+
+.quran-range-name {
+  color: #064c36;
+  font-size: clamp(2.4rem, 5vw, 4.8rem);
+  line-height: 1.05;
+}
+
+.quran-range-number,
+.quran-range-count {
+  margin-top: 8px;
+  color: #315f56;
+  font-size: clamp(1.15rem, 2.2vw, 1.7rem);
+  font-weight: 900;
+}
+
+.quran-range-progress {
+  height: 18px;
+  margin: 22px auto 14px;
+  overflow: hidden;
+  border: 3px solid #d0a52f;
+  border-radius: 999px;
+  background: #fff7d5;
+}
+
+.quran-range-progress span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #27a972 0%, #e3b633 100%);
+  transition: width 0.2s ease;
+}
+
+.quran-range-summary {
+  margin: 0;
+  color: #315f56;
+  font-size: clamp(1.2rem, 2.4vw, 1.8rem);
+  font-weight: 800;
+}
+
+.quran-range-start {
+  width: min(620px, 100%);
+  min-height: 78px;
+  margin-top: 22px;
+  border: 4px solid #126a46;
+  background: linear-gradient(180deg, #38c882 0%, #168454 100%);
+  font-size: clamp(1.4rem, 2.8vw, 2rem);
+  box-shadow: 0 10px 24px #16845442;
+}
+
+.quran-range-back {
+  display: block;
+  width: fit-content;
+  margin: 18px auto 0;
+  color: #2a6ecf;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+
+@media (max-width: 700px) {
+  .quran-range-setup {
+    padding: 10px;
+  }
+
+  .quran-range-card {
+    width: 100%;
+    padding: 20px 14px;
+  }
+
+  .quran-range-stepper {
+    grid-template-areas:
+      "selection selection"
+      "less more";
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .quran-range-selection {
+    grid-area: selection;
+  }
+
+  .quran-range-less {
+    grid-area: less;
+  }
+
+  .quran-range-more {
+    grid-area: more;
+  }
+
+  .quran-range-less,
+  .quran-range-more {
+    min-height: 110px;
+  }
+}
+
 .quran-success[hidden] {
   display: none;
 }
@@ -687,6 +882,12 @@ button.secondary {
   color: #174f43;
   border: 3px solid #3c8c75;
   background: #e9fff7;
+}
+
+.quran-success-change {
+  color: #6c4700;
+  border: 3px solid #d6a528;
+  background: #fff4c9;
 }
 
 .quran-success-sparkles {
