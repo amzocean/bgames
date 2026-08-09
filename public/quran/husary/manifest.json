@@ -3,11 +3,46 @@
   "reciter": "Mahmoud Khalil Al-Husary",
   "reciterEdition": "ar.husary",
   "textEdition": "quran-uthmani",
-  "firstSurah": 83,
+  "firstSurah": 78,
   "lastSurah": 114,
-  "surahCount": 32,
-  "ayahCount": 388,
+  "surahCount": 37,
+  "ayahCount": 564,
   "surahs": [
+    {
+      "number": 78,
+      "name": "An-Naba",
+      "arabicName": "سُورَةُ النَّبَإِ",
+      "ayahCount": 40,
+      "folder": "078-An-Naba"
+    },
+    {
+      "number": 79,
+      "name": "An-Nazi'at",
+      "arabicName": "سُورَةُ النَّازِعَاتِ",
+      "ayahCount": 46,
+      "folder": "079-An-Nazi-at"
+    },
+    {
+      "number": 80,
+      "name": "'Abasa",
+      "arabicName": "سُورَةُ عَبَسَ",
+      "ayahCount": 42,
+      "folder": "080-Abasa"
+    },
+    {
+      "number": 81,
+      "name": "At-Takwir",
+      "arabicName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahCount": 29,
+      "folder": "081-At-Takwir"
+    },
+    {
+      "number": 82,
+      "name": "Al-Infitar",
+      "arabicName": "سُورَةُ الانفِطَارِ",
+      "ayahCount": 19,
+      "folder": "082-Al-Infitar"
+    },
     {
       "number": 83,
       "name": "Al-Mutaffifin",
@@ -234,6 +269,1766 @@
     }
   ],
   "ayahs": [
+    {
+      "key": "78:1",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ عَمَّ يَتَسَآءَلُونَ",
+      "audioFile": "078-An-Naba/078_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5673.mp3"
+    },
+    {
+      "key": "78:2",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 2,
+      "text": "عَنِ ٱلنَّبَإِ ٱلْعَظِيمِ",
+      "audioFile": "078-An-Naba/078_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5674.mp3"
+    },
+    {
+      "key": "78:3",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 3,
+      "text": "ٱلَّذِى هُمْ فِيهِ مُخْتَلِفُونَ",
+      "audioFile": "078-An-Naba/078_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5675.mp3"
+    },
+    {
+      "key": "78:4",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 4,
+      "text": "كَلَّا سَيَعْلَمُونَ",
+      "audioFile": "078-An-Naba/078_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5676.mp3"
+    },
+    {
+      "key": "78:5",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 5,
+      "text": "ثُمَّ كَلَّا سَيَعْلَمُونَ",
+      "audioFile": "078-An-Naba/078_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5677.mp3"
+    },
+    {
+      "key": "78:6",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 6,
+      "text": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ مِهَٰدًۭا",
+      "audioFile": "078-An-Naba/078_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5678.mp3"
+    },
+    {
+      "key": "78:7",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 7,
+      "text": "وَٱلْجِبَالَ أَوْتَادًۭا",
+      "audioFile": "078-An-Naba/078_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5679.mp3"
+    },
+    {
+      "key": "78:8",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 8,
+      "text": "وَخَلَقْنَٰكُمْ أَزْوَٰجًۭا",
+      "audioFile": "078-An-Naba/078_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5680.mp3"
+    },
+    {
+      "key": "78:9",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 9,
+      "text": "وَجَعَلْنَا نَوْمَكُمْ سُبَاتًۭا",
+      "audioFile": "078-An-Naba/078_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5681.mp3"
+    },
+    {
+      "key": "78:10",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 10,
+      "text": "وَجَعَلْنَا ٱلَّيْلَ لِبَاسًۭا",
+      "audioFile": "078-An-Naba/078_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5682.mp3"
+    },
+    {
+      "key": "78:11",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 11,
+      "text": "وَجَعَلْنَا ٱلنَّهَارَ مَعَاشًۭا",
+      "audioFile": "078-An-Naba/078_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5683.mp3"
+    },
+    {
+      "key": "78:12",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 12,
+      "text": "وَبَنَيْنَا فَوْقَكُمْ سَبْعًۭا شِدَادًۭا",
+      "audioFile": "078-An-Naba/078_012.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5684.mp3"
+    },
+    {
+      "key": "78:13",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 13,
+      "text": "وَجَعَلْنَا سِرَاجًۭا وَهَّاجًۭا",
+      "audioFile": "078-An-Naba/078_013.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5685.mp3"
+    },
+    {
+      "key": "78:14",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 14,
+      "text": "وَأَنزَلْنَا مِنَ ٱلْمُعْصِرَٰتِ مَآءًۭ ثَجَّاجًۭا",
+      "audioFile": "078-An-Naba/078_014.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5686.mp3"
+    },
+    {
+      "key": "78:15",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 15,
+      "text": "لِّنُخْرِجَ بِهِۦ حَبًّۭا وَنَبَاتًۭا",
+      "audioFile": "078-An-Naba/078_015.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5687.mp3"
+    },
+    {
+      "key": "78:16",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 16,
+      "text": "وَجَنَّٰتٍ أَلْفَافًا",
+      "audioFile": "078-An-Naba/078_016.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5688.mp3"
+    },
+    {
+      "key": "78:17",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 17,
+      "text": "إِنَّ يَوْمَ ٱلْفَصْلِ كَانَ مِيقَٰتًۭا",
+      "audioFile": "078-An-Naba/078_017.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5689.mp3"
+    },
+    {
+      "key": "78:18",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 18,
+      "text": "يَوْمَ يُنفَخُ فِى ٱلصُّورِ فَتَأْتُونَ أَفْوَاجًۭا",
+      "audioFile": "078-An-Naba/078_018.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5690.mp3"
+    },
+    {
+      "key": "78:19",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 19,
+      "text": "وَفُتِحَتِ ٱلسَّمَآءُ فَكَانَتْ أَبْوَٰبًۭا",
+      "audioFile": "078-An-Naba/078_019.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5691.mp3"
+    },
+    {
+      "key": "78:20",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 20,
+      "text": "وَسُيِّرَتِ ٱلْجِبَالُ فَكَانَتْ سَرَابًا",
+      "audioFile": "078-An-Naba/078_020.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5692.mp3"
+    },
+    {
+      "key": "78:21",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 21,
+      "text": "إِنَّ جَهَنَّمَ كَانَتْ مِرْصَادًۭا",
+      "audioFile": "078-An-Naba/078_021.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5693.mp3"
+    },
+    {
+      "key": "78:22",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 22,
+      "text": "لِّلطَّٰغِينَ مَـَٔابًۭا",
+      "audioFile": "078-An-Naba/078_022.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5694.mp3"
+    },
+    {
+      "key": "78:23",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 23,
+      "text": "لَّٰبِثِينَ فِيهَآ أَحْقَابًۭا",
+      "audioFile": "078-An-Naba/078_023.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5695.mp3"
+    },
+    {
+      "key": "78:24",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 24,
+      "text": "لَّا يَذُوقُونَ فِيهَا بَرْدًۭا وَلَا شَرَابًا",
+      "audioFile": "078-An-Naba/078_024.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5696.mp3"
+    },
+    {
+      "key": "78:25",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 25,
+      "text": "إِلَّا حَمِيمًۭا وَغَسَّاقًۭا",
+      "audioFile": "078-An-Naba/078_025.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5697.mp3"
+    },
+    {
+      "key": "78:26",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 26,
+      "text": "جَزَآءًۭ وِفَاقًا",
+      "audioFile": "078-An-Naba/078_026.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5698.mp3"
+    },
+    {
+      "key": "78:27",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 27,
+      "text": "إِنَّهُمْ كَانُوا۟ لَا يَرْجُونَ حِسَابًۭا",
+      "audioFile": "078-An-Naba/078_027.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5699.mp3"
+    },
+    {
+      "key": "78:28",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 28,
+      "text": "وَكَذَّبُوا۟ بِـَٔايَٰتِنَا كِذَّابًۭا",
+      "audioFile": "078-An-Naba/078_028.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5700.mp3"
+    },
+    {
+      "key": "78:29",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 29,
+      "text": "وَكُلَّ شَىْءٍ أَحْصَيْنَٰهُ كِتَٰبًۭا",
+      "audioFile": "078-An-Naba/078_029.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5701.mp3"
+    },
+    {
+      "key": "78:30",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 30,
+      "text": "فَذُوقُوا۟ فَلَن نَّزِيدَكُمْ إِلَّا عَذَابًا",
+      "audioFile": "078-An-Naba/078_030.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5702.mp3"
+    },
+    {
+      "key": "78:31",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 31,
+      "text": "إِنَّ لِلْمُتَّقِينَ مَفَازًا",
+      "audioFile": "078-An-Naba/078_031.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5703.mp3"
+    },
+    {
+      "key": "78:32",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 32,
+      "text": "حَدَآئِقَ وَأَعْنَٰبًۭا",
+      "audioFile": "078-An-Naba/078_032.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5704.mp3"
+    },
+    {
+      "key": "78:33",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 33,
+      "text": "وَكَوَاعِبَ أَتْرَابًۭا",
+      "audioFile": "078-An-Naba/078_033.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5705.mp3"
+    },
+    {
+      "key": "78:34",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 34,
+      "text": "وَكَأْسًۭا دِهَاقًۭا",
+      "audioFile": "078-An-Naba/078_034.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5706.mp3"
+    },
+    {
+      "key": "78:35",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 35,
+      "text": "لَّا يَسْمَعُونَ فِيهَا لَغْوًۭا وَلَا كِذَّٰبًۭا",
+      "audioFile": "078-An-Naba/078_035.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5707.mp3"
+    },
+    {
+      "key": "78:36",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 36,
+      "text": "جَزَآءًۭ مِّن رَّبِّكَ عَطَآءً حِسَابًۭا",
+      "audioFile": "078-An-Naba/078_036.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5708.mp3"
+    },
+    {
+      "key": "78:37",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 37,
+      "text": "رَّبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلرَّحْمَٰنِ ۖ لَا يَمْلِكُونَ مِنْهُ خِطَابًۭا",
+      "audioFile": "078-An-Naba/078_037.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5709.mp3"
+    },
+    {
+      "key": "78:38",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 38,
+      "text": "يَوْمَ يَقُومُ ٱلرُّوحُ وَٱلْمَلَٰٓئِكَةُ صَفًّۭا ۖ لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَٰنُ وَقَالَ صَوَابًۭا",
+      "audioFile": "078-An-Naba/078_038.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5710.mp3"
+    },
+    {
+      "key": "78:39",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 39,
+      "text": "ذَٰلِكَ ٱلْيَوْمُ ٱلْحَقُّ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا",
+      "audioFile": "078-An-Naba/078_039.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5711.mp3"
+    },
+    {
+      "key": "78:40",
+      "surahNumber": 78,
+      "surahName": "An-Naba",
+      "arabicSurahName": "سُورَةُ النَّبَإِ",
+      "ayahNumber": 40,
+      "text": "إِنَّآ أَنذَرْنَٰكُمْ عَذَابًۭا قَرِيبًۭا يَوْمَ يَنظُرُ ٱلْمَرْءُ مَا قَدَّمَتْ يَدَاهُ وَيَقُولُ ٱلْكَافِرُ يَٰلَيْتَنِى كُنتُ تُرَٰبًۢا",
+      "audioFile": "078-An-Naba/078_040.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5712.mp3"
+    },
+    {
+      "key": "79:1",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلنَّٰزِعَٰتِ غَرْقًۭا",
+      "audioFile": "079-An-Nazi-at/079_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5713.mp3"
+    },
+    {
+      "key": "79:2",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 2,
+      "text": "وَٱلنَّٰشِطَٰتِ نَشْطًۭا",
+      "audioFile": "079-An-Nazi-at/079_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5714.mp3"
+    },
+    {
+      "key": "79:3",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 3,
+      "text": "وَٱلسَّٰبِحَٰتِ سَبْحًۭا",
+      "audioFile": "079-An-Nazi-at/079_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5715.mp3"
+    },
+    {
+      "key": "79:4",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 4,
+      "text": "فَٱلسَّٰبِقَٰتِ سَبْقًۭا",
+      "audioFile": "079-An-Nazi-at/079_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5716.mp3"
+    },
+    {
+      "key": "79:5",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 5,
+      "text": "فَٱلْمُدَبِّرَٰتِ أَمْرًۭا",
+      "audioFile": "079-An-Nazi-at/079_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5717.mp3"
+    },
+    {
+      "key": "79:6",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 6,
+      "text": "يَوْمَ تَرْجُفُ ٱلرَّاجِفَةُ",
+      "audioFile": "079-An-Nazi-at/079_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5718.mp3"
+    },
+    {
+      "key": "79:7",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 7,
+      "text": "تَتْبَعُهَا ٱلرَّادِفَةُ",
+      "audioFile": "079-An-Nazi-at/079_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5719.mp3"
+    },
+    {
+      "key": "79:8",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 8,
+      "text": "قُلُوبٌۭ يَوْمَئِذٍۢ وَاجِفَةٌ",
+      "audioFile": "079-An-Nazi-at/079_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5720.mp3"
+    },
+    {
+      "key": "79:9",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 9,
+      "text": "أَبْصَٰرُهَا خَٰشِعَةٌۭ",
+      "audioFile": "079-An-Nazi-at/079_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5721.mp3"
+    },
+    {
+      "key": "79:10",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 10,
+      "text": "يَقُولُونَ أَءِنَّا لَمَرْدُودُونَ فِى ٱلْحَافِرَةِ",
+      "audioFile": "079-An-Nazi-at/079_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5722.mp3"
+    },
+    {
+      "key": "79:11",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 11,
+      "text": "أَءِذَا كُنَّا عِظَٰمًۭا نَّخِرَةًۭ",
+      "audioFile": "079-An-Nazi-at/079_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5723.mp3"
+    },
+    {
+      "key": "79:12",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 12,
+      "text": "قَالُوا۟ تِلْكَ إِذًۭا كَرَّةٌ خَاسِرَةٌۭ",
+      "audioFile": "079-An-Nazi-at/079_012.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5724.mp3"
+    },
+    {
+      "key": "79:13",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 13,
+      "text": "فَإِنَّمَا هِىَ زَجْرَةٌۭ وَٰحِدَةٌۭ",
+      "audioFile": "079-An-Nazi-at/079_013.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5725.mp3"
+    },
+    {
+      "key": "79:14",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 14,
+      "text": "فَإِذَا هُم بِٱلسَّاهِرَةِ",
+      "audioFile": "079-An-Nazi-at/079_014.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5726.mp3"
+    },
+    {
+      "key": "79:15",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 15,
+      "text": "هَلْ أَتَىٰكَ حَدِيثُ مُوسَىٰٓ",
+      "audioFile": "079-An-Nazi-at/079_015.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5727.mp3"
+    },
+    {
+      "key": "79:16",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 16,
+      "text": "إِذْ نَادَىٰهُ رَبُّهُۥ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى",
+      "audioFile": "079-An-Nazi-at/079_016.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5728.mp3"
+    },
+    {
+      "key": "79:17",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 17,
+      "text": "ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ",
+      "audioFile": "079-An-Nazi-at/079_017.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5729.mp3"
+    },
+    {
+      "key": "79:18",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 18,
+      "text": "فَقُلْ هَل لَّكَ إِلَىٰٓ أَن تَزَكَّىٰ",
+      "audioFile": "079-An-Nazi-at/079_018.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5730.mp3"
+    },
+    {
+      "key": "79:19",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 19,
+      "text": "وَأَهْدِيَكَ إِلَىٰ رَبِّكَ فَتَخْشَىٰ",
+      "audioFile": "079-An-Nazi-at/079_019.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5731.mp3"
+    },
+    {
+      "key": "79:20",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 20,
+      "text": "فَأَرَىٰهُ ٱلْءَايَةَ ٱلْكُبْرَىٰ",
+      "audioFile": "079-An-Nazi-at/079_020.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5732.mp3"
+    },
+    {
+      "key": "79:21",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 21,
+      "text": "فَكَذَّبَ وَعَصَىٰ",
+      "audioFile": "079-An-Nazi-at/079_021.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5733.mp3"
+    },
+    {
+      "key": "79:22",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 22,
+      "text": "ثُمَّ أَدْبَرَ يَسْعَىٰ",
+      "audioFile": "079-An-Nazi-at/079_022.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5734.mp3"
+    },
+    {
+      "key": "79:23",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 23,
+      "text": "فَحَشَرَ فَنَادَىٰ",
+      "audioFile": "079-An-Nazi-at/079_023.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5735.mp3"
+    },
+    {
+      "key": "79:24",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 24,
+      "text": "فَقَالَ أَنَا۠ رَبُّكُمُ ٱلْأَعْلَىٰ",
+      "audioFile": "079-An-Nazi-at/079_024.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5736.mp3"
+    },
+    {
+      "key": "79:25",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 25,
+      "text": "فَأَخَذَهُ ٱللَّهُ نَكَالَ ٱلْءَاخِرَةِ وَٱلْأُولَىٰٓ",
+      "audioFile": "079-An-Nazi-at/079_025.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5737.mp3"
+    },
+    {
+      "key": "79:26",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 26,
+      "text": "إِنَّ فِى ذَٰلِكَ لَعِبْرَةًۭ لِّمَن يَخْشَىٰٓ",
+      "audioFile": "079-An-Nazi-at/079_026.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5738.mp3"
+    },
+    {
+      "key": "79:27",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 27,
+      "text": "ءَأَنتُمْ أَشَدُّ خَلْقًا أَمِ ٱلسَّمَآءُ ۚ بَنَىٰهَا",
+      "audioFile": "079-An-Nazi-at/079_027.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5739.mp3"
+    },
+    {
+      "key": "79:28",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 28,
+      "text": "رَفَعَ سَمْكَهَا فَسَوَّىٰهَا",
+      "audioFile": "079-An-Nazi-at/079_028.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5740.mp3"
+    },
+    {
+      "key": "79:29",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 29,
+      "text": "وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ ضُحَىٰهَا",
+      "audioFile": "079-An-Nazi-at/079_029.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5741.mp3"
+    },
+    {
+      "key": "79:30",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 30,
+      "text": "وَٱلْأَرْضَ بَعْدَ ذَٰلِكَ دَحَىٰهَآ",
+      "audioFile": "079-An-Nazi-at/079_030.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5742.mp3"
+    },
+    {
+      "key": "79:31",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 31,
+      "text": "أَخْرَجَ مِنْهَا مَآءَهَا وَمَرْعَىٰهَا",
+      "audioFile": "079-An-Nazi-at/079_031.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5743.mp3"
+    },
+    {
+      "key": "79:32",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 32,
+      "text": "وَٱلْجِبَالَ أَرْسَىٰهَا",
+      "audioFile": "079-An-Nazi-at/079_032.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5744.mp3"
+    },
+    {
+      "key": "79:33",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 33,
+      "text": "مَتَٰعًۭا لَّكُمْ وَلِأَنْعَٰمِكُمْ",
+      "audioFile": "079-An-Nazi-at/079_033.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5745.mp3"
+    },
+    {
+      "key": "79:34",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 34,
+      "text": "فَإِذَا جَآءَتِ ٱلطَّآمَّةُ ٱلْكُبْرَىٰ",
+      "audioFile": "079-An-Nazi-at/079_034.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5746.mp3"
+    },
+    {
+      "key": "79:35",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 35,
+      "text": "يَوْمَ يَتَذَكَّرُ ٱلْإِنسَٰنُ مَا سَعَىٰ",
+      "audioFile": "079-An-Nazi-at/079_035.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5747.mp3"
+    },
+    {
+      "key": "79:36",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 36,
+      "text": "وَبُرِّزَتِ ٱلْجَحِيمُ لِمَن يَرَىٰ",
+      "audioFile": "079-An-Nazi-at/079_036.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5748.mp3"
+    },
+    {
+      "key": "79:37",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 37,
+      "text": "فَأَمَّا مَن طَغَىٰ",
+      "audioFile": "079-An-Nazi-at/079_037.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5749.mp3"
+    },
+    {
+      "key": "79:38",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 38,
+      "text": "وَءَاثَرَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+      "audioFile": "079-An-Nazi-at/079_038.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5750.mp3"
+    },
+    {
+      "key": "79:39",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 39,
+      "text": "فَإِنَّ ٱلْجَحِيمَ هِىَ ٱلْمَأْوَىٰ",
+      "audioFile": "079-An-Nazi-at/079_039.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5751.mp3"
+    },
+    {
+      "key": "79:40",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 40,
+      "text": "وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِۦ وَنَهَى ٱلنَّفْسَ عَنِ ٱلْهَوَىٰ",
+      "audioFile": "079-An-Nazi-at/079_040.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5752.mp3"
+    },
+    {
+      "key": "79:41",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 41,
+      "text": "فَإِنَّ ٱلْجَنَّةَ هِىَ ٱلْمَأْوَىٰ",
+      "audioFile": "079-An-Nazi-at/079_041.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5753.mp3"
+    },
+    {
+      "key": "79:42",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 42,
+      "text": "يَسْـَٔلُونَكَ عَنِ ٱلسَّاعَةِ أَيَّانَ مُرْسَىٰهَا",
+      "audioFile": "079-An-Nazi-at/079_042.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5754.mp3"
+    },
+    {
+      "key": "79:43",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 43,
+      "text": "فِيمَ أَنتَ مِن ذِكْرَىٰهَآ",
+      "audioFile": "079-An-Nazi-at/079_043.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5755.mp3"
+    },
+    {
+      "key": "79:44",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 44,
+      "text": "إِلَىٰ رَبِّكَ مُنتَهَىٰهَآ",
+      "audioFile": "079-An-Nazi-at/079_044.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5756.mp3"
+    },
+    {
+      "key": "79:45",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 45,
+      "text": "إِنَّمَآ أَنتَ مُنذِرُ مَن يَخْشَىٰهَا",
+      "audioFile": "079-An-Nazi-at/079_045.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5757.mp3"
+    },
+    {
+      "key": "79:46",
+      "surahNumber": 79,
+      "surahName": "An-Nazi'at",
+      "arabicSurahName": "سُورَةُ النَّازِعَاتِ",
+      "ayahNumber": 46,
+      "text": "كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوٓا۟ إِلَّا عَشِيَّةً أَوْ ضُحَىٰهَا",
+      "audioFile": "079-An-Nazi-at/079_046.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5758.mp3"
+    },
+    {
+      "key": "80:1",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ عَبَسَ وَتَوَلَّىٰٓ",
+      "audioFile": "080-Abasa/080_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5759.mp3"
+    },
+    {
+      "key": "80:2",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 2,
+      "text": "أَن جَآءَهُ ٱلْأَعْمَىٰ",
+      "audioFile": "080-Abasa/080_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5760.mp3"
+    },
+    {
+      "key": "80:3",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 3,
+      "text": "وَمَا يُدْرِيكَ لَعَلَّهُۥ يَزَّكَّىٰٓ",
+      "audioFile": "080-Abasa/080_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5761.mp3"
+    },
+    {
+      "key": "80:4",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 4,
+      "text": "أَوْ يَذَّكَّرُ فَتَنفَعَهُ ٱلذِّكْرَىٰٓ",
+      "audioFile": "080-Abasa/080_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5762.mp3"
+    },
+    {
+      "key": "80:5",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 5,
+      "text": "أَمَّا مَنِ ٱسْتَغْنَىٰ",
+      "audioFile": "080-Abasa/080_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5763.mp3"
+    },
+    {
+      "key": "80:6",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 6,
+      "text": "فَأَنتَ لَهُۥ تَصَدَّىٰ",
+      "audioFile": "080-Abasa/080_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5764.mp3"
+    },
+    {
+      "key": "80:7",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 7,
+      "text": "وَمَا عَلَيْكَ أَلَّا يَزَّكَّىٰ",
+      "audioFile": "080-Abasa/080_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5765.mp3"
+    },
+    {
+      "key": "80:8",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 8,
+      "text": "وَأَمَّا مَن جَآءَكَ يَسْعَىٰ",
+      "audioFile": "080-Abasa/080_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5766.mp3"
+    },
+    {
+      "key": "80:9",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 9,
+      "text": "وَهُوَ يَخْشَىٰ",
+      "audioFile": "080-Abasa/080_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5767.mp3"
+    },
+    {
+      "key": "80:10",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 10,
+      "text": "فَأَنتَ عَنْهُ تَلَهَّىٰ",
+      "audioFile": "080-Abasa/080_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5768.mp3"
+    },
+    {
+      "key": "80:11",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 11,
+      "text": "كَلَّآ إِنَّهَا تَذْكِرَةٌۭ",
+      "audioFile": "080-Abasa/080_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5769.mp3"
+    },
+    {
+      "key": "80:12",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 12,
+      "text": "فَمَن شَآءَ ذَكَرَهُۥ",
+      "audioFile": "080-Abasa/080_012.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5770.mp3"
+    },
+    {
+      "key": "80:13",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 13,
+      "text": "فِى صُحُفٍۢ مُّكَرَّمَةٍۢ",
+      "audioFile": "080-Abasa/080_013.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5771.mp3"
+    },
+    {
+      "key": "80:14",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 14,
+      "text": "مَّرْفُوعَةٍۢ مُّطَهَّرَةٍۭ",
+      "audioFile": "080-Abasa/080_014.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5772.mp3"
+    },
+    {
+      "key": "80:15",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 15,
+      "text": "بِأَيْدِى سَفَرَةٍۢ",
+      "audioFile": "080-Abasa/080_015.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5773.mp3"
+    },
+    {
+      "key": "80:16",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 16,
+      "text": "كِرَامٍۭ بَرَرَةٍۢ",
+      "audioFile": "080-Abasa/080_016.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5774.mp3"
+    },
+    {
+      "key": "80:17",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 17,
+      "text": "قُتِلَ ٱلْإِنسَٰنُ مَآ أَكْفَرَهُۥ",
+      "audioFile": "080-Abasa/080_017.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5775.mp3"
+    },
+    {
+      "key": "80:18",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 18,
+      "text": "مِنْ أَىِّ شَىْءٍ خَلَقَهُۥ",
+      "audioFile": "080-Abasa/080_018.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5776.mp3"
+    },
+    {
+      "key": "80:19",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 19,
+      "text": "مِن نُّطْفَةٍ خَلَقَهُۥ فَقَدَّرَهُۥ",
+      "audioFile": "080-Abasa/080_019.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5777.mp3"
+    },
+    {
+      "key": "80:20",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 20,
+      "text": "ثُمَّ ٱلسَّبِيلَ يَسَّرَهُۥ",
+      "audioFile": "080-Abasa/080_020.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5778.mp3"
+    },
+    {
+      "key": "80:21",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 21,
+      "text": "ثُمَّ أَمَاتَهُۥ فَأَقْبَرَهُۥ",
+      "audioFile": "080-Abasa/080_021.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5779.mp3"
+    },
+    {
+      "key": "80:22",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 22,
+      "text": "ثُمَّ إِذَا شَآءَ أَنشَرَهُۥ",
+      "audioFile": "080-Abasa/080_022.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5780.mp3"
+    },
+    {
+      "key": "80:23",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 23,
+      "text": "كَلَّا لَمَّا يَقْضِ مَآ أَمَرَهُۥ",
+      "audioFile": "080-Abasa/080_023.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5781.mp3"
+    },
+    {
+      "key": "80:24",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 24,
+      "text": "فَلْيَنظُرِ ٱلْإِنسَٰنُ إِلَىٰ طَعَامِهِۦٓ",
+      "audioFile": "080-Abasa/080_024.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5782.mp3"
+    },
+    {
+      "key": "80:25",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 25,
+      "text": "أَنَّا صَبَبْنَا ٱلْمَآءَ صَبًّۭا",
+      "audioFile": "080-Abasa/080_025.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5783.mp3"
+    },
+    {
+      "key": "80:26",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 26,
+      "text": "ثُمَّ شَقَقْنَا ٱلْأَرْضَ شَقًّۭا",
+      "audioFile": "080-Abasa/080_026.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5784.mp3"
+    },
+    {
+      "key": "80:27",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 27,
+      "text": "فَأَنۢبَتْنَا فِيهَا حَبًّۭا",
+      "audioFile": "080-Abasa/080_027.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5785.mp3"
+    },
+    {
+      "key": "80:28",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 28,
+      "text": "وَعِنَبًۭا وَقَضْبًۭا",
+      "audioFile": "080-Abasa/080_028.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5786.mp3"
+    },
+    {
+      "key": "80:29",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 29,
+      "text": "وَزَيْتُونًۭا وَنَخْلًۭا",
+      "audioFile": "080-Abasa/080_029.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5787.mp3"
+    },
+    {
+      "key": "80:30",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 30,
+      "text": "وَحَدَآئِقَ غُلْبًۭا",
+      "audioFile": "080-Abasa/080_030.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5788.mp3"
+    },
+    {
+      "key": "80:31",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 31,
+      "text": "وَفَٰكِهَةًۭ وَأَبًّۭا",
+      "audioFile": "080-Abasa/080_031.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5789.mp3"
+    },
+    {
+      "key": "80:32",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 32,
+      "text": "مَّتَٰعًۭا لَّكُمْ وَلِأَنْعَٰمِكُمْ",
+      "audioFile": "080-Abasa/080_032.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5790.mp3"
+    },
+    {
+      "key": "80:33",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 33,
+      "text": "فَإِذَا جَآءَتِ ٱلصَّآخَّةُ",
+      "audioFile": "080-Abasa/080_033.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5791.mp3"
+    },
+    {
+      "key": "80:34",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 34,
+      "text": "يَوْمَ يَفِرُّ ٱلْمَرْءُ مِنْ أَخِيهِ",
+      "audioFile": "080-Abasa/080_034.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5792.mp3"
+    },
+    {
+      "key": "80:35",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 35,
+      "text": "وَأُمِّهِۦ وَأَبِيهِ",
+      "audioFile": "080-Abasa/080_035.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5793.mp3"
+    },
+    {
+      "key": "80:36",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 36,
+      "text": "وَصَٰحِبَتِهِۦ وَبَنِيهِ",
+      "audioFile": "080-Abasa/080_036.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5794.mp3"
+    },
+    {
+      "key": "80:37",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 37,
+      "text": "لِكُلِّ ٱمْرِئٍۢ مِّنْهُمْ يَوْمَئِذٍۢ شَأْنٌۭ يُغْنِيهِ",
+      "audioFile": "080-Abasa/080_037.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5795.mp3"
+    },
+    {
+      "key": "80:38",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 38,
+      "text": "وُجُوهٌۭ يَوْمَئِذٍۢ مُّسْفِرَةٌۭ",
+      "audioFile": "080-Abasa/080_038.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5796.mp3"
+    },
+    {
+      "key": "80:39",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 39,
+      "text": "ضَاحِكَةٌۭ مُّسْتَبْشِرَةٌۭ",
+      "audioFile": "080-Abasa/080_039.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5797.mp3"
+    },
+    {
+      "key": "80:40",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 40,
+      "text": "وَوُجُوهٌۭ يَوْمَئِذٍ عَلَيْهَا غَبَرَةٌۭ",
+      "audioFile": "080-Abasa/080_040.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5798.mp3"
+    },
+    {
+      "key": "80:41",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 41,
+      "text": "تَرْهَقُهَا قَتَرَةٌ",
+      "audioFile": "080-Abasa/080_041.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5799.mp3"
+    },
+    {
+      "key": "80:42",
+      "surahNumber": 80,
+      "surahName": "'Abasa",
+      "arabicSurahName": "سُورَةُ عَبَسَ",
+      "ayahNumber": 42,
+      "text": "أُو۟لَٰٓئِكَ هُمُ ٱلْكَفَرَةُ ٱلْفَجَرَةُ",
+      "audioFile": "080-Abasa/080_042.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5800.mp3"
+    },
+    {
+      "key": "81:1",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا ٱلشَّمْسُ كُوِّرَتْ",
+      "audioFile": "081-At-Takwir/081_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5801.mp3"
+    },
+    {
+      "key": "81:2",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 2,
+      "text": "وَإِذَا ٱلنُّجُومُ ٱنكَدَرَتْ",
+      "audioFile": "081-At-Takwir/081_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5802.mp3"
+    },
+    {
+      "key": "81:3",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 3,
+      "text": "وَإِذَا ٱلْجِبَالُ سُيِّرَتْ",
+      "audioFile": "081-At-Takwir/081_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5803.mp3"
+    },
+    {
+      "key": "81:4",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 4,
+      "text": "وَإِذَا ٱلْعِشَارُ عُطِّلَتْ",
+      "audioFile": "081-At-Takwir/081_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5804.mp3"
+    },
+    {
+      "key": "81:5",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 5,
+      "text": "وَإِذَا ٱلْوُحُوشُ حُشِرَتْ",
+      "audioFile": "081-At-Takwir/081_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5805.mp3"
+    },
+    {
+      "key": "81:6",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 6,
+      "text": "وَإِذَا ٱلْبِحَارُ سُجِّرَتْ",
+      "audioFile": "081-At-Takwir/081_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5806.mp3"
+    },
+    {
+      "key": "81:7",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 7,
+      "text": "وَإِذَا ٱلنُّفُوسُ زُوِّجَتْ",
+      "audioFile": "081-At-Takwir/081_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5807.mp3"
+    },
+    {
+      "key": "81:8",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 8,
+      "text": "وَإِذَا ٱلْمَوْءُۥدَةُ سُئِلَتْ",
+      "audioFile": "081-At-Takwir/081_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5808.mp3"
+    },
+    {
+      "key": "81:9",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 9,
+      "text": "بِأَىِّ ذَنۢبٍۢ قُتِلَتْ",
+      "audioFile": "081-At-Takwir/081_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5809.mp3"
+    },
+    {
+      "key": "81:10",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 10,
+      "text": "وَإِذَا ٱلصُّحُفُ نُشِرَتْ",
+      "audioFile": "081-At-Takwir/081_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5810.mp3"
+    },
+    {
+      "key": "81:11",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 11,
+      "text": "وَإِذَا ٱلسَّمَآءُ كُشِطَتْ",
+      "audioFile": "081-At-Takwir/081_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5811.mp3"
+    },
+    {
+      "key": "81:12",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 12,
+      "text": "وَإِذَا ٱلْجَحِيمُ سُعِّرَتْ",
+      "audioFile": "081-At-Takwir/081_012.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5812.mp3"
+    },
+    {
+      "key": "81:13",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 13,
+      "text": "وَإِذَا ٱلْجَنَّةُ أُزْلِفَتْ",
+      "audioFile": "081-At-Takwir/081_013.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5813.mp3"
+    },
+    {
+      "key": "81:14",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 14,
+      "text": "عَلِمَتْ نَفْسٌۭ مَّآ أَحْضَرَتْ",
+      "audioFile": "081-At-Takwir/081_014.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5814.mp3"
+    },
+    {
+      "key": "81:15",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 15,
+      "text": "فَلَآ أُقْسِمُ بِٱلْخُنَّسِ",
+      "audioFile": "081-At-Takwir/081_015.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5815.mp3"
+    },
+    {
+      "key": "81:16",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 16,
+      "text": "ٱلْجَوَارِ ٱلْكُنَّسِ",
+      "audioFile": "081-At-Takwir/081_016.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5816.mp3"
+    },
+    {
+      "key": "81:17",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 17,
+      "text": "وَٱلَّيْلِ إِذَا عَسْعَسَ",
+      "audioFile": "081-At-Takwir/081_017.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5817.mp3"
+    },
+    {
+      "key": "81:18",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 18,
+      "text": "وَٱلصُّبْحِ إِذَا تَنَفَّسَ",
+      "audioFile": "081-At-Takwir/081_018.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5818.mp3"
+    },
+    {
+      "key": "81:19",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 19,
+      "text": "إِنَّهُۥ لَقَوْلُ رَسُولٍۢ كَرِيمٍۢ",
+      "audioFile": "081-At-Takwir/081_019.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5819.mp3"
+    },
+    {
+      "key": "81:20",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 20,
+      "text": "ذِى قُوَّةٍ عِندَ ذِى ٱلْعَرْشِ مَكِينٍۢ",
+      "audioFile": "081-At-Takwir/081_020.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5820.mp3"
+    },
+    {
+      "key": "81:21",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 21,
+      "text": "مُّطَاعٍۢ ثَمَّ أَمِينٍۢ",
+      "audioFile": "081-At-Takwir/081_021.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5821.mp3"
+    },
+    {
+      "key": "81:22",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 22,
+      "text": "وَمَا صَاحِبُكُم بِمَجْنُونٍۢ",
+      "audioFile": "081-At-Takwir/081_022.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5822.mp3"
+    },
+    {
+      "key": "81:23",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 23,
+      "text": "وَلَقَدْ رَءَاهُ بِٱلْأُفُقِ ٱلْمُبِينِ",
+      "audioFile": "081-At-Takwir/081_023.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5823.mp3"
+    },
+    {
+      "key": "81:24",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 24,
+      "text": "وَمَا هُوَ عَلَى ٱلْغَيْبِ بِضَنِينٍۢ",
+      "audioFile": "081-At-Takwir/081_024.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5824.mp3"
+    },
+    {
+      "key": "81:25",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 25,
+      "text": "وَمَا هُوَ بِقَوْلِ شَيْطَٰنٍۢ رَّجِيمٍۢ",
+      "audioFile": "081-At-Takwir/081_025.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5825.mp3"
+    },
+    {
+      "key": "81:26",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 26,
+      "text": "فَأَيْنَ تَذْهَبُونَ",
+      "audioFile": "081-At-Takwir/081_026.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5826.mp3"
+    },
+    {
+      "key": "81:27",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 27,
+      "text": "إِنْ هُوَ إِلَّا ذِكْرٌۭ لِّلْعَٰلَمِينَ",
+      "audioFile": "081-At-Takwir/081_027.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5827.mp3"
+    },
+    {
+      "key": "81:28",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 28,
+      "text": "لِمَن شَآءَ مِنكُمْ أَن يَسْتَقِيمَ",
+      "audioFile": "081-At-Takwir/081_028.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5828.mp3"
+    },
+    {
+      "key": "81:29",
+      "surahNumber": 81,
+      "surahName": "At-Takwir",
+      "arabicSurahName": "سُورَةُ التَّكۡوِيرِ",
+      "ayahNumber": 29,
+      "text": "وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ",
+      "audioFile": "081-At-Takwir/081_029.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5829.mp3"
+    },
+    {
+      "key": "82:1",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا ٱلسَّمَآءُ ٱنفَطَرَتْ",
+      "audioFile": "082-Al-Infitar/082_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5830.mp3"
+    },
+    {
+      "key": "82:2",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 2,
+      "text": "وَإِذَا ٱلْكَوَاكِبُ ٱنتَثَرَتْ",
+      "audioFile": "082-Al-Infitar/082_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5831.mp3"
+    },
+    {
+      "key": "82:3",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 3,
+      "text": "وَإِذَا ٱلْبِحَارُ فُجِّرَتْ",
+      "audioFile": "082-Al-Infitar/082_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5832.mp3"
+    },
+    {
+      "key": "82:4",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 4,
+      "text": "وَإِذَا ٱلْقُبُورُ بُعْثِرَتْ",
+      "audioFile": "082-Al-Infitar/082_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5833.mp3"
+    },
+    {
+      "key": "82:5",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 5,
+      "text": "عَلِمَتْ نَفْسٌۭ مَّا قَدَّمَتْ وَأَخَّرَتْ",
+      "audioFile": "082-Al-Infitar/082_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5834.mp3"
+    },
+    {
+      "key": "82:6",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 6,
+      "text": "يَٰٓأَيُّهَا ٱلْإِنسَٰنُ مَا غَرَّكَ بِرَبِّكَ ٱلْكَرِيمِ",
+      "audioFile": "082-Al-Infitar/082_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5835.mp3"
+    },
+    {
+      "key": "82:7",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 7,
+      "text": "ٱلَّذِى خَلَقَكَ فَسَوَّىٰكَ فَعَدَلَكَ",
+      "audioFile": "082-Al-Infitar/082_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5836.mp3"
+    },
+    {
+      "key": "82:8",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 8,
+      "text": "فِىٓ أَىِّ صُورَةٍۢ مَّا شَآءَ رَكَّبَكَ",
+      "audioFile": "082-Al-Infitar/082_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5837.mp3"
+    },
+    {
+      "key": "82:9",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 9,
+      "text": "كَلَّا بَلْ تُكَذِّبُونَ بِٱلدِّينِ",
+      "audioFile": "082-Al-Infitar/082_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5838.mp3"
+    },
+    {
+      "key": "82:10",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 10,
+      "text": "وَإِنَّ عَلَيْكُمْ لَحَٰفِظِينَ",
+      "audioFile": "082-Al-Infitar/082_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5839.mp3"
+    },
+    {
+      "key": "82:11",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 11,
+      "text": "كِرَامًۭا كَٰتِبِينَ",
+      "audioFile": "082-Al-Infitar/082_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5840.mp3"
+    },
+    {
+      "key": "82:12",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 12,
+      "text": "يَعْلَمُونَ مَا تَفْعَلُونَ",
+      "audioFile": "082-Al-Infitar/082_012.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5841.mp3"
+    },
+    {
+      "key": "82:13",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 13,
+      "text": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍۢ",
+      "audioFile": "082-Al-Infitar/082_013.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5842.mp3"
+    },
+    {
+      "key": "82:14",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 14,
+      "text": "وَإِنَّ ٱلْفُجَّارَ لَفِى جَحِيمٍۢ",
+      "audioFile": "082-Al-Infitar/082_014.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5843.mp3"
+    },
+    {
+      "key": "82:15",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 15,
+      "text": "يَصْلَوْنَهَا يَوْمَ ٱلدِّينِ",
+      "audioFile": "082-Al-Infitar/082_015.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5844.mp3"
+    },
+    {
+      "key": "82:16",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 16,
+      "text": "وَمَا هُمْ عَنْهَا بِغَآئِبِينَ",
+      "audioFile": "082-Al-Infitar/082_016.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5845.mp3"
+    },
+    {
+      "key": "82:17",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 17,
+      "text": "وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ",
+      "audioFile": "082-Al-Infitar/082_017.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5846.mp3"
+    },
+    {
+      "key": "82:18",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 18,
+      "text": "ثُمَّ مَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ",
+      "audioFile": "082-Al-Infitar/082_018.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5847.mp3"
+    },
+    {
+      "key": "82:19",
+      "surahNumber": 82,
+      "surahName": "Al-Infitar",
+      "arabicSurahName": "سُورَةُ الانفِطَارِ",
+      "ayahNumber": 19,
+      "text": "يَوْمَ لَا تَمْلِكُ نَفْسٌۭ لِّنَفْسٍۢ شَيْـًۭٔا ۖ وَٱلْأَمْرُ يَوْمَئِذٍۢ لِّلَّهِ",
+      "audioFile": "082-Al-Infitar/082_019.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5848.mp3"
+    },
     {
       "key": "83:1",
       "surahNumber": 83,

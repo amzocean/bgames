@@ -30,5 +30,10 @@ window.bgamesQuranSurahs = [
   { number: 86, name: 'At-Tariq' },
   { number: 85, name: 'Al-Buruj' },
   { number: 84, name: 'Al-Inshiqaq' },
-  { number: 83, name: 'Al-Mutaffifin' }
+  { number: 83, name: 'Al-Mutaffifin' },
+  { number: 82, name: 'Al-Infitar' },
+  { number: 81, name: 'At-Takwir' },
+  { number: 80, name: "'Abasa" },
+  { number: 79, name: "An-Nazi'at" },
+  { number: 78, name: 'An-Naba' }
 ];

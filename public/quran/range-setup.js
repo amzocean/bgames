@@ -1,14 +1,16 @@
 (() => {
   const STORAGE_KEY = 'bgames:quran-known-through';
   const MINIMUM_SURAHS = 3;
+  const DEFAULT_SURAH_NUMBER = 84;
   const surahs = window.bgamesQuranSurahs;
-  let selectedIndex = surahs.length - 1;
+  const defaultIndex = surahs.findIndex((surah) => surah.number === DEFAULT_SURAH_NUMBER);
+  let selectedIndex = defaultIndex;
   let startHandler = null;
 
   function storedIndex() {
     const storedNumber = Number(localStorage.getItem(STORAGE_KEY));
     const index = surahs.findIndex((surah) => surah.number === storedNumber);
-    return index >= MINIMUM_SURAHS - 1 ? index : surahs.length - 1;
+    return index >= MINIMUM_SURAHS - 1 ? index : defaultIndex;
   }
 
   function createOverlay() {

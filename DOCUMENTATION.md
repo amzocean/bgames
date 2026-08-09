@@ -77,7 +77,7 @@ bgames/
 │   │   ├── surah-range.js
 │   │   └── husary/
 │   │       ├── manifest.json
-│   │       └── 083-Al-Mutaffifin/ ... 114-An-Naas/
+│   │       └── 078-An-Naba/ ... 114-An-Naas/
 │   └── papa/
 │       ├── index.html
 │       ├── tictactoe.html / tictactoe.js
@@ -147,9 +147,9 @@ These games combine Quran memorization practice with the same accessible visual 
 
 ### Shared learning range
 
-- Surahs **114 through 83**, from **An-Nas** back to **Al-Mutaffifin**
+- Surahs **114 through 78**, from **An-Nas** back to **An-Naba**
 - Reverse learning order follows the learner's memorization direction: An-Nas, Al-Falaq, Al-Ikhlas, and onward
-- The range contains **32 surahs and 388 ayat**
+- The range contains **37 surahs and 564 ayat**
 - Arabic text uses the Uthmani edition returned by AlQuran Cloud
 - Audio uses Mahmoud Khalil Al-Husary's verse-by-verse recitation (`ar.husary`)
 - Text and audio are downloaded ahead of time and served locally from `public/quran/husary/`
@@ -188,7 +188,7 @@ The shared difficulty names describe the general BGames tile-density convention:
 
 #### Round behavior
 
-1. Select a contiguous sequence from surahs 114–83.
+1. Select a contiguous sequence from surahs 114–78 within the learner's selected memorized range.
 2. Shuffle its visible choices.
 3. Ask the learner to tap from the An-Nas direction.
 4. Move each correct choice into a clearly numbered answer row.
@@ -238,7 +238,7 @@ All distractors must be different surahs from the known range. Choice order is r
 
 - Each Hifz Quiz or Surah Order session contains 10 scored challenges.
 - Before each set, a shared child-friendly stepper asks which surah has been memorized through, beginning from An-Nas.
-- The selector remembers the last endpoint and requires at least three learned surahs.
+- The selector defaults to Surah 84, remembers the last endpoint, allows extension through Surah 78, and requires at least three learned surahs.
 - Hifz Quiz limits both target ayat and distractor choices to the selected range.
 - Surah Order creates contiguous groups only inside the selected range.
 - Result screens offer **Play Again — Same Surahs** or **Change Learned Surahs**.
@@ -254,7 +254,7 @@ The download/build process must fail if:
 - a requested surah or ayah is missing
 - text and audio ayah numbers do not align
 - an audio download is empty or suspiciously small
-- the final count is not exactly 32 surahs and 388 ayat
+- the final count is not exactly 37 surahs and 564 ayat
 - an audio filename or manifest key is duplicated
 
 The app must surface manifest or audio failures to the user rather than silently substituting another ayah.
@@ -283,7 +283,7 @@ Quran text must be preserved exactly as downloaded. Source and reciter metadata 
 
 - Surah Order is implemented and wired into `/solo/index.html`.
 - Hifz Quiz is implemented and wired into `/solo/index.html`.
-- Both games cover surahs 114–83 and use the shared accessibility and difficulty conventions above.
+- Both games cover surahs 114–78 and use the shared accessibility and difficulty conventions above.
 - Hifz Quiz uses the checked-in local Husary ayah collection and does not require a live Quran API.
 
 ### Phase 1 (implemented)

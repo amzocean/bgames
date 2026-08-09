@@ -260,11 +260,11 @@ function showFailure(message, error) {
 }
 
 function validateManifest(data) {
-  if (!data || data.surahCount !== 32 || data.ayahCount !== 388) {
-    throw new Error('The Quran manifest does not contain the expected 32 surahs and 388 ayat.');
+  if (!data || data.surahCount !== 37 || data.ayahCount !== 564) {
+    throw new Error('The Quran manifest does not contain the expected 37 surahs and 564 ayat.');
   }
-  if (!Array.isArray(data.surahs) || data.surahs.length !== 32 ||
-      !Array.isArray(data.ayahs) || data.ayahs.length !== 388) {
+  if (!Array.isArray(data.surahs) || data.surahs.length !== 37 ||
+      !Array.isArray(data.ayahs) || data.ayahs.length !== 564) {
     throw new Error('The Quran manifest arrays are incomplete.');
   }
 
