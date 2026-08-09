@@ -1,0 +1,42 @@
+[
+  {
+    "key": "106:1",
+    "surahNumber": 106,
+    "surahName": "Quraish",
+    "arabicSurahName": "سُورَةُ قُرَيۡشٍ",
+    "ayahNumber": 1,
+    "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ لِإِيلَٰفِ قُرَيْشٍ",
+    "audioFile": "106-Quraish/106_001.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6194.mp3"
+  },
+  {
+    "key": "106:2",
+    "surahNumber": 106,
+    "surahName": "Quraish",
+    "arabicSurahName": "سُورَةُ قُرَيۡشٍ",
+    "ayahNumber": 2,
+    "text": "إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+    "audioFile": "106-Quraish/106_002.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6195.mp3"
+  },
+  {
+    "key": "106:3",
+    "surahNumber": 106,
+    "surahName": "Quraish",
+    "arabicSurahName": "سُورَةُ قُرَيۡشٍ",
+    "ayahNumber": 3,
+    "text": "فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ",
+    "audioFile": "106-Quraish/106_003.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6196.mp3"
+  },
+  {
+    "key": "106:4",
+    "surahNumber": 106,
+    "surahName": "Quraish",
+    "arabicSurahName": "سُورَةُ قُرَيۡشٍ",
+    "ayahNumber": 4,
+    "text": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+    "audioFile": "106-Quraish/106_004.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6197.mp3"
+  }
+]

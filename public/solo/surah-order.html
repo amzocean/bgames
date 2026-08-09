@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BGames - Surah Order</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="quran-game" data-disable-solo-clue="1" data-disable-ui-click-sound="1">
+  <main class="game-wrap">
+    <div class="topbar">
+      <a href="/solo/">Back to Solo</a>
+      <strong>Surah Order</strong>
+      <button class="sound-toggle" data-sound-toggle type="button">Sound: On 🔊</button>
+    </div>
+    <section class="play-area surah-order-play-area">
+      <div class="hud">
+        <span class="pill">Completed: <span id="completed">0</span>/10</span>
+        <span class="pill">Streak: <span id="streak">0</span></span>
+        <span class="pill target" id="groupPill">Group: -</span>
+      </div>
+      <p id="prompt" data-clue-source data-game-instruction>
+        Tap the surahs in the same direction you memorize, starting from the An-Nas side.
+      </p>
+      <div class="surah-order-workspace">
+        <div class="surah-order-panel progress-panel">
+          <h2>Your order</h2>
+          <p class="helper" id="feedback" aria-live="polite">Choose the first surah in this group.</p>
+          <div id="orderedList" class="surah-order-answer" aria-label="Your ordered surahs"></div>
+          <button id="newRound" class="quran-action next-ready-action" type="button" hidden>
+            Next Group
+          </button>
+        </div>
+        <div class="surah-order-panel choice-panel">
+          <h2>Choose the next surah</h2>
+          <div id="choices" class="board surah-choice-grid"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="/sound.js"></script>
+  <script src="/quran/surah-range.js"></script>
+  <script src="/quran/session-success.js"></script>
+  <script src="/solo/surah-order.js"></script>
+</body>
+</html>

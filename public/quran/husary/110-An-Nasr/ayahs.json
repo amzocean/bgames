@@ -1,0 +1,32 @@
+[
+  {
+    "key": "110:1",
+    "surahNumber": 110,
+    "surahName": "An-Nasr",
+    "arabicSurahName": "سُورَةُ النَّصۡرِ",
+    "ayahNumber": 1,
+    "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+    "audioFile": "110-An-Nasr/110_001.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6214.mp3"
+  },
+  {
+    "key": "110:2",
+    "surahNumber": 110,
+    "surahName": "An-Nasr",
+    "arabicSurahName": "سُورَةُ النَّصۡرِ",
+    "ayahNumber": 2,
+    "text": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًۭا",
+    "audioFile": "110-An-Nasr/110_002.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6215.mp3"
+  },
+  {
+    "key": "110:3",
+    "surahNumber": 110,
+    "surahName": "An-Nasr",
+    "arabicSurahName": "سُورَةُ النَّصۡرِ",
+    "ayahNumber": 3,
+    "text": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
+    "audioFile": "110-An-Nasr/110_003.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6216.mp3"
+  }
+]

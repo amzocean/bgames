@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BGames - Hifz Quiz</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="quran-game" data-disable-solo-clue="1" data-disable-ui-click-sound="1">
+  <main class="game-wrap">
+    <div class="topbar">
+      <a href="/solo/">Back to Solo</a>
+      <strong>Hifz Quiz</strong>
+      <div class="quran-topbar-tools">
+        <label class="quran-font-picker" for="quranFont">
+          Arabic style
+          <select id="quranFont">
+            <option value="naskh">Clear Naskh</option>
+            <option value="mushaf">Mushaf</option>
+          </select>
+        </label>
+        <button class="sound-toggle" data-sound-toggle type="button">Sound: On 🔊</button>
+      </div>
+    </div>
+    <section class="play-area hifz-play-area">
+      <div class="hud">
+        <span class="pill">Solved: <span id="score">0</span>/10</span>
+        <span class="pill">Streak: <span id="streak">0</span></span>
+        <span class="pill target" id="choicePill">Choices: -</span>
+      </div>
+      <p id="prompt" data-clue-source data-game-instruction>
+        Listen to the passage, read the large Arabic text, and choose its surah.
+      </p>
+      <div class="hifz-workspace">
+        <div class="hifz-reading-panel">
+          <div class="ayah-card">
+            <p id="ayahText" class="ayah-text" dir="rtl" lang="ar">Loading Quran text...</p>
+          </div>
+          <p id="reference" class="quran-reference" aria-live="polite"></p>
+          <div class="quran-controls">
+            <button id="playAyah" class="quran-action replay-action" type="button" disabled>
+              Replay Ayah
+            </button>
+            <button id="nextAyah" class="quran-action next-ready-action" type="button" hidden>
+              Next Ayah
+            </button>
+          </div>
+        </div>
+        <div class="hifz-answer-panel">
+          <p class="helper" id="feedback" aria-live="polite">Loading the local ayah collection.</p>
+          <div id="choices" class="board hifz-choice-grid"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="/sound.js"></script>
+  <script src="/quran/surah-range.js"></script>
+  <script src="/quran/session-success.js"></script>
+  <script src="/solo/hifz-quiz.js"></script>
+</body>
+</html>

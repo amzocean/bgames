@@ -1,0 +1,52 @@
+[
+  {
+    "key": "111:1",
+    "surahNumber": 111,
+    "surahName": "Al-Masad",
+    "arabicSurahName": "سُورَةُ المَسَدِ",
+    "ayahNumber": 1,
+    "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ",
+    "audioFile": "111-Al-Masad/111_001.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6217.mp3"
+  },
+  {
+    "key": "111:2",
+    "surahNumber": 111,
+    "surahName": "Al-Masad",
+    "arabicSurahName": "سُورَةُ المَسَدِ",
+    "ayahNumber": 2,
+    "text": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+    "audioFile": "111-Al-Masad/111_002.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6218.mp3"
+  },
+  {
+    "key": "111:3",
+    "surahNumber": 111,
+    "surahName": "Al-Masad",
+    "arabicSurahName": "سُورَةُ المَسَدِ",
+    "ayahNumber": 3,
+    "text": "سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ",
+    "audioFile": "111-Al-Masad/111_003.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6219.mp3"
+  },
+  {
+    "key": "111:4",
+    "surahNumber": 111,
+    "surahName": "Al-Masad",
+    "arabicSurahName": "سُورَةُ المَسَدِ",
+    "ayahNumber": 4,
+    "text": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+    "audioFile": "111-Al-Masad/111_004.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6220.mp3"
+  },
+  {
+    "key": "111:5",
+    "surahNumber": 111,
+    "surahName": "Al-Masad",
+    "arabicSurahName": "سُورَةُ المَسَدِ",
+    "ayahNumber": 5,
+    "text": "فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ",
+    "audioFile": "111-Al-Masad/111_005.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6221.mp3"
+  }
+]

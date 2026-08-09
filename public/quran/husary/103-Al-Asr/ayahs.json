@@ -1,0 +1,32 @@
+[
+  {
+    "key": "103:1",
+    "surahNumber": 103,
+    "surahName": "Al-Asr",
+    "arabicSurahName": "سُورَةُ العَصۡرِ",
+    "ayahNumber": 1,
+    "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْعَصْرِ",
+    "audioFile": "103-Al-Asr/103_001.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6177.mp3"
+  },
+  {
+    "key": "103:2",
+    "surahNumber": 103,
+    "surahName": "Al-Asr",
+    "arabicSurahName": "سُورَةُ العَصۡرِ",
+    "ayahNumber": 2,
+    "text": "إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ",
+    "audioFile": "103-Al-Asr/103_002.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6178.mp3"
+  },
+  {
+    "key": "103:3",
+    "surahNumber": 103,
+    "surahName": "Al-Asr",
+    "arabicSurahName": "سُورَةُ العَصۡرِ",
+    "ayahNumber": 3,
+    "text": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+    "audioFile": "103-Al-Asr/103_003.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6179.mp3"
+  }
+]

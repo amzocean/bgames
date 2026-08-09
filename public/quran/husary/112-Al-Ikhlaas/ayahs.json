@@ -1,0 +1,42 @@
+[
+  {
+    "key": "112:1",
+    "surahNumber": 112,
+    "surahName": "Al-Ikhlaas",
+    "arabicSurahName": "سُورَةُ الإِخۡلَاصِ",
+    "ayahNumber": 1,
+    "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+    "audioFile": "112-Al-Ikhlaas/112_001.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6222.mp3"
+  },
+  {
+    "key": "112:2",
+    "surahNumber": 112,
+    "surahName": "Al-Ikhlaas",
+    "arabicSurahName": "سُورَةُ الإِخۡلَاصِ",
+    "ayahNumber": 2,
+    "text": "ٱللَّهُ ٱلصَّمَدُ",
+    "audioFile": "112-Al-Ikhlaas/112_002.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6223.mp3"
+  },
+  {
+    "key": "112:3",
+    "surahNumber": 112,
+    "surahName": "Al-Ikhlaas",
+    "arabicSurahName": "سُورَةُ الإِخۡلَاصِ",
+    "ayahNumber": 3,
+    "text": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+    "audioFile": "112-Al-Ikhlaas/112_003.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6224.mp3"
+  },
+  {
+    "key": "112:4",
+    "surahNumber": 112,
+    "surahName": "Al-Ikhlaas",
+    "arabicSurahName": "سُورَةُ الإِخۡلَاصِ",
+    "ayahNumber": 4,
+    "text": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+    "audioFile": "112-Al-Ikhlaas/112_004.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6225.mp3"
+  }
+]

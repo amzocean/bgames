@@ -1,0 +1,52 @@
+[
+  {
+    "key": "113:1",
+    "surahNumber": 113,
+    "surahName": "Al-Falaq",
+    "arabicSurahName": "سُورَةُ الفَلَقِ",
+    "ayahNumber": 1,
+    "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+    "audioFile": "113-Al-Falaq/113_001.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6226.mp3"
+  },
+  {
+    "key": "113:2",
+    "surahNumber": 113,
+    "surahName": "Al-Falaq",
+    "arabicSurahName": "سُورَةُ الفَلَقِ",
+    "ayahNumber": 2,
+    "text": "مِن شَرِّ مَا خَلَقَ",
+    "audioFile": "113-Al-Falaq/113_002.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6227.mp3"
+  },
+  {
+    "key": "113:3",
+    "surahNumber": 113,
+    "surahName": "Al-Falaq",
+    "arabicSurahName": "سُورَةُ الفَلَقِ",
+    "ayahNumber": 3,
+    "text": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+    "audioFile": "113-Al-Falaq/113_003.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6228.mp3"
+  },
+  {
+    "key": "113:4",
+    "surahNumber": 113,
+    "surahName": "Al-Falaq",
+    "arabicSurahName": "سُورَةُ الفَلَقِ",
+    "ayahNumber": 4,
+    "text": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+    "audioFile": "113-Al-Falaq/113_004.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6229.mp3"
+  },
+  {
+    "key": "113:5",
+    "surahNumber": 113,
+    "surahName": "Al-Falaq",
+    "arabicSurahName": "سُورَةُ الفَلَقِ",
+    "ayahNumber": 5,
+    "text": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+    "audioFile": "113-Al-Falaq/113_005.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6230.mp3"
+  }
+]

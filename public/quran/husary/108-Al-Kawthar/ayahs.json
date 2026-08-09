@@ -1,0 +1,32 @@
+[
+  {
+    "key": "108:1",
+    "surahNumber": 108,
+    "surahName": "Al-Kawthar",
+    "arabicSurahName": "سُورَةُ الكَوۡثَرِ",
+    "ayahNumber": 1,
+    "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
+    "audioFile": "108-Al-Kawthar/108_001.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6205.mp3"
+  },
+  {
+    "key": "108:2",
+    "surahNumber": 108,
+    "surahName": "Al-Kawthar",
+    "arabicSurahName": "سُورَةُ الكَوۡثَرِ",
+    "ayahNumber": 2,
+    "text": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+    "audioFile": "108-Al-Kawthar/108_002.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6206.mp3"
+  },
+  {
+    "key": "108:3",
+    "surahNumber": 108,
+    "surahName": "Al-Kawthar",
+    "arabicSurahName": "سُورَةُ الكَوۡثَرِ",
+    "ayahNumber": 3,
+    "text": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+    "audioFile": "108-Al-Kawthar/108_003.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6207.mp3"
+  }
+]

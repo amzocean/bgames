@@ -1,0 +1,62 @@
+[
+  {
+    "key": "114:1",
+    "surahNumber": 114,
+    "surahName": "An-Naas",
+    "arabicSurahName": "سُورَةُ النَّاسِ",
+    "ayahNumber": 1,
+    "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+    "audioFile": "114-An-Naas/114_001.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6231.mp3"
+  },
+  {
+    "key": "114:2",
+    "surahNumber": 114,
+    "surahName": "An-Naas",
+    "arabicSurahName": "سُورَةُ النَّاسِ",
+    "ayahNumber": 2,
+    "text": "مَلِكِ ٱلنَّاسِ",
+    "audioFile": "114-An-Naas/114_002.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6232.mp3"
+  },
+  {
+    "key": "114:3",
+    "surahNumber": 114,
+    "surahName": "An-Naas",
+    "arabicSurahName": "سُورَةُ النَّاسِ",
+    "ayahNumber": 3,
+    "text": "إِلَٰهِ ٱلنَّاسِ",
+    "audioFile": "114-An-Naas/114_003.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6233.mp3"
+  },
+  {
+    "key": "114:4",
+    "surahNumber": 114,
+    "surahName": "An-Naas",
+    "arabicSurahName": "سُورَةُ النَّاسِ",
+    "ayahNumber": 4,
+    "text": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+    "audioFile": "114-An-Naas/114_004.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6234.mp3"
+  },
+  {
+    "key": "114:5",
+    "surahNumber": 114,
+    "surahName": "An-Naas",
+    "arabicSurahName": "سُورَةُ النَّاسِ",
+    "ayahNumber": 5,
+    "text": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+    "audioFile": "114-An-Naas/114_005.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6235.mp3"
+  },
+  {
+    "key": "114:6",
+    "surahNumber": 114,
+    "surahName": "An-Naas",
+    "arabicSurahName": "سُورَةُ النَّاسِ",
+    "ayahNumber": 6,
+    "text": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+    "audioFile": "114-An-Naas/114_006.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6236.mp3"
+  }
+]

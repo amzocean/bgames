@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "Noto Naskh Arabic";
+  src: url("/fonts/NotoNaskhArabic-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Amiri Quran";
+  src: url("/fonts/AmiriQuran-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -311,6 +327,538 @@ button.secondary {
 .tile.small { font-size: 1.3rem; min-height: 68px; }
 .tile.medium { font-size: 2rem; min-height: 86px; }
 .tile.large { font-size: 2.8rem; min-height: 104px; }
+
+.quran-game .play-area {
+  gap: 12px;
+  min-width: 0;
+}
+
+.quran-topbar-tools {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.quran-font-picker {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #24416f;
+  font-size: 0.95rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.quran-font-picker select {
+  min-width: 130px;
+  padding: 8px 10px;
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
+.quran-game .helper {
+  min-height: 2.5em;
+}
+
+.quran-game .mini-tools:empty {
+  display: none;
+}
+
+.surah-choice-grid,
+.hifz-choice-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  flex: 0 1 auto;
+}
+
+.surah-choice,
+.hifz-choice {
+  min-height: 112px;
+  padding: 18px;
+  border: 4px solid #2d64ad;
+  background: #fff;
+  color: #102957;
+  font-size: clamp(1.45rem, 3.4vw, 2.55rem);
+  font-weight: 900;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.hifz-choice-grid.awaiting-audio .hifz-choice {
+  opacity: 0.52;
+  cursor: wait;
+  filter: saturate(0.65);
+}
+
+.surah-choice:focus-visible,
+.hifz-choice:focus-visible,
+.quran-action:focus-visible {
+  outline: 6px solid #ffb000;
+  outline-offset: 4px;
+}
+
+.surah-choice.correct-choice,
+.hifz-choice.correct-choice {
+  border-color: #16753c;
+  background: #dff7e8;
+  color: #0b4b27;
+}
+
+.surah-choice.try-again,
+.hifz-choice.try-again {
+  border-color: #a45b00;
+  background: #fff0ce;
+  color: #663900;
+}
+
+.surah-order-answer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  min-height: 96px;
+}
+
+.surah-order-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 88px;
+  padding: 10px;
+  border: 3px dashed #7aa6dc;
+  border-radius: 16px;
+  background: #f4f9ff;
+  color: #173b70;
+  font-size: clamp(1.05rem, 2.3vw, 1.65rem);
+  font-weight: 900;
+  line-height: 1.15;
+  text-align: center;
+}
+
+.surah-order-slot.filled {
+  border-style: solid;
+  border-color: #16753c;
+  background: #e5f8eb;
+}
+
+.hifz-workspace,
+.surah-order-workspace {
+  display: grid;
+  gap: 16px;
+  min-height: 0;
+}
+
+.hifz-reading-panel,
+.hifz-answer-panel,
+.surah-order-panel {
+  min-width: 0;
+}
+
+.hifz-reading-panel {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto auto;
+  gap: 10px;
+}
+
+.hifz-answer-panel,
+.surah-order-panel {
+  padding: 14px;
+  border: 3px solid #c4ddff;
+  border-radius: 20px;
+  background: #f7fbff;
+}
+
+.hifz-answer-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.surah-order-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.surah-order-panel h2 {
+  margin: 0;
+  color: #173b70;
+  font-size: clamp(1.35rem, 2.2vw, 2rem);
+}
+
+.ayah-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: clamp(220px, 35vh, 430px);
+  padding: clamp(18px, 4vw, 42px);
+  border: 5px solid #235c9f;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: inset 0 0 0 5px #d7e9ff;
+  overflow: auto;
+}
+
+.quran-game .play-area .ayah-text {
+  margin: 0;
+  direction: rtl;
+  font-family: "Noto Naskh Arabic", "Amiri", "Scheherazade New", serif;
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 700;
+  line-height: 1.8;
+  color: #080f1f;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.ayah-boundary {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.ayah-stop {
+  color: #b27600;
+  font-family: "Segoe UI Symbol", sans-serif;
+  font-size: 0.38em;
+  vertical-align: middle;
+}
+
+.quran-game[data-quran-font="mushaf"] .play-area .ayah-text {
+  font-family: "Amiri Quran", "Noto Naskh Arabic", serif;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.quran-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.quran-action {
+  flex: 1 1 190px;
+  min-width: 190px;
+  min-height: 64px;
+  font-size: clamp(1.2rem, 2.5vw, 1.75rem);
+}
+
+.quran-action:disabled {
+  opacity: 0.48;
+  cursor: default;
+}
+
+.hifz-play-area .quran-controls .quran-action {
+  flex-basis: 100%;
+  width: 100%;
+}
+
+.next-ready-action {
+  min-height: 82px;
+  border: 4px solid #166c43;
+  color: #fff;
+  background: linear-gradient(180deg, #2fbd78 0%, #168454 100%);
+  box-shadow: 0 10px 24px #1684544d;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+}
+
+.next-ready-action.show {
+  animation: next-ayah-arrive 0.5s cubic-bezier(0.2, 0.9, 0.25, 1.25);
+}
+
+@keyframes next-ayah-arrive {
+  from { opacity: 0; transform: translateY(24px) scale(0.82); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.quran-reference {
+  min-height: 1.5em;
+  margin: 0;
+  color: #173b70;
+  font-size: clamp(1.25rem, 2.6vw, 1.9rem);
+  font-weight: 900;
+  text-align: center;
+}
+
+.quran-success[hidden] {
+  display: none;
+}
+
+.quran-success {
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 15% 15%, #ffffff38 0 5%, transparent 6%),
+    radial-gradient(circle at 85% 20%, #ffffff2e 0 7%, transparent 8%),
+    linear-gradient(145deg, #063b31 0%, #0c7257 48%, #d6a528 100%);
+}
+
+.quran-success-pattern {
+  position: absolute;
+  inset: -80px;
+  opacity: 0.16;
+  background:
+    repeating-conic-gradient(from 22.5deg, #fff 0 12.5%, transparent 0 25%)
+      0 0 / 100px 100px;
+  animation: quran-pattern-drift 18s linear infinite;
+}
+
+.quran-success-card {
+  position: relative;
+  width: min(820px, 94vw);
+  padding: clamp(28px, 5vw, 64px);
+  overflow: hidden;
+  border: 5px solid #f4d67a;
+  border-radius: 36px;
+  color: #123c34;
+  background: #fffdf3f2;
+  box-shadow: 0 24px 80px #001c1a66, inset 0 0 0 8px #fff5c8;
+  text-align: center;
+  animation: quran-success-arrive 0.65s cubic-bezier(0.2, 0.9, 0.25, 1.2);
+}
+
+.quran-success-kicker {
+  position: relative;
+  margin: 0;
+  color: #8a6500;
+  font-size: clamp(1rem, 1.8vw, 1.35rem);
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.quran-success-arabic {
+  position: relative;
+  margin: 10px 0 0;
+  color: #087052;
+  font-family: "Amiri Quran", "Noto Naskh Arabic", serif;
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  line-height: 1.35;
+}
+
+.quran-success h2 {
+  position: relative;
+  margin: 4px 0 12px;
+  color: #153f37;
+  font-size: clamp(2rem, 4.5vw, 3.8rem);
+  line-height: 1.1;
+}
+
+.quran-success-score {
+  position: relative;
+  margin: 14px 0 8px;
+  color: #b07800;
+  font-size: clamp(2rem, 5vw, 4.25rem);
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.quran-success-detail {
+  position: relative;
+  margin: 0;
+  color: #315f56;
+  font-size: clamp(1.15rem, 2.4vw, 1.75rem);
+  font-weight: 800;
+}
+
+.quran-success-actions {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+}
+
+.quran-success-actions button,
+.quran-success-actions a {
+  min-width: 220px;
+  padding: 16px 22px;
+  border-radius: 16px;
+  font-size: clamp(1.1rem, 2vw, 1.45rem);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.quran-success-actions a {
+  color: #174f43;
+  border: 3px solid #3c8c75;
+  background: #e9fff7;
+}
+
+.quran-success-sparkles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.quran-success-sparkles span {
+  position: absolute;
+  left: var(--sparkle-x);
+  top: var(--sparkle-y);
+  color: #d39a08;
+  font-size: var(--sparkle-size);
+  animation: quran-sparkle 1.8s ease-in-out var(--sparkle-delay) infinite alternate;
+}
+
+.success-theme-emerald {
+  background: linear-gradient(145deg, #052f27 0%, #07805d 55%, #b9e4b7 100%);
+}
+
+.success-theme-gold {
+  background: linear-gradient(145deg, #4b2800 0%, #b56d00 50%, #ffe59a 100%);
+}
+
+.success-theme-night {
+  background: linear-gradient(145deg, #071c46 0%, #193d75 55%, #8e79bd 100%);
+}
+
+.success-theme-night .quran-success-card {
+  box-shadow: 0 24px 80px #020b246b, inset 0 0 0 8px #fff5c8;
+}
+
+@keyframes quran-success-arrive {
+  from { opacity: 0; transform: translateY(40px) scale(0.82) rotate(-1deg); }
+  to { opacity: 1; transform: translateY(0) scale(1) rotate(0); }
+}
+
+@keyframes quran-sparkle {
+  from { opacity: 0.25; transform: translateY(8px) scale(0.7) rotate(-10deg); }
+  to { opacity: 1; transform: translateY(-8px) scale(1.2) rotate(10deg); }
+}
+
+@keyframes quran-pattern-drift {
+  to { transform: rotate(360deg) scale(1.08); }
+}
+
+@media (min-width: 981px) and (min-height: 700px) {
+  .quran-game {
+    overflow: hidden;
+  }
+
+  .quran-game .game-wrap {
+    width: min(1920px, calc(100vw - 24px));
+    height: 100svh;
+    min-height: 0;
+    padding: 8px 0 12px;
+  }
+
+  .quran-game .topbar {
+    flex: 0 0 auto;
+    margin-bottom: 8px;
+  }
+
+  .quran-game .play-area {
+    min-height: 0;
+    padding: clamp(12px, 1.2vw, 20px);
+    overflow: hidden;
+  }
+
+  .quran-game .play-area > #prompt {
+    margin: 0;
+    font-size: clamp(1.25rem, 1.7vw, 2rem);
+    line-height: 1.15;
+  }
+
+  .quran-game .hud {
+    margin: 0;
+  }
+
+  .hifz-workspace {
+    grid-template-columns: minmax(0, 2fr) minmax(320px, 0.82fr);
+    flex: 1;
+  }
+
+  .hifz-answer-panel .helper {
+    margin: 0 0 10px;
+    min-height: 2.6em;
+    font-size: clamp(1.25rem, 1.7vw, 1.8rem);
+    line-height: 1.2;
+  }
+
+  .hifz-choice-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(var(--choice-count, 3), minmax(78px, 1fr));
+    flex: 1 1 auto;
+    align-content: stretch;
+    margin: 0;
+    min-height: 0;
+  }
+
+  .hifz-choice {
+    min-height: 0;
+    font-size: clamp(1.55rem, 2vw, 2.4rem);
+  }
+
+  .ayah-card {
+    min-height: 0;
+    height: 100%;
+    padding: clamp(20px, 3vw, 52px);
+  }
+
+  .quran-game .play-area .ayah-text {
+    font-size: clamp(4.5rem, 6vw, 7.5rem);
+    line-height: 1.65;
+  }
+
+  .quran-game .play-area .ayah-text.long-ayah {
+    font-size: clamp(3.5rem, 4.5vw, 5.5rem);
+  }
+
+  .quran-game .play-area .ayah-text.very-long-ayah {
+    font-size: clamp(2.75rem, 3.5vw, 4.25rem);
+  }
+
+  .quran-game[data-quran-font="mushaf"] .play-area .ayah-text {
+    line-height: 1.85;
+  }
+
+  .quran-controls {
+    flex-wrap: nowrap;
+  }
+
+  .quran-action {
+    min-height: 58px;
+    font-size: clamp(1.1rem, 1.5vw, 1.55rem);
+  }
+
+  .surah-order-workspace {
+    grid-template-columns: minmax(320px, 0.8fr) minmax(0, 1.4fr);
+    flex: 1;
+  }
+
+  .surah-order-panel {
+    min-height: 0;
+  }
+
+  .surah-order-answer {
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(72px, 1fr);
+    flex: 1;
+    min-height: 0;
+  }
+
+  .surah-choice-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(var(--choice-rows, 2), minmax(90px, 1fr));
+    flex: 1 1 auto;
+    align-content: stretch;
+    margin: 0;
+    min-height: 0;
+  }
+
+  .surah-choice {
+    min-height: 0;
+  }
+
+  .surah-order-panel > .quran-action {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
 
 .bigger-icon,
 .category-icon,
@@ -904,6 +1452,42 @@ canvas {
     grid-template-columns: 1fr;
   }
 
+  @media (max-width: 600px) {
+    .quran-game .topbar {
+      flex-wrap: wrap;
+    }
+
+    .quran-game .topbar > * {
+      min-width: 0;
+    }
+
+    .quran-game .sound-toggle {
+      font-size: 0.8rem;
+    }
+
+    .ayah-card {
+      min-height: 190px;
+      padding: 14px;
+    }
+
+    .quran-game .play-area .ayah-text {
+      font-size: clamp(2.35rem, 12vw, 4rem);
+      line-height: 1.65;
+      max-width: 100%;
+    }
+
+    .surah-choice,
+    .hifz-choice {
+      min-height: 96px;
+    }
+
+    .quran-action {
+      flex-basis: 100%;
+      width: 100%;
+      min-width: 0;
+    }
+  }
+
   .mode-tile {
     min-height: 210px;
   }
@@ -924,5 +1508,14 @@ canvas {
 
   .category-buckets {
     grid-template-columns: 1fr;
+  }
+
+  .surah-choice-grid,
+  .hifz-choice-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .surah-order-answer {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

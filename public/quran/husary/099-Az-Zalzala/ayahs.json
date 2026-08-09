@@ -1,0 +1,82 @@
+[
+  {
+    "key": "99:1",
+    "surahNumber": 99,
+    "surahName": "Az-Zalzala",
+    "arabicSurahName": "سُورَةُ الزَّلۡزَلَةِ",
+    "ayahNumber": 1,
+    "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
+    "audioFile": "099-Az-Zalzala/099_001.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6139.mp3"
+  },
+  {
+    "key": "99:2",
+    "surahNumber": 99,
+    "surahName": "Az-Zalzala",
+    "arabicSurahName": "سُورَةُ الزَّلۡزَلَةِ",
+    "ayahNumber": 2,
+    "text": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
+    "audioFile": "099-Az-Zalzala/099_002.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6140.mp3"
+  },
+  {
+    "key": "99:3",
+    "surahNumber": 99,
+    "surahName": "Az-Zalzala",
+    "arabicSurahName": "سُورَةُ الزَّلۡزَلَةِ",
+    "ayahNumber": 3,
+    "text": "وَقَالَ ٱلْإِنسَٰنُ مَا لَهَا",
+    "audioFile": "099-Az-Zalzala/099_003.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6141.mp3"
+  },
+  {
+    "key": "99:4",
+    "surahNumber": 99,
+    "surahName": "Az-Zalzala",
+    "arabicSurahName": "سُورَةُ الزَّلۡزَلَةِ",
+    "ayahNumber": 4,
+    "text": "يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا",
+    "audioFile": "099-Az-Zalzala/099_004.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6142.mp3"
+  },
+  {
+    "key": "99:5",
+    "surahNumber": 99,
+    "surahName": "Az-Zalzala",
+    "arabicSurahName": "سُورَةُ الزَّلۡزَلَةِ",
+    "ayahNumber": 5,
+    "text": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
+    "audioFile": "099-Az-Zalzala/099_005.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6143.mp3"
+  },
+  {
+    "key": "99:6",
+    "surahNumber": 99,
+    "surahName": "Az-Zalzala",
+    "arabicSurahName": "سُورَةُ الزَّلۡزَلَةِ",
+    "ayahNumber": 6,
+    "text": "يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ",
+    "audioFile": "099-Az-Zalzala/099_006.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6144.mp3"
+  },
+  {
+    "key": "99:7",
+    "surahNumber": 99,
+    "surahName": "Az-Zalzala",
+    "arabicSurahName": "سُورَةُ الزَّلۡزَلَةِ",
+    "ayahNumber": 7,
+    "text": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ",
+    "audioFile": "099-Az-Zalzala/099_007.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6145.mp3"
+  },
+  {
+    "key": "99:8",
+    "surahNumber": 99,
+    "surahName": "Az-Zalzala",
+    "arabicSurahName": "سُورَةُ الزَّلۡزَلَةِ",
+    "ayahNumber": 8,
+    "text": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ",
+    "audioFile": "099-Az-Zalzala/099_008.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6146.mp3"
+  }
+]

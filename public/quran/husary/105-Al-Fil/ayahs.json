@@ -1,0 +1,52 @@
+[
+  {
+    "key": "105:1",
+    "surahNumber": 105,
+    "surahName": "Al-Fil",
+    "arabicSurahName": "سُورَةُ الفِيلِ",
+    "ayahNumber": 1,
+    "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
+    "audioFile": "105-Al-Fil/105_001.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6189.mp3"
+  },
+  {
+    "key": "105:2",
+    "surahNumber": 105,
+    "surahName": "Al-Fil",
+    "arabicSurahName": "سُورَةُ الفِيلِ",
+    "ayahNumber": 2,
+    "text": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ",
+    "audioFile": "105-Al-Fil/105_002.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6190.mp3"
+  },
+  {
+    "key": "105:3",
+    "surahNumber": 105,
+    "surahName": "Al-Fil",
+    "arabicSurahName": "سُورَةُ الفِيلِ",
+    "ayahNumber": 3,
+    "text": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+    "audioFile": "105-Al-Fil/105_003.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6191.mp3"
+  },
+  {
+    "key": "105:4",
+    "surahNumber": 105,
+    "surahName": "Al-Fil",
+    "arabicSurahName": "سُورَةُ الفِيلِ",
+    "ayahNumber": 4,
+    "text": "تَرْمِيهِم بِحِجَارَةٍۢ مِّن سِجِّيلٍۢ",
+    "audioFile": "105-Al-Fil/105_004.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6192.mp3"
+  },
+  {
+    "key": "105:5",
+    "surahNumber": 105,
+    "surahName": "Al-Fil",
+    "arabicSurahName": "سُورَةُ الفِيلِ",
+    "ayahNumber": 5,
+    "text": "فَجَعَلَهُمْ كَعَصْفٍۢ مَّأْكُولٍۭ",
+    "audioFile": "105-Al-Fil/105_005.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6193.mp3"
+  }
+]

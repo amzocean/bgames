@@ -52,8 +52,13 @@ bgames/
 │   ├── styles.css     # Shared UI styles
 │   ├── sound.js       # Shared sound toggle + audio helpers
 │   ├── Good2.mp3      # Shared win / success audio
+│   ├── fonts/
+│   │   ├── NotoNaskhArabic-VariableFont_wght.ttf
+│   │   └── NotoNaskhArabic-OFL.txt
 │   ├── solo/
 │   │   ├── index.html
+│   │   ├── surah-order.html / surah-order.js
+│   │   ├── hifz-quiz.html / hifz-quiz.js
 │   │   ├── detective.html / detective.js
 │   │   ├── memory.html / memory.js
 │   │   ├── hunt.html / hunt.js
@@ -68,6 +73,11 @@ bgames/
 │   │   ├── mirror.html / mirror.js
 │   │   ├── rhythm.html / rhythm.js
 │   │   └── categories.html / categories.js
+│   ├── quran/
+│   │   ├── surah-range.js
+│   │   └── husary/
+│   │       ├── manifest.json
+│   │       └── 083-Al-Mutaffifin/ ... 114-An-Naas/
 │   └── papa/
 │       ├── index.html
 │       ├── tictactoe.html / tictactoe.js
@@ -105,6 +115,8 @@ All games are client-side and use local state only.
 
 ### Solo games
 
+- **Surah Order** — arrange short contiguous groups of known surahs in reverse Mushaf order, beginning from the An-Nas direction
+- **Hifz Quiz** — listen to and read a random known ayah, then identify its surah
 - **Detective Find-It** — icon search and completion celebration
 - **Memory Cards** — picture matching with peek time and streak feedback
 - **Letter/Number Hunt** — visual scanning game
@@ -129,7 +141,145 @@ All games are client-side and use local state only.
 - **Memory Cards** — two-player live sync via Socket.IO room state
 - **Drawing Guessing** — shared drawing canvas with live stroke sync and shared prompts
 
-## 7. Current Implementation Status
+## 7. Quran Memorization Games
+
+These games combine Quran memorization practice with the same accessible visual design used throughout BGames. They are designed for a seven-year-old learner who benefits from large, uncluttered, high-contrast presentation. They are educational practice activities, not a replacement for instruction from a parent or Quran teacher.
+
+### Shared learning range
+
+- Surahs **114 through 83**, from **An-Nas** back to **Al-Mutaffifin**
+- Reverse learning order follows the learner's memorization direction: An-Nas, Al-Falaq, Al-Ikhlas, and onward
+- The range contains **32 surahs and 388 ayat**
+- Arabic text uses the Uthmani edition returned by AlQuran Cloud
+- Audio uses Mahmoud Khalil Al-Husary's verse-by-verse recitation (`ar.husary`)
+- Text and audio are downloaded ahead of time and served locally from `public/quran/husary/`
+- The first ayah audio/text is preserved exactly as supplied by the source, including Bismillah where present
+
+Local assets avoid runtime API delays, CORS failures, service outages, and inconsistent audio loading. `manifest.json` is the canonical game index and maps every ayah to its surah metadata, exact Arabic text, and local MP3 path.
+
+### Accessibility requirements
+
+- Arabic ayah text must be right-to-left, centered, high contrast, and rendered at a tablet-friendly size
+- Use a Quran-appropriate Arabic font stack with generous line height; do not compress or truncate text
+- Surah choices must use large text buttons with generous spacing
+- The bundled Noto Naskh Arabic font keeps Quran text consistent across tablets
+- Never rely on color alone to indicate state
+- No countdown timers or speed penalties
+- Audio can be replayed without limit
+- Wrong answers receive gentle guidance and keep the learner in the same round
+- Correct answers use positive sound feedback without overlapping the Quran recitation
+- Existing `bgames:difficulty` settings control the number of choices, not text size; Quran text remains large at every level
+
+### Surah Order
+
+#### Concept
+
+Surah Order teaches the reverse sequence used by the learner, starting from the An-Nas direction. Each round selects a contiguous group from the known range, shuffles the names, and asks the learner to tap them in the correct reverse Mushaf order.
+
+The game does not show surah numbers while the round is active because descending numbers would reveal the answer. After completion, the ordered sequence may show its numbers as confirmation.
+
+#### Difficulty
+
+- **Large:** 3 surahs
+- **Medium:** 4 surahs
+- **Small:** 5 surahs
+
+The shared difficulty names describe the general BGames tile-density convention: Large is the easiest mode with the fewest, largest choices.
+
+#### Round behavior
+
+1. Select a contiguous sequence from surahs 114–83.
+2. Shuffle its visible choices.
+3. Ask the learner to tap from the An-Nas direction.
+4. Move each correct choice into a clearly numbered answer row.
+5. On a wrong choice, keep the round intact and prompt the learner to try again.
+6. Keep **Next Group** hidden while the sequence is active.
+7. On completion, reveal the canonical numbers, celebrate, and show a large animated **Next Group** action.
+8. Speak the simplified set instruction once per 10-group set, without attempting to pronounce “An-Nas”; do not repeat it for every group.
+
+#### Implementation
+
+- Static client-side HTML and JavaScript
+- No server or Socket.IO state
+- Shared surah names and reverse order live in `public/quran/surah-range.js`
+- Uses shared sound helpers and `bgames:difficulty`
+- Touch-first buttons; no drag-and-drop requirement
+
+### Hifz Quiz
+
+#### Concept
+
+Hifz Quiz selects an ayah from the local known-range manifest, displays its Arabic text in large bold type, plays its recitation, and asks which surah contains it. Very short ayat are paired with an adjacent ayah from the same surah.
+
+#### Difficulty
+
+- **Large:** 3 surah choices
+- **Medium:** 4 surah choices
+- **Small:** 5 surah choices
+
+All distractors must be different surahs from the known range. Choice order is randomized every round.
+
+#### Round behavior
+
+1. Load and validate `public/quran/husary/manifest.json`.
+2. Select a random ayah, avoiding an immediate repeat.
+3. Pair a very short ayah with an adjacent ayah from the same surah.
+4. Display the exact Uthmani Arabic text with `dir="rtl"`.
+5. Load the matching local Husary MP3 or consecutive MP3s and attempt playback.
+6. If browser autoplay is blocked, clearly prompt the learner to tap the play button.
+7. Allow unlimited replay.
+8. Keep surah choices disabled until the audio element reports that the complete passage has ended; paired ayat unlock only after both recordings finish.
+9. Present large surah-name choices without displaying the correct surah elsewhere.
+10. Show one large **Replay** button while the question is active.
+11. A wrong answer remains disabled, but the remaining choices stay available immediately; replay occurs only when the learner explicitly selects **Replay**.
+12. A correct answer reveals the ayah reference, replaces **Replay** with a large animated **Next Ayah** action, and gives positive feedback.
+
+#### Ten-challenge sets
+
+- Each Hifz Quiz or Surah Order session contains 10 scored challenges.
+- Accuracy is the percentage completed without a wrong choice.
+- After challenge 10, a randomized Quran-themed reward screen shows `Solved with X% accuracy!`.
+- Reward themes vary between moon, star, geometric, emerald, gold, and night-sky treatments.
+- The Quran games use synthesized celebration tones and do not play the personal `Good2.mp3` victory recording.
+
+#### Data integrity
+
+The download/build process must fail if:
+
+- a requested surah or ayah is missing
+- text and audio ayah numbers do not align
+- an audio download is empty or suspiciously small
+- the final count is not exactly 32 surahs and 388 ayat
+- an audio filename or manifest key is duplicated
+
+The app must surface manifest or audio failures to the user rather than silently substituting another ayah.
+
+#### Implementation
+
+- Static client-side HTML and JavaScript
+- `fetch('/quran/husary/manifest.json')` loads local metadata
+- The browser `Audio` API plays local verse files
+- While the learner answers the current question, the next passage audio is fetched into in-memory blob URLs so **Next Ayah** does not wait on a new server request
+- Prepared blob URLs are revoked when consumed, replaced, or abandoned to avoid accumulating browser memory
+- No live Quran API is required during gameplay
+- Arabic uses the bundled Noto Naskh Arabic variable font with a large responsive size and strong foreground/background contrast
+
+### Quran data provenance
+
+- Metadata and Uthmani text: [AlQuran Cloud](https://alquran.cloud/api)
+- Verse audio CDN: Islamic Network, referenced by AlQuran Cloud
+- Reciter: Mahmoud Khalil Al-Husary
+
+Quran text must be preserved exactly as downloaded. Source and reciter metadata remain in the manifest for traceability.
+
+## 8. Current Implementation Status
+
+### Quran learning games (implemented)
+
+- Surah Order is implemented and wired into `/solo/index.html`.
+- Hifz Quiz is implemented and wired into `/solo/index.html`.
+- Both games cover surahs 114–83 and use the shared accessibility and difficulty conventions above.
+- Hifz Quiz uses the checked-in local Husary ayah collection and does not require a live Quran API.
 
 ### Phase 1 (implemented)
 
@@ -150,13 +300,13 @@ These are now wired into `/solo/index.html` and follow the same shared sound and
 - Quick Categories is now implemented and wired into `/solo/index.html`.
 - Catch the Star and Falling Treasure are now implemented and wired into `/solo/index.html`.
 
-## 8. UI and Layout
+## 9. UI and Layout
 
 - App pages are now configured to use near full-viewport layout for tablet play.
 - Layout remains responsive and collapses to single-column on smaller screens.
 - Existing large touch targets and high-contrast visual style are preserved.
 
-## 9. Realtime Notes
+## 10. Realtime Notes
 
 - Socket namespace: `/papa`
 - Room key format: `game:roomCode` (for example `tictactoe:family1`)
@@ -181,7 +331,7 @@ These are now wired into `/solo/index.html` and follow the same shared sound and
 - Clients send card flip requests and restart requests
 - Server resolves match logic and broadcasts the canonical board state
 
-## 10. Shared UI Conventions
+## 11. Shared UI Conventions
 
 - **Big tile-first layout** for iPad-friendly touch input
 - **Positive feedback only**; no harsh failure language
@@ -193,7 +343,7 @@ Sound state is saved in:
 
 - `bgames:soundOn`
 
-## 11. Next Plan
+## 12. Next Plan
 
 Planned next solo batch (from the implementation plan):
 

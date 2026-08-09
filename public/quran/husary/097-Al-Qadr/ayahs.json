@@ -1,0 +1,52 @@
+[
+  {
+    "key": "97:1",
+    "surahNumber": 97,
+    "surahName": "Al-Qadr",
+    "arabicSurahName": "سُورَةُ القَدۡرِ",
+    "ayahNumber": 1,
+    "text": "بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةِ ٱلْقَدْرِ",
+    "audioFile": "097-Al-Qadr/097_001.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6126.mp3"
+  },
+  {
+    "key": "97:2",
+    "surahNumber": 97,
+    "surahName": "Al-Qadr",
+    "arabicSurahName": "سُورَةُ القَدۡرِ",
+    "ayahNumber": 2,
+    "text": "وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ",
+    "audioFile": "097-Al-Qadr/097_002.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6127.mp3"
+  },
+  {
+    "key": "97:3",
+    "surahNumber": 97,
+    "surahName": "Al-Qadr",
+    "arabicSurahName": "سُورَةُ القَدۡرِ",
+    "ayahNumber": 3,
+    "text": "لَيْلَةُ ٱلْقَدْرِ خَيْرٌۭ مِّنْ أَلْفِ شَهْرٍۢ",
+    "audioFile": "097-Al-Qadr/097_003.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6128.mp3"
+  },
+  {
+    "key": "97:4",
+    "surahNumber": 97,
+    "surahName": "Al-Qadr",
+    "arabicSurahName": "سُورَةُ القَدۡرِ",
+    "ayahNumber": 4,
+    "text": "تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍۢ",
+    "audioFile": "097-Al-Qadr/097_004.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6129.mp3"
+  },
+  {
+    "key": "97:5",
+    "surahNumber": 97,
+    "surahName": "Al-Qadr",
+    "arabicSurahName": "سُورَةُ القَدۡرِ",
+    "ayahNumber": 5,
+    "text": "سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
+    "audioFile": "097-Al-Qadr/097_005.mp3",
+    "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6130.mp3"
+  }
+]

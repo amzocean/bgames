@@ -1,0 +1,4118 @@
+{
+  "source": "AlQuran Cloud / Islamic Network CDN",
+  "reciter": "Mahmoud Khalil Al-Husary",
+  "reciterEdition": "ar.husary",
+  "textEdition": "quran-uthmani",
+  "firstSurah": 83,
+  "lastSurah": 114,
+  "surahCount": 32,
+  "ayahCount": 388,
+  "surahs": [
+    {
+      "number": 83,
+      "name": "Al-Mutaffifin",
+      "arabicName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahCount": 36,
+      "folder": "083-Al-Mutaffifin"
+    },
+    {
+      "number": 84,
+      "name": "Al-Inshiqaaq",
+      "arabicName": "سُورَةُ الانشِقَاقِ",
+      "ayahCount": 25,
+      "folder": "084-Al-Inshiqaaq"
+    },
+    {
+      "number": 85,
+      "name": "Al-Burooj",
+      "arabicName": "سُورَةُ البُرُوجِ",
+      "ayahCount": 22,
+      "folder": "085-Al-Burooj"
+    },
+    {
+      "number": 86,
+      "name": "At-Taariq",
+      "arabicName": "سُورَةُ الطَّارِقِ",
+      "ayahCount": 17,
+      "folder": "086-At-Taariq"
+    },
+    {
+      "number": 87,
+      "name": "Al-A'laa",
+      "arabicName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahCount": 19,
+      "folder": "087-Al-A-laa"
+    },
+    {
+      "number": 88,
+      "name": "Al-Ghaashiya",
+      "arabicName": "سُورَةُ الغَاشِيَةِ",
+      "ayahCount": 26,
+      "folder": "088-Al-Ghaashiya"
+    },
+    {
+      "number": 89,
+      "name": "Al-Fajr",
+      "arabicName": "سُورَةُ الفَجۡرِ",
+      "ayahCount": 30,
+      "folder": "089-Al-Fajr"
+    },
+    {
+      "number": 90,
+      "name": "Al-Balad",
+      "arabicName": "سُورَةُ البَلَدِ",
+      "ayahCount": 20,
+      "folder": "090-Al-Balad"
+    },
+    {
+      "number": 91,
+      "name": "Ash-Shams",
+      "arabicName": "سُورَةُ الشَّمۡسِ",
+      "ayahCount": 15,
+      "folder": "091-Ash-Shams"
+    },
+    {
+      "number": 92,
+      "name": "Al-Lail",
+      "arabicName": "سُورَةُ اللَّيۡلِ",
+      "ayahCount": 21,
+      "folder": "092-Al-Lail"
+    },
+    {
+      "number": 93,
+      "name": "Ad-Dhuhaa",
+      "arabicName": "سُورَةُ الضُّحَىٰ",
+      "ayahCount": 11,
+      "folder": "093-Ad-Dhuhaa"
+    },
+    {
+      "number": 94,
+      "name": "Ash-Sharh",
+      "arabicName": "سُورَةُ الشَّرۡحِ",
+      "ayahCount": 8,
+      "folder": "094-Ash-Sharh"
+    },
+    {
+      "number": 95,
+      "name": "At-Tin",
+      "arabicName": "سُورَةُ التِّينِ",
+      "ayahCount": 8,
+      "folder": "095-At-Tin"
+    },
+    {
+      "number": 96,
+      "name": "Al-Alaq",
+      "arabicName": "سُورَةُ العَلَقِ",
+      "ayahCount": 19,
+      "folder": "096-Al-Alaq"
+    },
+    {
+      "number": 97,
+      "name": "Al-Qadr",
+      "arabicName": "سُورَةُ القَدۡرِ",
+      "ayahCount": 5,
+      "folder": "097-Al-Qadr"
+    },
+    {
+      "number": 98,
+      "name": "Al-Bayyina",
+      "arabicName": "سُورَةُ البَيِّنَةِ",
+      "ayahCount": 8,
+      "folder": "098-Al-Bayyina"
+    },
+    {
+      "number": 99,
+      "name": "Az-Zalzala",
+      "arabicName": "سُورَةُ الزَّلۡزَلَةِ",
+      "ayahCount": 8,
+      "folder": "099-Az-Zalzala"
+    },
+    {
+      "number": 100,
+      "name": "Al-Aadiyaat",
+      "arabicName": "سُورَةُ العَادِيَاتِ",
+      "ayahCount": 11,
+      "folder": "100-Al-Aadiyaat"
+    },
+    {
+      "number": 101,
+      "name": "Al-Qaari'a",
+      "arabicName": "سُورَةُ القَارِعَةِ",
+      "ayahCount": 11,
+      "folder": "101-Al-Qaari-a"
+    },
+    {
+      "number": 102,
+      "name": "At-Takaathur",
+      "arabicName": "سُورَةُ التَّكَاثُرِ",
+      "ayahCount": 8,
+      "folder": "102-At-Takaathur"
+    },
+    {
+      "number": 103,
+      "name": "Al-Asr",
+      "arabicName": "سُورَةُ العَصۡرِ",
+      "ayahCount": 3,
+      "folder": "103-Al-Asr"
+    },
+    {
+      "number": 104,
+      "name": "Al-Humaza",
+      "arabicName": "سُورَةُ الهُمَزَةِ",
+      "ayahCount": 9,
+      "folder": "104-Al-Humaza"
+    },
+    {
+      "number": 105,
+      "name": "Al-Fil",
+      "arabicName": "سُورَةُ الفِيلِ",
+      "ayahCount": 5,
+      "folder": "105-Al-Fil"
+    },
+    {
+      "number": 106,
+      "name": "Quraish",
+      "arabicName": "سُورَةُ قُرَيۡشٍ",
+      "ayahCount": 4,
+      "folder": "106-Quraish"
+    },
+    {
+      "number": 107,
+      "name": "Al-Maa'un",
+      "arabicName": "سُورَةُ المَاعُونِ",
+      "ayahCount": 7,
+      "folder": "107-Al-Maa-un"
+    },
+    {
+      "number": 108,
+      "name": "Al-Kawthar",
+      "arabicName": "سُورَةُ الكَوۡثَرِ",
+      "ayahCount": 3,
+      "folder": "108-Al-Kawthar"
+    },
+    {
+      "number": 109,
+      "name": "Al-Kaafiroon",
+      "arabicName": "سُورَةُ الكَافِرُونَ",
+      "ayahCount": 6,
+      "folder": "109-Al-Kaafiroon"
+    },
+    {
+      "number": 110,
+      "name": "An-Nasr",
+      "arabicName": "سُورَةُ النَّصۡرِ",
+      "ayahCount": 3,
+      "folder": "110-An-Nasr"
+    },
+    {
+      "number": 111,
+      "name": "Al-Masad",
+      "arabicName": "سُورَةُ المَسَدِ",
+      "ayahCount": 5,
+      "folder": "111-Al-Masad"
+    },
+    {
+      "number": 112,
+      "name": "Al-Ikhlaas",
+      "arabicName": "سُورَةُ الإِخۡلَاصِ",
+      "ayahCount": 4,
+      "folder": "112-Al-Ikhlaas"
+    },
+    {
+      "number": 113,
+      "name": "Al-Falaq",
+      "arabicName": "سُورَةُ الفَلَقِ",
+      "ayahCount": 5,
+      "folder": "113-Al-Falaq"
+    },
+    {
+      "number": 114,
+      "name": "An-Naas",
+      "arabicName": "سُورَةُ النَّاسِ",
+      "ayahCount": 6,
+      "folder": "114-An-Naas"
+    }
+  ],
+  "ayahs": [
+    {
+      "key": "83:1",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَيْلٌۭ لِّلْمُطَفِّفِينَ",
+      "audioFile": "083-Al-Mutaffifin/083_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5849.mp3"
+    },
+    {
+      "key": "83:2",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 2,
+      "text": "ٱلَّذِينَ إِذَا ٱكْتَالُوا۟ عَلَى ٱلنَّاسِ يَسْتَوْفُونَ",
+      "audioFile": "083-Al-Mutaffifin/083_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5850.mp3"
+    },
+    {
+      "key": "83:3",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 3,
+      "text": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ",
+      "audioFile": "083-Al-Mutaffifin/083_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5851.mp3"
+    },
+    {
+      "key": "83:4",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 4,
+      "text": "أَلَا يَظُنُّ أُو۟لَٰٓئِكَ أَنَّهُم مَّبْعُوثُونَ",
+      "audioFile": "083-Al-Mutaffifin/083_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5852.mp3"
+    },
+    {
+      "key": "83:5",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 5,
+      "text": "لِيَوْمٍ عَظِيمٍۢ",
+      "audioFile": "083-Al-Mutaffifin/083_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5853.mp3"
+    },
+    {
+      "key": "83:6",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 6,
+      "text": "يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَٰلَمِينَ",
+      "audioFile": "083-Al-Mutaffifin/083_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5854.mp3"
+    },
+    {
+      "key": "83:7",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 7,
+      "text": "كَلَّآ إِنَّ كِتَٰبَ ٱلْفُجَّارِ لَفِى سِجِّينٍۢ",
+      "audioFile": "083-Al-Mutaffifin/083_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5855.mp3"
+    },
+    {
+      "key": "83:8",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 8,
+      "text": "وَمَآ أَدْرَىٰكَ مَا سِجِّينٌۭ",
+      "audioFile": "083-Al-Mutaffifin/083_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5856.mp3"
+    },
+    {
+      "key": "83:9",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 9,
+      "text": "كِتَٰبٌۭ مَّرْقُومٌۭ",
+      "audioFile": "083-Al-Mutaffifin/083_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5857.mp3"
+    },
+    {
+      "key": "83:10",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 10,
+      "text": "وَيْلٌۭ يَوْمَئِذٍۢ لِّلْمُكَذِّبِينَ",
+      "audioFile": "083-Al-Mutaffifin/083_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5858.mp3"
+    },
+    {
+      "key": "83:11",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 11,
+      "text": "ٱلَّذِينَ يُكَذِّبُونَ بِيَوْمِ ٱلدِّينِ",
+      "audioFile": "083-Al-Mutaffifin/083_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5859.mp3"
+    },
+    {
+      "key": "83:12",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 12,
+      "text": "وَمَا يُكَذِّبُ بِهِۦٓ إِلَّا كُلُّ مُعْتَدٍ أَثِيمٍ",
+      "audioFile": "083-Al-Mutaffifin/083_012.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5860.mp3"
+    },
+    {
+      "key": "83:13",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 13,
+      "text": "إِذَا تُتْلَىٰ عَلَيْهِ ءَايَٰتُنَا قَالَ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+      "audioFile": "083-Al-Mutaffifin/083_013.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5861.mp3"
+    },
+    {
+      "key": "83:14",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 14,
+      "text": "كَلَّا ۖ بَلْ ۜ رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُوا۟ يَكْسِبُونَ",
+      "audioFile": "083-Al-Mutaffifin/083_014.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5862.mp3"
+    },
+    {
+      "key": "83:15",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 15,
+      "text": "كَلَّآ إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍۢ لَّمَحْجُوبُونَ",
+      "audioFile": "083-Al-Mutaffifin/083_015.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5863.mp3"
+    },
+    {
+      "key": "83:16",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 16,
+      "text": "ثُمَّ إِنَّهُمْ لَصَالُوا۟ ٱلْجَحِيمِ",
+      "audioFile": "083-Al-Mutaffifin/083_016.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5864.mp3"
+    },
+    {
+      "key": "83:17",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 17,
+      "text": "ثُمَّ يُقَالُ هَٰذَا ٱلَّذِى كُنتُم بِهِۦ تُكَذِّبُونَ",
+      "audioFile": "083-Al-Mutaffifin/083_017.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5865.mp3"
+    },
+    {
+      "key": "83:18",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 18,
+      "text": "كَلَّآ إِنَّ كِتَٰبَ ٱلْأَبْرَارِ لَفِى عِلِّيِّينَ",
+      "audioFile": "083-Al-Mutaffifin/083_018.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5866.mp3"
+    },
+    {
+      "key": "83:19",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 19,
+      "text": "وَمَآ أَدْرَىٰكَ مَا عِلِّيُّونَ",
+      "audioFile": "083-Al-Mutaffifin/083_019.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5867.mp3"
+    },
+    {
+      "key": "83:20",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 20,
+      "text": "كِتَٰبٌۭ مَّرْقُومٌۭ",
+      "audioFile": "083-Al-Mutaffifin/083_020.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5868.mp3"
+    },
+    {
+      "key": "83:21",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 21,
+      "text": "يَشْهَدُهُ ٱلْمُقَرَّبُونَ",
+      "audioFile": "083-Al-Mutaffifin/083_021.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5869.mp3"
+    },
+    {
+      "key": "83:22",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 22,
+      "text": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍ",
+      "audioFile": "083-Al-Mutaffifin/083_022.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5870.mp3"
+    },
+    {
+      "key": "83:23",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 23,
+      "text": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ",
+      "audioFile": "083-Al-Mutaffifin/083_023.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5871.mp3"
+    },
+    {
+      "key": "83:24",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 24,
+      "text": "تَعْرِفُ فِى وُجُوهِهِمْ نَضْرَةَ ٱلنَّعِيمِ",
+      "audioFile": "083-Al-Mutaffifin/083_024.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5872.mp3"
+    },
+    {
+      "key": "83:25",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 25,
+      "text": "يُسْقَوْنَ مِن رَّحِيقٍۢ مَّخْتُومٍ",
+      "audioFile": "083-Al-Mutaffifin/083_025.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5873.mp3"
+    },
+    {
+      "key": "83:26",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 26,
+      "text": "خِتَٰمُهُۥ مِسْكٌۭ ۚ وَفِى ذَٰلِكَ فَلْيَتَنَافَسِ ٱلْمُتَنَٰفِسُونَ",
+      "audioFile": "083-Al-Mutaffifin/083_026.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5874.mp3"
+    },
+    {
+      "key": "83:27",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 27,
+      "text": "وَمِزَاجُهُۥ مِن تَسْنِيمٍ",
+      "audioFile": "083-Al-Mutaffifin/083_027.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5875.mp3"
+    },
+    {
+      "key": "83:28",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 28,
+      "text": "عَيْنًۭا يَشْرَبُ بِهَا ٱلْمُقَرَّبُونَ",
+      "audioFile": "083-Al-Mutaffifin/083_028.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5876.mp3"
+    },
+    {
+      "key": "83:29",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 29,
+      "text": "إِنَّ ٱلَّذِينَ أَجْرَمُوا۟ كَانُوا۟ مِنَ ٱلَّذِينَ ءَامَنُوا۟ يَضْحَكُونَ",
+      "audioFile": "083-Al-Mutaffifin/083_029.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5877.mp3"
+    },
+    {
+      "key": "83:30",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 30,
+      "text": "وَإِذَا مَرُّوا۟ بِهِمْ يَتَغَامَزُونَ",
+      "audioFile": "083-Al-Mutaffifin/083_030.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5878.mp3"
+    },
+    {
+      "key": "83:31",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 31,
+      "text": "وَإِذَا ٱنقَلَبُوٓا۟ إِلَىٰٓ أَهْلِهِمُ ٱنقَلَبُوا۟ فَكِهِينَ",
+      "audioFile": "083-Al-Mutaffifin/083_031.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5879.mp3"
+    },
+    {
+      "key": "83:32",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 32,
+      "text": "وَإِذَا رَأَوْهُمْ قَالُوٓا۟ إِنَّ هَٰٓؤُلَآءِ لَضَآلُّونَ",
+      "audioFile": "083-Al-Mutaffifin/083_032.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5880.mp3"
+    },
+    {
+      "key": "83:33",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 33,
+      "text": "وَمَآ أُرْسِلُوا۟ عَلَيْهِمْ حَٰفِظِينَ",
+      "audioFile": "083-Al-Mutaffifin/083_033.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5881.mp3"
+    },
+    {
+      "key": "83:34",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 34,
+      "text": "فَٱلْيَوْمَ ٱلَّذِينَ ءَامَنُوا۟ مِنَ ٱلْكُفَّارِ يَضْحَكُونَ",
+      "audioFile": "083-Al-Mutaffifin/083_034.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5882.mp3"
+    },
+    {
+      "key": "83:35",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 35,
+      "text": "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ",
+      "audioFile": "083-Al-Mutaffifin/083_035.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5883.mp3"
+    },
+    {
+      "key": "83:36",
+      "surahNumber": 83,
+      "surahName": "Al-Mutaffifin",
+      "arabicSurahName": "سُورَةُ المُطَفِّفِينَ",
+      "ayahNumber": 36,
+      "text": "هَلْ ثُوِّبَ ٱلْكُفَّارُ مَا كَانُوا۟ يَفْعَلُونَ",
+      "audioFile": "083-Al-Mutaffifin/083_036.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5884.mp3"
+    },
+    {
+      "key": "84:1",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا ٱلسَّمَآءُ ٱنشَقَّتْ",
+      "audioFile": "084-Al-Inshiqaaq/084_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5885.mp3"
+    },
+    {
+      "key": "84:2",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 2,
+      "text": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+      "audioFile": "084-Al-Inshiqaaq/084_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5886.mp3"
+    },
+    {
+      "key": "84:3",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 3,
+      "text": "وَإِذَا ٱلْأَرْضُ مُدَّتْ",
+      "audioFile": "084-Al-Inshiqaaq/084_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5887.mp3"
+    },
+    {
+      "key": "84:4",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 4,
+      "text": "وَأَلْقَتْ مَا فِيهَا وَتَخَلَّتْ",
+      "audioFile": "084-Al-Inshiqaaq/084_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5888.mp3"
+    },
+    {
+      "key": "84:5",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 5,
+      "text": "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+      "audioFile": "084-Al-Inshiqaaq/084_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5889.mp3"
+    },
+    {
+      "key": "84:6",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 6,
+      "text": "يَٰٓأَيُّهَا ٱلْإِنسَٰنُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًۭا فَمُلَٰقِيهِ",
+      "audioFile": "084-Al-Inshiqaaq/084_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5890.mp3"
+    },
+    {
+      "key": "84:7",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 7,
+      "text": "فَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ بِيَمِينِهِۦ",
+      "audioFile": "084-Al-Inshiqaaq/084_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5891.mp3"
+    },
+    {
+      "key": "84:8",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 8,
+      "text": "فَسَوْفَ يُحَاسَبُ حِسَابًۭا يَسِيرًۭا",
+      "audioFile": "084-Al-Inshiqaaq/084_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5892.mp3"
+    },
+    {
+      "key": "84:9",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 9,
+      "text": "وَيَنقَلِبُ إِلَىٰٓ أَهْلِهِۦ مَسْرُورًۭا",
+      "audioFile": "084-Al-Inshiqaaq/084_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5893.mp3"
+    },
+    {
+      "key": "84:10",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 10,
+      "text": "وَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ وَرَآءَ ظَهْرِهِۦ",
+      "audioFile": "084-Al-Inshiqaaq/084_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5894.mp3"
+    },
+    {
+      "key": "84:11",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 11,
+      "text": "فَسَوْفَ يَدْعُوا۟ ثُبُورًۭا",
+      "audioFile": "084-Al-Inshiqaaq/084_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5895.mp3"
+    },
+    {
+      "key": "84:12",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 12,
+      "text": "وَيَصْلَىٰ سَعِيرًا",
+      "audioFile": "084-Al-Inshiqaaq/084_012.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5896.mp3"
+    },
+    {
+      "key": "84:13",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 13,
+      "text": "إِنَّهُۥ كَانَ فِىٓ أَهْلِهِۦ مَسْرُورًا",
+      "audioFile": "084-Al-Inshiqaaq/084_013.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5897.mp3"
+    },
+    {
+      "key": "84:14",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 14,
+      "text": "إِنَّهُۥ ظَنَّ أَن لَّن يَحُورَ",
+      "audioFile": "084-Al-Inshiqaaq/084_014.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5898.mp3"
+    },
+    {
+      "key": "84:15",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 15,
+      "text": "بَلَىٰٓ إِنَّ رَبَّهُۥ كَانَ بِهِۦ بَصِيرًۭا",
+      "audioFile": "084-Al-Inshiqaaq/084_015.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5899.mp3"
+    },
+    {
+      "key": "84:16",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 16,
+      "text": "فَلَآ أُقْسِمُ بِٱلشَّفَقِ",
+      "audioFile": "084-Al-Inshiqaaq/084_016.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5900.mp3"
+    },
+    {
+      "key": "84:17",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 17,
+      "text": "وَٱلَّيْلِ وَمَا وَسَقَ",
+      "audioFile": "084-Al-Inshiqaaq/084_017.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5901.mp3"
+    },
+    {
+      "key": "84:18",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 18,
+      "text": "وَٱلْقَمَرِ إِذَا ٱتَّسَقَ",
+      "audioFile": "084-Al-Inshiqaaq/084_018.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5902.mp3"
+    },
+    {
+      "key": "84:19",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 19,
+      "text": "لَتَرْكَبُنَّ طَبَقًا عَن طَبَقٍۢ",
+      "audioFile": "084-Al-Inshiqaaq/084_019.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5903.mp3"
+    },
+    {
+      "key": "84:20",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 20,
+      "text": "فَمَا لَهُمْ لَا يُؤْمِنُونَ",
+      "audioFile": "084-Al-Inshiqaaq/084_020.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5904.mp3"
+    },
+    {
+      "key": "84:21",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 21,
+      "text": "وَإِذَا قُرِئَ عَلَيْهِمُ ٱلْقُرْءَانُ لَا يَسْجُدُونَ ۩",
+      "audioFile": "084-Al-Inshiqaaq/084_021.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5905.mp3"
+    },
+    {
+      "key": "84:22",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 22,
+      "text": "بَلِ ٱلَّذِينَ كَفَرُوا۟ يُكَذِّبُونَ",
+      "audioFile": "084-Al-Inshiqaaq/084_022.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5906.mp3"
+    },
+    {
+      "key": "84:23",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 23,
+      "text": "وَٱللَّهُ أَعْلَمُ بِمَا يُوعُونَ",
+      "audioFile": "084-Al-Inshiqaaq/084_023.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5907.mp3"
+    },
+    {
+      "key": "84:24",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 24,
+      "text": "فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
+      "audioFile": "084-Al-Inshiqaaq/084_024.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5908.mp3"
+    },
+    {
+      "key": "84:25",
+      "surahNumber": 84,
+      "surahName": "Al-Inshiqaaq",
+      "arabicSurahName": "سُورَةُ الانشِقَاقِ",
+      "ayahNumber": 25,
+      "text": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۭ",
+      "audioFile": "084-Al-Inshiqaaq/084_025.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5909.mp3"
+    },
+    {
+      "key": "85:1",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ",
+      "audioFile": "085-Al-Burooj/085_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5910.mp3"
+    },
+    {
+      "key": "85:2",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 2,
+      "text": "وَٱلْيَوْمِ ٱلْمَوْعُودِ",
+      "audioFile": "085-Al-Burooj/085_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5911.mp3"
+    },
+    {
+      "key": "85:3",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 3,
+      "text": "وَشَاهِدٍۢ وَمَشْهُودٍۢ",
+      "audioFile": "085-Al-Burooj/085_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5912.mp3"
+    },
+    {
+      "key": "85:4",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 4,
+      "text": "قُتِلَ أَصْحَٰبُ ٱلْأُخْدُودِ",
+      "audioFile": "085-Al-Burooj/085_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5913.mp3"
+    },
+    {
+      "key": "85:5",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 5,
+      "text": "ٱلنَّارِ ذَاتِ ٱلْوَقُودِ",
+      "audioFile": "085-Al-Burooj/085_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5914.mp3"
+    },
+    {
+      "key": "85:6",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 6,
+      "text": "إِذْ هُمْ عَلَيْهَا قُعُودٌۭ",
+      "audioFile": "085-Al-Burooj/085_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5915.mp3"
+    },
+    {
+      "key": "85:7",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 7,
+      "text": "وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِٱلْمُؤْمِنِينَ شُهُودٌۭ",
+      "audioFile": "085-Al-Burooj/085_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5916.mp3"
+    },
+    {
+      "key": "85:8",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 8,
+      "text": "وَمَا نَقَمُوا۟ مِنْهُمْ إِلَّآ أَن يُؤْمِنُوا۟ بِٱللَّهِ ٱلْعَزِيزِ ٱلْحَمِيدِ",
+      "audioFile": "085-Al-Burooj/085_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5917.mp3"
+    },
+    {
+      "key": "85:9",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 9,
+      "text": "ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍۢ شَهِيدٌ",
+      "audioFile": "085-Al-Burooj/085_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5918.mp3"
+    },
+    {
+      "key": "85:10",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 10,
+      "text": "إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ ٱلْحَرِيقِ",
+      "audioFile": "085-Al-Burooj/085_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5919.mp3"
+    },
+    {
+      "key": "85:11",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 11,
+      "text": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُمْ جَنَّٰتٌۭ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ",
+      "audioFile": "085-Al-Burooj/085_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5920.mp3"
+    },
+    {
+      "key": "85:12",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 12,
+      "text": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ",
+      "audioFile": "085-Al-Burooj/085_012.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5921.mp3"
+    },
+    {
+      "key": "85:13",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 13,
+      "text": "إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ",
+      "audioFile": "085-Al-Burooj/085_013.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5922.mp3"
+    },
+    {
+      "key": "85:14",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 14,
+      "text": "وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ",
+      "audioFile": "085-Al-Burooj/085_014.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5923.mp3"
+    },
+    {
+      "key": "85:15",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 15,
+      "text": "ذُو ٱلْعَرْشِ ٱلْمَجِيدُ",
+      "audioFile": "085-Al-Burooj/085_015.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5924.mp3"
+    },
+    {
+      "key": "85:16",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 16,
+      "text": "فَعَّالٌۭ لِّمَا يُرِيدُ",
+      "audioFile": "085-Al-Burooj/085_016.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5925.mp3"
+    },
+    {
+      "key": "85:17",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 17,
+      "text": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْجُنُودِ",
+      "audioFile": "085-Al-Burooj/085_017.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5926.mp3"
+    },
+    {
+      "key": "85:18",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 18,
+      "text": "فِرْعَوْنَ وَثَمُودَ",
+      "audioFile": "085-Al-Burooj/085_018.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5927.mp3"
+    },
+    {
+      "key": "85:19",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 19,
+      "text": "بَلِ ٱلَّذِينَ كَفَرُوا۟ فِى تَكْذِيبٍۢ",
+      "audioFile": "085-Al-Burooj/085_019.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5928.mp3"
+    },
+    {
+      "key": "85:20",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 20,
+      "text": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطٌۢ",
+      "audioFile": "085-Al-Burooj/085_020.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5929.mp3"
+    },
+    {
+      "key": "85:21",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 21,
+      "text": "بَلْ هُوَ قُرْءَانٌۭ مَّجِيدٌۭ",
+      "audioFile": "085-Al-Burooj/085_021.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5930.mp3"
+    },
+    {
+      "key": "85:22",
+      "surahNumber": 85,
+      "surahName": "Al-Burooj",
+      "arabicSurahName": "سُورَةُ البُرُوجِ",
+      "ayahNumber": 22,
+      "text": "فِى لَوْحٍۢ مَّحْفُوظٍۭ",
+      "audioFile": "085-Al-Burooj/085_022.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5931.mp3"
+    },
+    {
+      "key": "86:1",
+      "surahNumber": 86,
+      "surahName": "At-Taariq",
+      "arabicSurahName": "سُورَةُ الطَّارِقِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلسَّمَآءِ وَٱلطَّارِقِ",
+      "audioFile": "086-At-Taariq/086_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5932.mp3"
+    },
+    {
+      "key": "86:2",
+      "surahNumber": 86,
+      "surahName": "At-Taariq",
+      "arabicSurahName": "سُورَةُ الطَّارِقِ",
+      "ayahNumber": 2,
+      "text": "وَمَآ أَدْرَىٰكَ مَا ٱلطَّارِقُ",
+      "audioFile": "086-At-Taariq/086_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5933.mp3"
+    },
+    {
+      "key": "86:3",
+      "surahNumber": 86,
+      "surahName": "At-Taariq",
+      "arabicSurahName": "سُورَةُ الطَّارِقِ",
+      "ayahNumber": 3,
+      "text": "ٱلنَّجْمُ ٱلثَّاقِبُ",
+      "audioFile": "086-At-Taariq/086_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5934.mp3"
+    },
+    {
+      "key": "86:4",
+      "surahNumber": 86,
+      "surahName": "At-Taariq",
+      "arabicSurahName": "سُورَةُ الطَّارِقِ",
+      "ayahNumber": 4,
+      "text": "إِن كُلُّ نَفْسٍۢ لَّمَّا عَلَيْهَا حَافِظٌۭ",
+      "audioFile": "086-At-Taariq/086_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5935.mp3"
+    },
+    {
+      "key": "86:5",
+      "surahNumber": 86,
+      "surahName": "At-Taariq",
+      "arabicSurahName": "سُورَةُ الطَّارِقِ",
+      "ayahNumber": 5,
+      "text": "فَلْيَنظُرِ ٱلْإِنسَٰنُ مِمَّ خُلِقَ",
+      "audioFile": "086-At-Taariq/086_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5936.mp3"
+    },
+    {
+      "key": "86:6",
+      "surahNumber": 86,
+      "surahName": "At-Taariq",
+      "arabicSurahName": "سُورَةُ الطَّارِقِ",
+      "ayahNumber": 6,
+      "text": "خُلِقَ مِن مَّآءٍۢ دَافِقٍۢ",
+      "audioFile": "086-At-Taariq/086_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5937.mp3"
+    },
+    {
+      "key": "86:7",
+      "surahNumber": 86,
+      "surahName": "At-Taariq",
+      "arabicSurahName": "سُورَةُ الطَّارِقِ",
+      "ayahNumber": 7,
+      "text": "يَخْرُجُ مِنۢ بَيْنِ ٱلصُّلْبِ وَٱلتَّرَآئِبِ",
+      "audioFile": "086-At-Taariq/086_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5938.mp3"
+    },
+    {
+      "key": "86:8",
+      "surahNumber": 86,
+      "surahName": "At-Taariq",
+      "arabicSurahName": "سُورَةُ الطَّارِقِ",
+      "ayahNumber": 8,
+      "text": "إِنَّهُۥ عَلَىٰ رَجْعِهِۦ لَقَادِرٌۭ",
+      "audioFile": "086-At-Taariq/086_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5939.mp3"
+    },
+    {
+      "key": "86:9",
+      "surahNumber": 86,
+      "surahName": "At-Taariq",
+      "arabicSurahName": "سُورَةُ الطَّارِقِ",
+      "ayahNumber": 9,
+      "text": "يَوْمَ تُبْلَى ٱلسَّرَآئِرُ",
+      "audioFile": "086-At-Taariq/086_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5940.mp3"
+    },
+    {
+      "key": "86:10",
+      "surahNumber": 86,
+      "surahName": "At-Taariq",
+      "arabicSurahName": "سُورَةُ الطَّارِقِ",
+      "ayahNumber": 10,
+      "text": "فَمَا لَهُۥ مِن قُوَّةٍۢ وَلَا نَاصِرٍۢ",
+      "audioFile": "086-At-Taariq/086_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5941.mp3"
+    },
+    {
+      "key": "86:11",
+      "surahNumber": 86,
+      "surahName": "At-Taariq",
+      "arabicSurahName": "سُورَةُ الطَّارِقِ",
+      "ayahNumber": 11,
+      "text": "وَٱلسَّمَآءِ ذَاتِ ٱلرَّجْعِ",
+      "audioFile": "086-At-Taariq/086_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5942.mp3"
+    },
+    {
+      "key": "86:12",
+      "surahNumber": 86,
+      "surahName": "At-Taariq",
+      "arabicSurahName": "سُورَةُ الطَّارِقِ",
+      "ayahNumber": 12,
+      "text": "وَٱلْأَرْضِ ذَاتِ ٱلصَّدْعِ",
+      "audioFile": "086-At-Taariq/086_012.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5943.mp3"
+    },
+    {
+      "key": "86:13",
+      "surahNumber": 86,
+      "surahName": "At-Taariq",
+      "arabicSurahName": "سُورَةُ الطَّارِقِ",
+      "ayahNumber": 13,
+      "text": "إِنَّهُۥ لَقَوْلٌۭ فَصْلٌۭ",
+      "audioFile": "086-At-Taariq/086_013.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5944.mp3"
+    },
+    {
+      "key": "86:14",
+      "surahNumber": 86,
+      "surahName": "At-Taariq",
+      "arabicSurahName": "سُورَةُ الطَّارِقِ",
+      "ayahNumber": 14,
+      "text": "وَمَا هُوَ بِٱلْهَزْلِ",
+      "audioFile": "086-At-Taariq/086_014.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5945.mp3"
+    },
+    {
+      "key": "86:15",
+      "surahNumber": 86,
+      "surahName": "At-Taariq",
+      "arabicSurahName": "سُورَةُ الطَّارِقِ",
+      "ayahNumber": 15,
+      "text": "إِنَّهُمْ يَكِيدُونَ كَيْدًۭا",
+      "audioFile": "086-At-Taariq/086_015.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5946.mp3"
+    },
+    {
+      "key": "86:16",
+      "surahNumber": 86,
+      "surahName": "At-Taariq",
+      "arabicSurahName": "سُورَةُ الطَّارِقِ",
+      "ayahNumber": 16,
+      "text": "وَأَكِيدُ كَيْدًۭا",
+      "audioFile": "086-At-Taariq/086_016.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5947.mp3"
+    },
+    {
+      "key": "86:17",
+      "surahNumber": 86,
+      "surahName": "At-Taariq",
+      "arabicSurahName": "سُورَةُ الطَّارِقِ",
+      "ayahNumber": 17,
+      "text": "فَمَهِّلِ ٱلْكَٰفِرِينَ أَمْهِلْهُمْ رُوَيْدًۢا",
+      "audioFile": "086-At-Taariq/086_017.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5948.mp3"
+    },
+    {
+      "key": "87:1",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى",
+      "audioFile": "087-Al-A-laa/087_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5949.mp3"
+    },
+    {
+      "key": "87:2",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 2,
+      "text": "ٱلَّذِى خَلَقَ فَسَوَّىٰ",
+      "audioFile": "087-Al-A-laa/087_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5950.mp3"
+    },
+    {
+      "key": "87:3",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 3,
+      "text": "وَٱلَّذِى قَدَّرَ فَهَدَىٰ",
+      "audioFile": "087-Al-A-laa/087_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5951.mp3"
+    },
+    {
+      "key": "87:4",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 4,
+      "text": "وَٱلَّذِىٓ أَخْرَجَ ٱلْمَرْعَىٰ",
+      "audioFile": "087-Al-A-laa/087_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5952.mp3"
+    },
+    {
+      "key": "87:5",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 5,
+      "text": "فَجَعَلَهُۥ غُثَآءً أَحْوَىٰ",
+      "audioFile": "087-Al-A-laa/087_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5953.mp3"
+    },
+    {
+      "key": "87:6",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 6,
+      "text": "سَنُقْرِئُكَ فَلَا تَنسَىٰٓ",
+      "audioFile": "087-Al-A-laa/087_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5954.mp3"
+    },
+    {
+      "key": "87:7",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 7,
+      "text": "إِلَّا مَا شَآءَ ٱللَّهُ ۚ إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ وَمَا يَخْفَىٰ",
+      "audioFile": "087-Al-A-laa/087_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5955.mp3"
+    },
+    {
+      "key": "87:8",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 8,
+      "text": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ",
+      "audioFile": "087-Al-A-laa/087_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5956.mp3"
+    },
+    {
+      "key": "87:9",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 9,
+      "text": "فَذَكِّرْ إِن نَّفَعَتِ ٱلذِّكْرَىٰ",
+      "audioFile": "087-Al-A-laa/087_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5957.mp3"
+    },
+    {
+      "key": "87:10",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 10,
+      "text": "سَيَذَّكَّرُ مَن يَخْشَىٰ",
+      "audioFile": "087-Al-A-laa/087_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5958.mp3"
+    },
+    {
+      "key": "87:11",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 11,
+      "text": "وَيَتَجَنَّبُهَا ٱلْأَشْقَى",
+      "audioFile": "087-Al-A-laa/087_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5959.mp3"
+    },
+    {
+      "key": "87:12",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 12,
+      "text": "ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ",
+      "audioFile": "087-Al-A-laa/087_012.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5960.mp3"
+    },
+    {
+      "key": "87:13",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 13,
+      "text": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ",
+      "audioFile": "087-Al-A-laa/087_013.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5961.mp3"
+    },
+    {
+      "key": "87:14",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 14,
+      "text": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ",
+      "audioFile": "087-Al-A-laa/087_014.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5962.mp3"
+    },
+    {
+      "key": "87:15",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 15,
+      "text": "وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ",
+      "audioFile": "087-Al-A-laa/087_015.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5963.mp3"
+    },
+    {
+      "key": "87:16",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 16,
+      "text": "بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+      "audioFile": "087-Al-A-laa/087_016.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5964.mp3"
+    },
+    {
+      "key": "87:17",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 17,
+      "text": "وَٱلْءَاخِرَةُ خَيْرٌۭ وَأَبْقَىٰٓ",
+      "audioFile": "087-Al-A-laa/087_017.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5965.mp3"
+    },
+    {
+      "key": "87:18",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 18,
+      "text": "إِنَّ هَٰذَا لَفِى ٱلصُّحُفِ ٱلْأُولَىٰ",
+      "audioFile": "087-Al-A-laa/087_018.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5966.mp3"
+    },
+    {
+      "key": "87:19",
+      "surahNumber": 87,
+      "surahName": "Al-A'laa",
+      "arabicSurahName": "سُورَةُ الأَعۡلَىٰ",
+      "ayahNumber": 19,
+      "text": "صُحُفِ إِبْرَٰهِيمَ وَمُوسَىٰ",
+      "audioFile": "087-Al-A-laa/087_019.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5967.mp3"
+    },
+    {
+      "key": "88:1",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَٰشِيَةِ",
+      "audioFile": "088-Al-Ghaashiya/088_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5968.mp3"
+    },
+    {
+      "key": "88:2",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 2,
+      "text": "وُجُوهٌۭ يَوْمَئِذٍ خَٰشِعَةٌ",
+      "audioFile": "088-Al-Ghaashiya/088_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5969.mp3"
+    },
+    {
+      "key": "88:3",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 3,
+      "text": "عَامِلَةٌۭ نَّاصِبَةٌۭ",
+      "audioFile": "088-Al-Ghaashiya/088_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5970.mp3"
+    },
+    {
+      "key": "88:4",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 4,
+      "text": "تَصْلَىٰ نَارًا حَامِيَةًۭ",
+      "audioFile": "088-Al-Ghaashiya/088_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5971.mp3"
+    },
+    {
+      "key": "88:5",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 5,
+      "text": "تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍۢ",
+      "audioFile": "088-Al-Ghaashiya/088_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5972.mp3"
+    },
+    {
+      "key": "88:6",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 6,
+      "text": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍۢ",
+      "audioFile": "088-Al-Ghaashiya/088_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5973.mp3"
+    },
+    {
+      "key": "88:7",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 7,
+      "text": "لَّا يُسْمِنُ وَلَا يُغْنِى مِن جُوعٍۢ",
+      "audioFile": "088-Al-Ghaashiya/088_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5974.mp3"
+    },
+    {
+      "key": "88:8",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 8,
+      "text": "وُجُوهٌۭ يَوْمَئِذٍۢ نَّاعِمَةٌۭ",
+      "audioFile": "088-Al-Ghaashiya/088_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5975.mp3"
+    },
+    {
+      "key": "88:9",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 9,
+      "text": "لِّسَعْيِهَا رَاضِيَةٌۭ",
+      "audioFile": "088-Al-Ghaashiya/088_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5976.mp3"
+    },
+    {
+      "key": "88:10",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 10,
+      "text": "فِى جَنَّةٍ عَالِيَةٍۢ",
+      "audioFile": "088-Al-Ghaashiya/088_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5977.mp3"
+    },
+    {
+      "key": "88:11",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 11,
+      "text": "لَّا تَسْمَعُ فِيهَا لَٰغِيَةًۭ",
+      "audioFile": "088-Al-Ghaashiya/088_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5978.mp3"
+    },
+    {
+      "key": "88:12",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 12,
+      "text": "فِيهَا عَيْنٌۭ جَارِيَةٌۭ",
+      "audioFile": "088-Al-Ghaashiya/088_012.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5979.mp3"
+    },
+    {
+      "key": "88:13",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 13,
+      "text": "فِيهَا سُرُرٌۭ مَّرْفُوعَةٌۭ",
+      "audioFile": "088-Al-Ghaashiya/088_013.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5980.mp3"
+    },
+    {
+      "key": "88:14",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 14,
+      "text": "وَأَكْوَابٌۭ مَّوْضُوعَةٌۭ",
+      "audioFile": "088-Al-Ghaashiya/088_014.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5981.mp3"
+    },
+    {
+      "key": "88:15",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 15,
+      "text": "وَنَمَارِقُ مَصْفُوفَةٌۭ",
+      "audioFile": "088-Al-Ghaashiya/088_015.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5982.mp3"
+    },
+    {
+      "key": "88:16",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 16,
+      "text": "وَزَرَابِىُّ مَبْثُوثَةٌ",
+      "audioFile": "088-Al-Ghaashiya/088_016.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5983.mp3"
+    },
+    {
+      "key": "88:17",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 17,
+      "text": "أَفَلَا يَنظُرُونَ إِلَى ٱلْإِبِلِ كَيْفَ خُلِقَتْ",
+      "audioFile": "088-Al-Ghaashiya/088_017.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5984.mp3"
+    },
+    {
+      "key": "88:18",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 18,
+      "text": "وَإِلَى ٱلسَّمَآءِ كَيْفَ رُفِعَتْ",
+      "audioFile": "088-Al-Ghaashiya/088_018.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5985.mp3"
+    },
+    {
+      "key": "88:19",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 19,
+      "text": "وَإِلَى ٱلْجِبَالِ كَيْفَ نُصِبَتْ",
+      "audioFile": "088-Al-Ghaashiya/088_019.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5986.mp3"
+    },
+    {
+      "key": "88:20",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 20,
+      "text": "وَإِلَى ٱلْأَرْضِ كَيْفَ سُطِحَتْ",
+      "audioFile": "088-Al-Ghaashiya/088_020.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5987.mp3"
+    },
+    {
+      "key": "88:21",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 21,
+      "text": "فَذَكِّرْ إِنَّمَآ أَنتَ مُذَكِّرٌۭ",
+      "audioFile": "088-Al-Ghaashiya/088_021.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5988.mp3"
+    },
+    {
+      "key": "88:22",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 22,
+      "text": "لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ",
+      "audioFile": "088-Al-Ghaashiya/088_022.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5989.mp3"
+    },
+    {
+      "key": "88:23",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 23,
+      "text": "إِلَّا مَن تَوَلَّىٰ وَكَفَرَ",
+      "audioFile": "088-Al-Ghaashiya/088_023.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5990.mp3"
+    },
+    {
+      "key": "88:24",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 24,
+      "text": "فَيُعَذِّبُهُ ٱللَّهُ ٱلْعَذَابَ ٱلْأَكْبَرَ",
+      "audioFile": "088-Al-Ghaashiya/088_024.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5991.mp3"
+    },
+    {
+      "key": "88:25",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 25,
+      "text": "إِنَّ إِلَيْنَآ إِيَابَهُمْ",
+      "audioFile": "088-Al-Ghaashiya/088_025.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5992.mp3"
+    },
+    {
+      "key": "88:26",
+      "surahNumber": 88,
+      "surahName": "Al-Ghaashiya",
+      "arabicSurahName": "سُورَةُ الغَاشِيَةِ",
+      "ayahNumber": 26,
+      "text": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم",
+      "audioFile": "088-Al-Ghaashiya/088_026.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5993.mp3"
+    },
+    {
+      "key": "89:1",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
+      "audioFile": "089-Al-Fajr/089_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5994.mp3"
+    },
+    {
+      "key": "89:2",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 2,
+      "text": "وَلَيَالٍ عَشْرٍۢ",
+      "audioFile": "089-Al-Fajr/089_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5995.mp3"
+    },
+    {
+      "key": "89:3",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 3,
+      "text": "وَٱلشَّفْعِ وَٱلْوَتْرِ",
+      "audioFile": "089-Al-Fajr/089_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5996.mp3"
+    },
+    {
+      "key": "89:4",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 4,
+      "text": "وَٱلَّيْلِ إِذَا يَسْرِ",
+      "audioFile": "089-Al-Fajr/089_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5997.mp3"
+    },
+    {
+      "key": "89:5",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 5,
+      "text": "هَلْ فِى ذَٰلِكَ قَسَمٌۭ لِّذِى حِجْرٍ",
+      "audioFile": "089-Al-Fajr/089_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5998.mp3"
+    },
+    {
+      "key": "89:6",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 6,
+      "text": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ",
+      "audioFile": "089-Al-Fajr/089_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/5999.mp3"
+    },
+    {
+      "key": "89:7",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 7,
+      "text": "إِرَمَ ذَاتِ ٱلْعِمَادِ",
+      "audioFile": "089-Al-Fajr/089_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6000.mp3"
+    },
+    {
+      "key": "89:8",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 8,
+      "text": "ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَٰدِ",
+      "audioFile": "089-Al-Fajr/089_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6001.mp3"
+    },
+    {
+      "key": "89:9",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 9,
+      "text": "وَثَمُودَ ٱلَّذِينَ جَابُوا۟ ٱلصَّخْرَ بِٱلْوَادِ",
+      "audioFile": "089-Al-Fajr/089_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6002.mp3"
+    },
+    {
+      "key": "89:10",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 10,
+      "text": "وَفِرْعَوْنَ ذِى ٱلْأَوْتَادِ",
+      "audioFile": "089-Al-Fajr/089_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6003.mp3"
+    },
+    {
+      "key": "89:11",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 11,
+      "text": "ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَٰدِ",
+      "audioFile": "089-Al-Fajr/089_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6004.mp3"
+    },
+    {
+      "key": "89:12",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 12,
+      "text": "فَأَكْثَرُوا۟ فِيهَا ٱلْفَسَادَ",
+      "audioFile": "089-Al-Fajr/089_012.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6005.mp3"
+    },
+    {
+      "key": "89:13",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 13,
+      "text": "فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ",
+      "audioFile": "089-Al-Fajr/089_013.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6006.mp3"
+    },
+    {
+      "key": "89:14",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 14,
+      "text": "إِنَّ رَبَّكَ لَبِٱلْمِرْصَادِ",
+      "audioFile": "089-Al-Fajr/089_014.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6007.mp3"
+    },
+    {
+      "key": "89:15",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 15,
+      "text": "فَأَمَّا ٱلْإِنسَٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ",
+      "audioFile": "089-Al-Fajr/089_015.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6008.mp3"
+    },
+    {
+      "key": "89:16",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 16,
+      "text": "وَأَمَّآ إِذَا مَا ٱبْتَلَىٰهُ فَقَدَرَ عَلَيْهِ رِزْقَهُۥ فَيَقُولُ رَبِّىٓ أَهَٰنَنِ",
+      "audioFile": "089-Al-Fajr/089_016.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6009.mp3"
+    },
+    {
+      "key": "89:17",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 17,
+      "text": "كَلَّا ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ",
+      "audioFile": "089-Al-Fajr/089_017.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6010.mp3"
+    },
+    {
+      "key": "89:18",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 18,
+      "text": "وَلَا تَحَٰٓضُّونَ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+      "audioFile": "089-Al-Fajr/089_018.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6011.mp3"
+    },
+    {
+      "key": "89:19",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 19,
+      "text": "وَتَأْكُلُونَ ٱلتُّرَاثَ أَكْلًۭا لَّمًّۭا",
+      "audioFile": "089-Al-Fajr/089_019.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6012.mp3"
+    },
+    {
+      "key": "89:20",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 20,
+      "text": "وَتُحِبُّونَ ٱلْمَالَ حُبًّۭا جَمًّۭا",
+      "audioFile": "089-Al-Fajr/089_020.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6013.mp3"
+    },
+    {
+      "key": "89:21",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 21,
+      "text": "كَلَّآ إِذَا دُكَّتِ ٱلْأَرْضُ دَكًّۭا دَكًّۭا",
+      "audioFile": "089-Al-Fajr/089_021.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6014.mp3"
+    },
+    {
+      "key": "89:22",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 22,
+      "text": "وَجَآءَ رَبُّكَ وَٱلْمَلَكُ صَفًّۭا صَفًّۭا",
+      "audioFile": "089-Al-Fajr/089_022.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6015.mp3"
+    },
+    {
+      "key": "89:23",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 23,
+      "text": "وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍۢ يَتَذَكَّرُ ٱلْإِنسَٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ",
+      "audioFile": "089-Al-Fajr/089_023.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6016.mp3"
+    },
+    {
+      "key": "89:24",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 24,
+      "text": "يَقُولُ يَٰلَيْتَنِى قَدَّمْتُ لِحَيَاتِى",
+      "audioFile": "089-Al-Fajr/089_024.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6017.mp3"
+    },
+    {
+      "key": "89:25",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 25,
+      "text": "فَيَوْمَئِذٍۢ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٌۭ",
+      "audioFile": "089-Al-Fajr/089_025.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6018.mp3"
+    },
+    {
+      "key": "89:26",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 26,
+      "text": "وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٌۭ",
+      "audioFile": "089-Al-Fajr/089_026.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6019.mp3"
+    },
+    {
+      "key": "89:27",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 27,
+      "text": "يَٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ",
+      "audioFile": "089-Al-Fajr/089_027.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6020.mp3"
+    },
+    {
+      "key": "89:28",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 28,
+      "text": "ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةًۭ مَّرْضِيَّةًۭ",
+      "audioFile": "089-Al-Fajr/089_028.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6021.mp3"
+    },
+    {
+      "key": "89:29",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 29,
+      "text": "فَٱدْخُلِى فِى عِبَٰدِى",
+      "audioFile": "089-Al-Fajr/089_029.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6022.mp3"
+    },
+    {
+      "key": "89:30",
+      "surahNumber": 89,
+      "surahName": "Al-Fajr",
+      "arabicSurahName": "سُورَةُ الفَجۡرِ",
+      "ayahNumber": 30,
+      "text": "وَٱدْخُلِى جَنَّتِى",
+      "audioFile": "089-Al-Fajr/089_030.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6023.mp3"
+    },
+    {
+      "key": "90:1",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ لَآ أُقْسِمُ بِهَٰذَا ٱلْبَلَدِ",
+      "audioFile": "090-Al-Balad/090_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6024.mp3"
+    },
+    {
+      "key": "90:2",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 2,
+      "text": "وَأَنتَ حِلٌّۢ بِهَٰذَا ٱلْبَلَدِ",
+      "audioFile": "090-Al-Balad/090_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6025.mp3"
+    },
+    {
+      "key": "90:3",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 3,
+      "text": "وَوَالِدٍۢ وَمَا وَلَدَ",
+      "audioFile": "090-Al-Balad/090_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6026.mp3"
+    },
+    {
+      "key": "90:4",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 4,
+      "text": "لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِى كَبَدٍ",
+      "audioFile": "090-Al-Balad/090_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6027.mp3"
+    },
+    {
+      "key": "90:5",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 5,
+      "text": "أَيَحْسَبُ أَن لَّن يَقْدِرَ عَلَيْهِ أَحَدٌۭ",
+      "audioFile": "090-Al-Balad/090_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6028.mp3"
+    },
+    {
+      "key": "90:6",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 6,
+      "text": "يَقُولُ أَهْلَكْتُ مَالًۭا لُّبَدًا",
+      "audioFile": "090-Al-Balad/090_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6029.mp3"
+    },
+    {
+      "key": "90:7",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 7,
+      "text": "أَيَحْسَبُ أَن لَّمْ يَرَهُۥٓ أَحَدٌ",
+      "audioFile": "090-Al-Balad/090_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6030.mp3"
+    },
+    {
+      "key": "90:8",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 8,
+      "text": "أَلَمْ نَجْعَل لَّهُۥ عَيْنَيْنِ",
+      "audioFile": "090-Al-Balad/090_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6031.mp3"
+    },
+    {
+      "key": "90:9",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 9,
+      "text": "وَلِسَانًۭا وَشَفَتَيْنِ",
+      "audioFile": "090-Al-Balad/090_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6032.mp3"
+    },
+    {
+      "key": "90:10",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 10,
+      "text": "وَهَدَيْنَٰهُ ٱلنَّجْدَيْنِ",
+      "audioFile": "090-Al-Balad/090_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6033.mp3"
+    },
+    {
+      "key": "90:11",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 11,
+      "text": "فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ",
+      "audioFile": "090-Al-Balad/090_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6034.mp3"
+    },
+    {
+      "key": "90:12",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 12,
+      "text": "وَمَآ أَدْرَىٰكَ مَا ٱلْعَقَبَةُ",
+      "audioFile": "090-Al-Balad/090_012.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6035.mp3"
+    },
+    {
+      "key": "90:13",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 13,
+      "text": "فَكُّ رَقَبَةٍ",
+      "audioFile": "090-Al-Balad/090_013.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6036.mp3"
+    },
+    {
+      "key": "90:14",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 14,
+      "text": "أَوْ إِطْعَٰمٌۭ فِى يَوْمٍۢ ذِى مَسْغَبَةٍۢ",
+      "audioFile": "090-Al-Balad/090_014.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6037.mp3"
+    },
+    {
+      "key": "90:15",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 15,
+      "text": "يَتِيمًۭا ذَا مَقْرَبَةٍ",
+      "audioFile": "090-Al-Balad/090_015.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6038.mp3"
+    },
+    {
+      "key": "90:16",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 16,
+      "text": "أَوْ مِسْكِينًۭا ذَا مَتْرَبَةٍۢ",
+      "audioFile": "090-Al-Balad/090_016.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6039.mp3"
+    },
+    {
+      "key": "90:17",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 17,
+      "text": "ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ",
+      "audioFile": "090-Al-Balad/090_017.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6040.mp3"
+    },
+    {
+      "key": "90:18",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 18,
+      "text": "أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْمَيْمَنَةِ",
+      "audioFile": "090-Al-Balad/090_018.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6041.mp3"
+    },
+    {
+      "key": "90:19",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 19,
+      "text": "وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِنَا هُمْ أَصْحَٰبُ ٱلْمَشْـَٔمَةِ",
+      "audioFile": "090-Al-Balad/090_019.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6042.mp3"
+    },
+    {
+      "key": "90:20",
+      "surahNumber": 90,
+      "surahName": "Al-Balad",
+      "arabicSurahName": "سُورَةُ البَلَدِ",
+      "ayahNumber": 20,
+      "text": "عَلَيْهِمْ نَارٌۭ مُّؤْصَدَةٌۢ",
+      "audioFile": "090-Al-Balad/090_020.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6043.mp3"
+    },
+    {
+      "key": "91:1",
+      "surahNumber": 91,
+      "surahName": "Ash-Shams",
+      "arabicSurahName": "سُورَةُ الشَّمۡسِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلشَّمْسِ وَضُحَىٰهَا",
+      "audioFile": "091-Ash-Shams/091_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6044.mp3"
+    },
+    {
+      "key": "91:2",
+      "surahNumber": 91,
+      "surahName": "Ash-Shams",
+      "arabicSurahName": "سُورَةُ الشَّمۡسِ",
+      "ayahNumber": 2,
+      "text": "وَٱلْقَمَرِ إِذَا تَلَىٰهَا",
+      "audioFile": "091-Ash-Shams/091_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6045.mp3"
+    },
+    {
+      "key": "91:3",
+      "surahNumber": 91,
+      "surahName": "Ash-Shams",
+      "arabicSurahName": "سُورَةُ الشَّمۡسِ",
+      "ayahNumber": 3,
+      "text": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا",
+      "audioFile": "091-Ash-Shams/091_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6046.mp3"
+    },
+    {
+      "key": "91:4",
+      "surahNumber": 91,
+      "surahName": "Ash-Shams",
+      "arabicSurahName": "سُورَةُ الشَّمۡسِ",
+      "ayahNumber": 4,
+      "text": "وَٱلَّيْلِ إِذَا يَغْشَىٰهَا",
+      "audioFile": "091-Ash-Shams/091_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6047.mp3"
+    },
+    {
+      "key": "91:5",
+      "surahNumber": 91,
+      "surahName": "Ash-Shams",
+      "arabicSurahName": "سُورَةُ الشَّمۡسِ",
+      "ayahNumber": 5,
+      "text": "وَٱلسَّمَآءِ وَمَا بَنَىٰهَا",
+      "audioFile": "091-Ash-Shams/091_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6048.mp3"
+    },
+    {
+      "key": "91:6",
+      "surahNumber": 91,
+      "surahName": "Ash-Shams",
+      "arabicSurahName": "سُورَةُ الشَّمۡسِ",
+      "ayahNumber": 6,
+      "text": "وَٱلْأَرْضِ وَمَا طَحَىٰهَا",
+      "audioFile": "091-Ash-Shams/091_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6049.mp3"
+    },
+    {
+      "key": "91:7",
+      "surahNumber": 91,
+      "surahName": "Ash-Shams",
+      "arabicSurahName": "سُورَةُ الشَّمۡسِ",
+      "ayahNumber": 7,
+      "text": "وَنَفْسٍۢ وَمَا سَوَّىٰهَا",
+      "audioFile": "091-Ash-Shams/091_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6050.mp3"
+    },
+    {
+      "key": "91:8",
+      "surahNumber": 91,
+      "surahName": "Ash-Shams",
+      "arabicSurahName": "سُورَةُ الشَّمۡسِ",
+      "ayahNumber": 8,
+      "text": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا",
+      "audioFile": "091-Ash-Shams/091_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6051.mp3"
+    },
+    {
+      "key": "91:9",
+      "surahNumber": 91,
+      "surahName": "Ash-Shams",
+      "arabicSurahName": "سُورَةُ الشَّمۡسِ",
+      "ayahNumber": 9,
+      "text": "قَدْ أَفْلَحَ مَن زَكَّىٰهَا",
+      "audioFile": "091-Ash-Shams/091_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6052.mp3"
+    },
+    {
+      "key": "91:10",
+      "surahNumber": 91,
+      "surahName": "Ash-Shams",
+      "arabicSurahName": "سُورَةُ الشَّمۡسِ",
+      "ayahNumber": 10,
+      "text": "وَقَدْ خَابَ مَن دَسَّىٰهَا",
+      "audioFile": "091-Ash-Shams/091_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6053.mp3"
+    },
+    {
+      "key": "91:11",
+      "surahNumber": 91,
+      "surahName": "Ash-Shams",
+      "arabicSurahName": "سُورَةُ الشَّمۡسِ",
+      "ayahNumber": 11,
+      "text": "كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ",
+      "audioFile": "091-Ash-Shams/091_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6054.mp3"
+    },
+    {
+      "key": "91:12",
+      "surahNumber": 91,
+      "surahName": "Ash-Shams",
+      "arabicSurahName": "سُورَةُ الشَّمۡسِ",
+      "ayahNumber": 12,
+      "text": "إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا",
+      "audioFile": "091-Ash-Shams/091_012.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6055.mp3"
+    },
+    {
+      "key": "91:13",
+      "surahNumber": 91,
+      "surahName": "Ash-Shams",
+      "arabicSurahName": "سُورَةُ الشَّمۡسِ",
+      "ayahNumber": 13,
+      "text": "فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَٰهَا",
+      "audioFile": "091-Ash-Shams/091_013.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6056.mp3"
+    },
+    {
+      "key": "91:14",
+      "surahNumber": 91,
+      "surahName": "Ash-Shams",
+      "arabicSurahName": "سُورَةُ الشَّمۡسِ",
+      "ayahNumber": 14,
+      "text": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا",
+      "audioFile": "091-Ash-Shams/091_014.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6057.mp3"
+    },
+    {
+      "key": "91:15",
+      "surahNumber": 91,
+      "surahName": "Ash-Shams",
+      "arabicSurahName": "سُورَةُ الشَّمۡسِ",
+      "ayahNumber": 15,
+      "text": "وَلَا يَخَافُ عُقْبَٰهَا",
+      "audioFile": "091-Ash-Shams/091_015.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6058.mp3"
+    },
+    {
+      "key": "92:1",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلَّيْلِ إِذَا يَغْشَىٰ",
+      "audioFile": "092-Al-Lail/092_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6059.mp3"
+    },
+    {
+      "key": "92:2",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 2,
+      "text": "وَٱلنَّهَارِ إِذَا تَجَلَّىٰ",
+      "audioFile": "092-Al-Lail/092_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6060.mp3"
+    },
+    {
+      "key": "92:3",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 3,
+      "text": "وَمَا خَلَقَ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ",
+      "audioFile": "092-Al-Lail/092_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6061.mp3"
+    },
+    {
+      "key": "92:4",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 4,
+      "text": "إِنَّ سَعْيَكُمْ لَشَتَّىٰ",
+      "audioFile": "092-Al-Lail/092_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6062.mp3"
+    },
+    {
+      "key": "92:5",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 5,
+      "text": "فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ",
+      "audioFile": "092-Al-Lail/092_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6063.mp3"
+    },
+    {
+      "key": "92:6",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 6,
+      "text": "وَصَدَّقَ بِٱلْحُسْنَىٰ",
+      "audioFile": "092-Al-Lail/092_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6064.mp3"
+    },
+    {
+      "key": "92:7",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 7,
+      "text": "فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ",
+      "audioFile": "092-Al-Lail/092_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6065.mp3"
+    },
+    {
+      "key": "92:8",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 8,
+      "text": "وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ",
+      "audioFile": "092-Al-Lail/092_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6066.mp3"
+    },
+    {
+      "key": "92:9",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 9,
+      "text": "وَكَذَّبَ بِٱلْحُسْنَىٰ",
+      "audioFile": "092-Al-Lail/092_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6067.mp3"
+    },
+    {
+      "key": "92:10",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 10,
+      "text": "فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ",
+      "audioFile": "092-Al-Lail/092_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6068.mp3"
+    },
+    {
+      "key": "92:11",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 11,
+      "text": "وَمَا يُغْنِى عَنْهُ مَالُهُۥٓ إِذَا تَرَدَّىٰٓ",
+      "audioFile": "092-Al-Lail/092_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6069.mp3"
+    },
+    {
+      "key": "92:12",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 12,
+      "text": "إِنَّ عَلَيْنَا لَلْهُدَىٰ",
+      "audioFile": "092-Al-Lail/092_012.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6070.mp3"
+    },
+    {
+      "key": "92:13",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 13,
+      "text": "وَإِنَّ لَنَا لَلْءَاخِرَةَ وَٱلْأُولَىٰ",
+      "audioFile": "092-Al-Lail/092_013.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6071.mp3"
+    },
+    {
+      "key": "92:14",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 14,
+      "text": "فَأَنذَرْتُكُمْ نَارًۭا تَلَظَّىٰ",
+      "audioFile": "092-Al-Lail/092_014.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6072.mp3"
+    },
+    {
+      "key": "92:15",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 15,
+      "text": "لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى",
+      "audioFile": "092-Al-Lail/092_015.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6073.mp3"
+    },
+    {
+      "key": "92:16",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 16,
+      "text": "ٱلَّذِى كَذَّبَ وَتَوَلَّىٰ",
+      "audioFile": "092-Al-Lail/092_016.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6074.mp3"
+    },
+    {
+      "key": "92:17",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 17,
+      "text": "وَسَيُجَنَّبُهَا ٱلْأَتْقَى",
+      "audioFile": "092-Al-Lail/092_017.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6075.mp3"
+    },
+    {
+      "key": "92:18",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 18,
+      "text": "ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ",
+      "audioFile": "092-Al-Lail/092_018.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6076.mp3"
+    },
+    {
+      "key": "92:19",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 19,
+      "text": "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍۢ تُجْزَىٰٓ",
+      "audioFile": "092-Al-Lail/092_019.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6077.mp3"
+    },
+    {
+      "key": "92:20",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 20,
+      "text": "إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ",
+      "audioFile": "092-Al-Lail/092_020.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6078.mp3"
+    },
+    {
+      "key": "92:21",
+      "surahNumber": 92,
+      "surahName": "Al-Lail",
+      "arabicSurahName": "سُورَةُ اللَّيۡلِ",
+      "ayahNumber": 21,
+      "text": "وَلَسَوْفَ يَرْضَىٰ",
+      "audioFile": "092-Al-Lail/092_021.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6079.mp3"
+    },
+    {
+      "key": "93:1",
+      "surahNumber": 93,
+      "surahName": "Ad-Dhuhaa",
+      "arabicSurahName": "سُورَةُ الضُّحَىٰ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلضُّحَىٰ",
+      "audioFile": "093-Ad-Dhuhaa/093_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6080.mp3"
+    },
+    {
+      "key": "93:2",
+      "surahNumber": 93,
+      "surahName": "Ad-Dhuhaa",
+      "arabicSurahName": "سُورَةُ الضُّحَىٰ",
+      "ayahNumber": 2,
+      "text": "وَٱلَّيْلِ إِذَا سَجَىٰ",
+      "audioFile": "093-Ad-Dhuhaa/093_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6081.mp3"
+    },
+    {
+      "key": "93:3",
+      "surahNumber": 93,
+      "surahName": "Ad-Dhuhaa",
+      "arabicSurahName": "سُورَةُ الضُّحَىٰ",
+      "ayahNumber": 3,
+      "text": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+      "audioFile": "093-Ad-Dhuhaa/093_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6082.mp3"
+    },
+    {
+      "key": "93:4",
+      "surahNumber": 93,
+      "surahName": "Ad-Dhuhaa",
+      "arabicSurahName": "سُورَةُ الضُّحَىٰ",
+      "ayahNumber": 4,
+      "text": "وَلَلْءَاخِرَةُ خَيْرٌۭ لَّكَ مِنَ ٱلْأُولَىٰ",
+      "audioFile": "093-Ad-Dhuhaa/093_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6083.mp3"
+    },
+    {
+      "key": "93:5",
+      "surahNumber": 93,
+      "surahName": "Ad-Dhuhaa",
+      "arabicSurahName": "سُورَةُ الضُّحَىٰ",
+      "ayahNumber": 5,
+      "text": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ",
+      "audioFile": "093-Ad-Dhuhaa/093_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6084.mp3"
+    },
+    {
+      "key": "93:6",
+      "surahNumber": 93,
+      "surahName": "Ad-Dhuhaa",
+      "arabicSurahName": "سُورَةُ الضُّحَىٰ",
+      "ayahNumber": 6,
+      "text": "أَلَمْ يَجِدْكَ يَتِيمًۭا فَـَٔاوَىٰ",
+      "audioFile": "093-Ad-Dhuhaa/093_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6085.mp3"
+    },
+    {
+      "key": "93:7",
+      "surahNumber": 93,
+      "surahName": "Ad-Dhuhaa",
+      "arabicSurahName": "سُورَةُ الضُّحَىٰ",
+      "ayahNumber": 7,
+      "text": "وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ",
+      "audioFile": "093-Ad-Dhuhaa/093_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6086.mp3"
+    },
+    {
+      "key": "93:8",
+      "surahNumber": 93,
+      "surahName": "Ad-Dhuhaa",
+      "arabicSurahName": "سُورَةُ الضُّحَىٰ",
+      "ayahNumber": 8,
+      "text": "وَوَجَدَكَ عَآئِلًۭا فَأَغْنَىٰ",
+      "audioFile": "093-Ad-Dhuhaa/093_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6087.mp3"
+    },
+    {
+      "key": "93:9",
+      "surahNumber": 93,
+      "surahName": "Ad-Dhuhaa",
+      "arabicSurahName": "سُورَةُ الضُّحَىٰ",
+      "ayahNumber": 9,
+      "text": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+      "audioFile": "093-Ad-Dhuhaa/093_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6088.mp3"
+    },
+    {
+      "key": "93:10",
+      "surahNumber": 93,
+      "surahName": "Ad-Dhuhaa",
+      "arabicSurahName": "سُورَةُ الضُّحَىٰ",
+      "ayahNumber": 10,
+      "text": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
+      "audioFile": "093-Ad-Dhuhaa/093_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6089.mp3"
+    },
+    {
+      "key": "93:11",
+      "surahNumber": 93,
+      "surahName": "Ad-Dhuhaa",
+      "arabicSurahName": "سُورَةُ الضُّحَىٰ",
+      "ayahNumber": 11,
+      "text": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+      "audioFile": "093-Ad-Dhuhaa/093_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6090.mp3"
+    },
+    {
+      "key": "94:1",
+      "surahNumber": 94,
+      "surahName": "Ash-Sharh",
+      "arabicSurahName": "سُورَةُ الشَّرۡحِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+      "audioFile": "094-Ash-Sharh/094_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6091.mp3"
+    },
+    {
+      "key": "94:2",
+      "surahNumber": 94,
+      "surahName": "Ash-Sharh",
+      "arabicSurahName": "سُورَةُ الشَّرۡحِ",
+      "ayahNumber": 2,
+      "text": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
+      "audioFile": "094-Ash-Sharh/094_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6092.mp3"
+    },
+    {
+      "key": "94:3",
+      "surahNumber": 94,
+      "surahName": "Ash-Sharh",
+      "arabicSurahName": "سُورَةُ الشَّرۡحِ",
+      "ayahNumber": 3,
+      "text": "ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
+      "audioFile": "094-Ash-Sharh/094_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6093.mp3"
+    },
+    {
+      "key": "94:4",
+      "surahNumber": 94,
+      "surahName": "Ash-Sharh",
+      "arabicSurahName": "سُورَةُ الشَّرۡحِ",
+      "ayahNumber": 4,
+      "text": "وَرَفَعْنَا لَكَ ذِكْرَكَ",
+      "audioFile": "094-Ash-Sharh/094_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6094.mp3"
+    },
+    {
+      "key": "94:5",
+      "surahNumber": 94,
+      "surahName": "Ash-Sharh",
+      "arabicSurahName": "سُورَةُ الشَّرۡحِ",
+      "ayahNumber": 5,
+      "text": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+      "audioFile": "094-Ash-Sharh/094_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6095.mp3"
+    },
+    {
+      "key": "94:6",
+      "surahNumber": 94,
+      "surahName": "Ash-Sharh",
+      "arabicSurahName": "سُورَةُ الشَّرۡحِ",
+      "ayahNumber": 6,
+      "text": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا",
+      "audioFile": "094-Ash-Sharh/094_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6096.mp3"
+    },
+    {
+      "key": "94:7",
+      "surahNumber": 94,
+      "surahName": "Ash-Sharh",
+      "arabicSurahName": "سُورَةُ الشَّرۡحِ",
+      "ayahNumber": 7,
+      "text": "فَإِذَا فَرَغْتَ فَٱنصَبْ",
+      "audioFile": "094-Ash-Sharh/094_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6097.mp3"
+    },
+    {
+      "key": "94:8",
+      "surahNumber": 94,
+      "surahName": "Ash-Sharh",
+      "arabicSurahName": "سُورَةُ الشَّرۡحِ",
+      "ayahNumber": 8,
+      "text": "وَإِلَىٰ رَبِّكَ فَٱرْغَب",
+      "audioFile": "094-Ash-Sharh/094_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6098.mp3"
+    },
+    {
+      "key": "95:1",
+      "surahNumber": 95,
+      "surahName": "At-Tin",
+      "arabicSurahName": "سُورَةُ التِّينِ",
+      "ayahNumber": 1,
+      "text": "بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلتِّينِ وَٱلزَّيْتُونِ",
+      "audioFile": "095-At-Tin/095_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6099.mp3"
+    },
+    {
+      "key": "95:2",
+      "surahNumber": 95,
+      "surahName": "At-Tin",
+      "arabicSurahName": "سُورَةُ التِّينِ",
+      "ayahNumber": 2,
+      "text": "وَطُورِ سِينِينَ",
+      "audioFile": "095-At-Tin/095_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6100.mp3"
+    },
+    {
+      "key": "95:3",
+      "surahNumber": 95,
+      "surahName": "At-Tin",
+      "arabicSurahName": "سُورَةُ التِّينِ",
+      "ayahNumber": 3,
+      "text": "وَهَٰذَا ٱلْبَلَدِ ٱلْأَمِينِ",
+      "audioFile": "095-At-Tin/095_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6101.mp3"
+    },
+    {
+      "key": "95:4",
+      "surahNumber": 95,
+      "surahName": "At-Tin",
+      "arabicSurahName": "سُورَةُ التِّينِ",
+      "ayahNumber": 4,
+      "text": "لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍۢ",
+      "audioFile": "095-At-Tin/095_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6102.mp3"
+    },
+    {
+      "key": "95:5",
+      "surahNumber": 95,
+      "surahName": "At-Tin",
+      "arabicSurahName": "سُورَةُ التِّينِ",
+      "ayahNumber": 5,
+      "text": "ثُمَّ رَدَدْنَٰهُ أَسْفَلَ سَٰفِلِينَ",
+      "audioFile": "095-At-Tin/095_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6103.mp3"
+    },
+    {
+      "key": "95:6",
+      "surahNumber": 95,
+      "surahName": "At-Tin",
+      "arabicSurahName": "سُورَةُ التِّينِ",
+      "ayahNumber": 6,
+      "text": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۢ",
+      "audioFile": "095-At-Tin/095_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6104.mp3"
+    },
+    {
+      "key": "95:7",
+      "surahNumber": 95,
+      "surahName": "At-Tin",
+      "arabicSurahName": "سُورَةُ التِّينِ",
+      "ayahNumber": 7,
+      "text": "فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ",
+      "audioFile": "095-At-Tin/095_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6105.mp3"
+    },
+    {
+      "key": "95:8",
+      "surahNumber": 95,
+      "surahName": "At-Tin",
+      "arabicSurahName": "سُورَةُ التِّينِ",
+      "ayahNumber": 8,
+      "text": "أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَٰكِمِينَ",
+      "audioFile": "095-At-Tin/095_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6106.mp3"
+    },
+    {
+      "key": "96:1",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+      "audioFile": "096-Al-Alaq/096_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6107.mp3"
+    },
+    {
+      "key": "96:2",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 2,
+      "text": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ",
+      "audioFile": "096-Al-Alaq/096_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6108.mp3"
+    },
+    {
+      "key": "96:3",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 3,
+      "text": "ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ",
+      "audioFile": "096-Al-Alaq/096_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6109.mp3"
+    },
+    {
+      "key": "96:4",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 4,
+      "text": "ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ",
+      "audioFile": "096-Al-Alaq/096_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6110.mp3"
+    },
+    {
+      "key": "96:5",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 5,
+      "text": "عَلَّمَ ٱلْإِنسَٰنَ مَا لَمْ يَعْلَمْ",
+      "audioFile": "096-Al-Alaq/096_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6111.mp3"
+    },
+    {
+      "key": "96:6",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 6,
+      "text": "كَلَّآ إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ",
+      "audioFile": "096-Al-Alaq/096_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6112.mp3"
+    },
+    {
+      "key": "96:7",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 7,
+      "text": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ",
+      "audioFile": "096-Al-Alaq/096_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6113.mp3"
+    },
+    {
+      "key": "96:8",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 8,
+      "text": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ",
+      "audioFile": "096-Al-Alaq/096_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6114.mp3"
+    },
+    {
+      "key": "96:9",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 9,
+      "text": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ",
+      "audioFile": "096-Al-Alaq/096_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6115.mp3"
+    },
+    {
+      "key": "96:10",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 10,
+      "text": "عَبْدًا إِذَا صَلَّىٰٓ",
+      "audioFile": "096-Al-Alaq/096_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6116.mp3"
+    },
+    {
+      "key": "96:11",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 11,
+      "text": "أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ",
+      "audioFile": "096-Al-Alaq/096_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6117.mp3"
+    },
+    {
+      "key": "96:12",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 12,
+      "text": "أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ",
+      "audioFile": "096-Al-Alaq/096_012.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6118.mp3"
+    },
+    {
+      "key": "96:13",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 13,
+      "text": "أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ",
+      "audioFile": "096-Al-Alaq/096_013.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6119.mp3"
+    },
+    {
+      "key": "96:14",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 14,
+      "text": "أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ",
+      "audioFile": "096-Al-Alaq/096_014.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6120.mp3"
+    },
+    {
+      "key": "96:15",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 15,
+      "text": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
+      "audioFile": "096-Al-Alaq/096_015.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6121.mp3"
+    },
+    {
+      "key": "96:16",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 16,
+      "text": "نَاصِيَةٍۢ كَٰذِبَةٍ خَاطِئَةٍۢ",
+      "audioFile": "096-Al-Alaq/096_016.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6122.mp3"
+    },
+    {
+      "key": "96:17",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 17,
+      "text": "فَلْيَدْعُ نَادِيَهُۥ",
+      "audioFile": "096-Al-Alaq/096_017.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6123.mp3"
+    },
+    {
+      "key": "96:18",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 18,
+      "text": "سَنَدْعُ ٱلزَّبَانِيَةَ",
+      "audioFile": "096-Al-Alaq/096_018.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6124.mp3"
+    },
+    {
+      "key": "96:19",
+      "surahNumber": 96,
+      "surahName": "Al-Alaq",
+      "arabicSurahName": "سُورَةُ العَلَقِ",
+      "ayahNumber": 19,
+      "text": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
+      "audioFile": "096-Al-Alaq/096_019.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6125.mp3"
+    },
+    {
+      "key": "97:1",
+      "surahNumber": 97,
+      "surahName": "Al-Qadr",
+      "arabicSurahName": "سُورَةُ القَدۡرِ",
+      "ayahNumber": 1,
+      "text": "بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةِ ٱلْقَدْرِ",
+      "audioFile": "097-Al-Qadr/097_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6126.mp3"
+    },
+    {
+      "key": "97:2",
+      "surahNumber": 97,
+      "surahName": "Al-Qadr",
+      "arabicSurahName": "سُورَةُ القَدۡرِ",
+      "ayahNumber": 2,
+      "text": "وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ",
+      "audioFile": "097-Al-Qadr/097_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6127.mp3"
+    },
+    {
+      "key": "97:3",
+      "surahNumber": 97,
+      "surahName": "Al-Qadr",
+      "arabicSurahName": "سُورَةُ القَدۡرِ",
+      "ayahNumber": 3,
+      "text": "لَيْلَةُ ٱلْقَدْرِ خَيْرٌۭ مِّنْ أَلْفِ شَهْرٍۢ",
+      "audioFile": "097-Al-Qadr/097_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6128.mp3"
+    },
+    {
+      "key": "97:4",
+      "surahNumber": 97,
+      "surahName": "Al-Qadr",
+      "arabicSurahName": "سُورَةُ القَدۡرِ",
+      "ayahNumber": 4,
+      "text": "تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍۢ",
+      "audioFile": "097-Al-Qadr/097_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6129.mp3"
+    },
+    {
+      "key": "97:5",
+      "surahNumber": 97,
+      "surahName": "Al-Qadr",
+      "arabicSurahName": "سُورَةُ القَدۡرِ",
+      "ayahNumber": 5,
+      "text": "سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
+      "audioFile": "097-Al-Qadr/097_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6130.mp3"
+    },
+    {
+      "key": "98:1",
+      "surahNumber": 98,
+      "surahName": "Al-Bayyina",
+      "arabicSurahName": "سُورَةُ البَيِّنَةِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ لَمْ يَكُنِ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ ٱلْبَيِّنَةُ",
+      "audioFile": "098-Al-Bayyina/098_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6131.mp3"
+    },
+    {
+      "key": "98:2",
+      "surahNumber": 98,
+      "surahName": "Al-Bayyina",
+      "arabicSurahName": "سُورَةُ البَيِّنَةِ",
+      "ayahNumber": 2,
+      "text": "رَسُولٌۭ مِّنَ ٱللَّهِ يَتْلُوا۟ صُحُفًۭا مُّطَهَّرَةًۭ",
+      "audioFile": "098-Al-Bayyina/098_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6132.mp3"
+    },
+    {
+      "key": "98:3",
+      "surahNumber": 98,
+      "surahName": "Al-Bayyina",
+      "arabicSurahName": "سُورَةُ البَيِّنَةِ",
+      "ayahNumber": 3,
+      "text": "فِيهَا كُتُبٌۭ قَيِّمَةٌۭ",
+      "audioFile": "098-Al-Bayyina/098_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6133.mp3"
+    },
+    {
+      "key": "98:4",
+      "surahNumber": 98,
+      "surahName": "Al-Bayyina",
+      "arabicSurahName": "سُورَةُ البَيِّنَةِ",
+      "ayahNumber": 4,
+      "text": "وَمَا تَفَرَّقَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَةُ",
+      "audioFile": "098-Al-Bayyina/098_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6134.mp3"
+    },
+    {
+      "key": "98:5",
+      "surahNumber": 98,
+      "surahName": "Al-Bayyina",
+      "arabicSurahName": "سُورَةُ البَيِّنَةِ",
+      "ayahNumber": 5,
+      "text": "وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ",
+      "audioFile": "098-Al-Bayyina/098_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6135.mp3"
+    },
+    {
+      "key": "98:6",
+      "surahNumber": 98,
+      "surahName": "Al-Bayyina",
+      "arabicSurahName": "سُورَةُ البَيِّنَةِ",
+      "ayahNumber": 6,
+      "text": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ فِى نَارِ جَهَنَّمَ خَٰلِدِينَ فِيهَآ ۚ أُو۟لَٰٓئِكَ هُمْ شَرُّ ٱلْبَرِيَّةِ",
+      "audioFile": "098-Al-Bayyina/098_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6136.mp3"
+    },
+    {
+      "key": "98:7",
+      "surahNumber": 98,
+      "surahName": "Al-Bayyina",
+      "arabicSurahName": "سُورَةُ البَيِّنَةِ",
+      "ayahNumber": 7,
+      "text": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أُو۟لَٰٓئِكَ هُمْ خَيْرُ ٱلْبَرِيَّةِ",
+      "audioFile": "098-Al-Bayyina/098_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6137.mp3"
+    },
+    {
+      "key": "98:8",
+      "surahNumber": 98,
+      "surahName": "Al-Bayyina",
+      "arabicSurahName": "سُورَةُ البَيِّنَةِ",
+      "ayahNumber": 8,
+      "text": "جَزَآؤُهُمْ عِندَ رَبِّهِمْ جَنَّٰتُ عَدْنٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًۭا ۖ رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ ۚ ذَٰلِكَ لِمَنْ خَشِىَ رَبَّهُۥ",
+      "audioFile": "098-Al-Bayyina/098_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6138.mp3"
+    },
+    {
+      "key": "99:1",
+      "surahNumber": 99,
+      "surahName": "Az-Zalzala",
+      "arabicSurahName": "سُورَةُ الزَّلۡزَلَةِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
+      "audioFile": "099-Az-Zalzala/099_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6139.mp3"
+    },
+    {
+      "key": "99:2",
+      "surahNumber": 99,
+      "surahName": "Az-Zalzala",
+      "arabicSurahName": "سُورَةُ الزَّلۡزَلَةِ",
+      "ayahNumber": 2,
+      "text": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
+      "audioFile": "099-Az-Zalzala/099_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6140.mp3"
+    },
+    {
+      "key": "99:3",
+      "surahNumber": 99,
+      "surahName": "Az-Zalzala",
+      "arabicSurahName": "سُورَةُ الزَّلۡزَلَةِ",
+      "ayahNumber": 3,
+      "text": "وَقَالَ ٱلْإِنسَٰنُ مَا لَهَا",
+      "audioFile": "099-Az-Zalzala/099_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6141.mp3"
+    },
+    {
+      "key": "99:4",
+      "surahNumber": 99,
+      "surahName": "Az-Zalzala",
+      "arabicSurahName": "سُورَةُ الزَّلۡزَلَةِ",
+      "ayahNumber": 4,
+      "text": "يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا",
+      "audioFile": "099-Az-Zalzala/099_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6142.mp3"
+    },
+    {
+      "key": "99:5",
+      "surahNumber": 99,
+      "surahName": "Az-Zalzala",
+      "arabicSurahName": "سُورَةُ الزَّلۡزَلَةِ",
+      "ayahNumber": 5,
+      "text": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
+      "audioFile": "099-Az-Zalzala/099_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6143.mp3"
+    },
+    {
+      "key": "99:6",
+      "surahNumber": 99,
+      "surahName": "Az-Zalzala",
+      "arabicSurahName": "سُورَةُ الزَّلۡزَلَةِ",
+      "ayahNumber": 6,
+      "text": "يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ",
+      "audioFile": "099-Az-Zalzala/099_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6144.mp3"
+    },
+    {
+      "key": "99:7",
+      "surahNumber": 99,
+      "surahName": "Az-Zalzala",
+      "arabicSurahName": "سُورَةُ الزَّلۡزَلَةِ",
+      "ayahNumber": 7,
+      "text": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ",
+      "audioFile": "099-Az-Zalzala/099_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6145.mp3"
+    },
+    {
+      "key": "99:8",
+      "surahNumber": 99,
+      "surahName": "Az-Zalzala",
+      "arabicSurahName": "سُورَةُ الزَّلۡزَلَةِ",
+      "ayahNumber": 8,
+      "text": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ",
+      "audioFile": "099-Az-Zalzala/099_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6146.mp3"
+    },
+    {
+      "key": "100:1",
+      "surahNumber": 100,
+      "surahName": "Al-Aadiyaat",
+      "arabicSurahName": "سُورَةُ العَادِيَاتِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+      "audioFile": "100-Al-Aadiyaat/100_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6147.mp3"
+    },
+    {
+      "key": "100:2",
+      "surahNumber": 100,
+      "surahName": "Al-Aadiyaat",
+      "arabicSurahName": "سُورَةُ العَادِيَاتِ",
+      "ayahNumber": 2,
+      "text": "فَٱلْمُورِيَٰتِ قَدْحًۭا",
+      "audioFile": "100-Al-Aadiyaat/100_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6148.mp3"
+    },
+    {
+      "key": "100:3",
+      "surahNumber": 100,
+      "surahName": "Al-Aadiyaat",
+      "arabicSurahName": "سُورَةُ العَادِيَاتِ",
+      "ayahNumber": 3,
+      "text": "فَٱلْمُغِيرَٰتِ صُبْحًۭا",
+      "audioFile": "100-Al-Aadiyaat/100_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6149.mp3"
+    },
+    {
+      "key": "100:4",
+      "surahNumber": 100,
+      "surahName": "Al-Aadiyaat",
+      "arabicSurahName": "سُورَةُ العَادِيَاتِ",
+      "ayahNumber": 4,
+      "text": "فَأَثَرْنَ بِهِۦ نَقْعًۭا",
+      "audioFile": "100-Al-Aadiyaat/100_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6150.mp3"
+    },
+    {
+      "key": "100:5",
+      "surahNumber": 100,
+      "surahName": "Al-Aadiyaat",
+      "arabicSurahName": "سُورَةُ العَادِيَاتِ",
+      "ayahNumber": 5,
+      "text": "فَوَسَطْنَ بِهِۦ جَمْعًا",
+      "audioFile": "100-Al-Aadiyaat/100_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6151.mp3"
+    },
+    {
+      "key": "100:6",
+      "surahNumber": 100,
+      "surahName": "Al-Aadiyaat",
+      "arabicSurahName": "سُورَةُ العَادِيَاتِ",
+      "ayahNumber": 6,
+      "text": "إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ",
+      "audioFile": "100-Al-Aadiyaat/100_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6152.mp3"
+    },
+    {
+      "key": "100:7",
+      "surahNumber": 100,
+      "surahName": "Al-Aadiyaat",
+      "arabicSurahName": "سُورَةُ العَادِيَاتِ",
+      "ayahNumber": 7,
+      "text": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ",
+      "audioFile": "100-Al-Aadiyaat/100_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6153.mp3"
+    },
+    {
+      "key": "100:8",
+      "surahNumber": 100,
+      "surahName": "Al-Aadiyaat",
+      "arabicSurahName": "سُورَةُ العَادِيَاتِ",
+      "ayahNumber": 8,
+      "text": "وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ",
+      "audioFile": "100-Al-Aadiyaat/100_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6154.mp3"
+    },
+    {
+      "key": "100:9",
+      "surahNumber": 100,
+      "surahName": "Al-Aadiyaat",
+      "arabicSurahName": "سُورَةُ العَادِيَاتِ",
+      "ayahNumber": 9,
+      "text": "۞ أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِى ٱلْقُبُورِ",
+      "audioFile": "100-Al-Aadiyaat/100_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6155.mp3"
+    },
+    {
+      "key": "100:10",
+      "surahNumber": 100,
+      "surahName": "Al-Aadiyaat",
+      "arabicSurahName": "سُورَةُ العَادِيَاتِ",
+      "ayahNumber": 10,
+      "text": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ",
+      "audioFile": "100-Al-Aadiyaat/100_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6156.mp3"
+    },
+    {
+      "key": "100:11",
+      "surahNumber": 100,
+      "surahName": "Al-Aadiyaat",
+      "arabicSurahName": "سُورَةُ العَادِيَاتِ",
+      "ayahNumber": 11,
+      "text": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍۢ لَّخَبِيرٌۢ",
+      "audioFile": "100-Al-Aadiyaat/100_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6157.mp3"
+    },
+    {
+      "key": "101:1",
+      "surahNumber": 101,
+      "surahName": "Al-Qaari'a",
+      "arabicSurahName": "سُورَةُ القَارِعَةِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ٱلْقَارِعَةُ",
+      "audioFile": "101-Al-Qaari-a/101_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6158.mp3"
+    },
+    {
+      "key": "101:2",
+      "surahNumber": 101,
+      "surahName": "Al-Qaari'a",
+      "arabicSurahName": "سُورَةُ القَارِعَةِ",
+      "ayahNumber": 2,
+      "text": "مَا ٱلْقَارِعَةُ",
+      "audioFile": "101-Al-Qaari-a/101_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6159.mp3"
+    },
+    {
+      "key": "101:3",
+      "surahNumber": 101,
+      "surahName": "Al-Qaari'a",
+      "arabicSurahName": "سُورَةُ القَارِعَةِ",
+      "ayahNumber": 3,
+      "text": "وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ",
+      "audioFile": "101-Al-Qaari-a/101_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6160.mp3"
+    },
+    {
+      "key": "101:4",
+      "surahNumber": 101,
+      "surahName": "Al-Qaari'a",
+      "arabicSurahName": "سُورَةُ القَارِعَةِ",
+      "ayahNumber": 4,
+      "text": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ",
+      "audioFile": "101-Al-Qaari-a/101_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6161.mp3"
+    },
+    {
+      "key": "101:5",
+      "surahNumber": 101,
+      "surahName": "Al-Qaari'a",
+      "arabicSurahName": "سُورَةُ القَارِعَةِ",
+      "ayahNumber": 5,
+      "text": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
+      "audioFile": "101-Al-Qaari-a/101_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6162.mp3"
+    },
+    {
+      "key": "101:6",
+      "surahNumber": 101,
+      "surahName": "Al-Qaari'a",
+      "arabicSurahName": "سُورَةُ القَارِعَةِ",
+      "ayahNumber": 6,
+      "text": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ",
+      "audioFile": "101-Al-Qaari-a/101_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6163.mp3"
+    },
+    {
+      "key": "101:7",
+      "surahNumber": 101,
+      "surahName": "Al-Qaari'a",
+      "arabicSurahName": "سُورَةُ القَارِعَةِ",
+      "ayahNumber": 7,
+      "text": "فَهُوَ فِى عِيشَةٍۢ رَّاضِيَةٍۢ",
+      "audioFile": "101-Al-Qaari-a/101_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6164.mp3"
+    },
+    {
+      "key": "101:8",
+      "surahNumber": 101,
+      "surahName": "Al-Qaari'a",
+      "arabicSurahName": "سُورَةُ القَارِعَةِ",
+      "ayahNumber": 8,
+      "text": "وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ",
+      "audioFile": "101-Al-Qaari-a/101_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6165.mp3"
+    },
+    {
+      "key": "101:9",
+      "surahNumber": 101,
+      "surahName": "Al-Qaari'a",
+      "arabicSurahName": "سُورَةُ القَارِعَةِ",
+      "ayahNumber": 9,
+      "text": "فَأُمُّهُۥ هَاوِيَةٌۭ",
+      "audioFile": "101-Al-Qaari-a/101_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6166.mp3"
+    },
+    {
+      "key": "101:10",
+      "surahNumber": 101,
+      "surahName": "Al-Qaari'a",
+      "arabicSurahName": "سُورَةُ القَارِعَةِ",
+      "ayahNumber": 10,
+      "text": "وَمَآ أَدْرَىٰكَ مَا هِيَهْ",
+      "audioFile": "101-Al-Qaari-a/101_010.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6167.mp3"
+    },
+    {
+      "key": "101:11",
+      "surahNumber": 101,
+      "surahName": "Al-Qaari'a",
+      "arabicSurahName": "سُورَةُ القَارِعَةِ",
+      "ayahNumber": 11,
+      "text": "نَارٌ حَامِيَةٌۢ",
+      "audioFile": "101-Al-Qaari-a/101_011.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6168.mp3"
+    },
+    {
+      "key": "102:1",
+      "surahNumber": 102,
+      "surahName": "At-Takaathur",
+      "arabicSurahName": "سُورَةُ التَّكَاثُرِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
+      "audioFile": "102-At-Takaathur/102_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6169.mp3"
+    },
+    {
+      "key": "102:2",
+      "surahNumber": 102,
+      "surahName": "At-Takaathur",
+      "arabicSurahName": "سُورَةُ التَّكَاثُرِ",
+      "ayahNumber": 2,
+      "text": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ",
+      "audioFile": "102-At-Takaathur/102_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6170.mp3"
+    },
+    {
+      "key": "102:3",
+      "surahNumber": 102,
+      "surahName": "At-Takaathur",
+      "arabicSurahName": "سُورَةُ التَّكَاثُرِ",
+      "ayahNumber": 3,
+      "text": "كَلَّا سَوْفَ تَعْلَمُونَ",
+      "audioFile": "102-At-Takaathur/102_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6171.mp3"
+    },
+    {
+      "key": "102:4",
+      "surahNumber": 102,
+      "surahName": "At-Takaathur",
+      "arabicSurahName": "سُورَةُ التَّكَاثُرِ",
+      "ayahNumber": 4,
+      "text": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
+      "audioFile": "102-At-Takaathur/102_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6172.mp3"
+    },
+    {
+      "key": "102:5",
+      "surahNumber": 102,
+      "surahName": "At-Takaathur",
+      "arabicSurahName": "سُورَةُ التَّكَاثُرِ",
+      "ayahNumber": 5,
+      "text": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ",
+      "audioFile": "102-At-Takaathur/102_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6173.mp3"
+    },
+    {
+      "key": "102:6",
+      "surahNumber": 102,
+      "surahName": "At-Takaathur",
+      "arabicSurahName": "سُورَةُ التَّكَاثُرِ",
+      "ayahNumber": 6,
+      "text": "لَتَرَوُنَّ ٱلْجَحِيمَ",
+      "audioFile": "102-At-Takaathur/102_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6174.mp3"
+    },
+    {
+      "key": "102:7",
+      "surahNumber": 102,
+      "surahName": "At-Takaathur",
+      "arabicSurahName": "سُورَةُ التَّكَاثُرِ",
+      "ayahNumber": 7,
+      "text": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ",
+      "audioFile": "102-At-Takaathur/102_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6175.mp3"
+    },
+    {
+      "key": "102:8",
+      "surahNumber": 102,
+      "surahName": "At-Takaathur",
+      "arabicSurahName": "سُورَةُ التَّكَاثُرِ",
+      "ayahNumber": 8,
+      "text": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ",
+      "audioFile": "102-At-Takaathur/102_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6176.mp3"
+    },
+    {
+      "key": "103:1",
+      "surahNumber": 103,
+      "surahName": "Al-Asr",
+      "arabicSurahName": "سُورَةُ العَصۡرِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْعَصْرِ",
+      "audioFile": "103-Al-Asr/103_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6177.mp3"
+    },
+    {
+      "key": "103:2",
+      "surahNumber": 103,
+      "surahName": "Al-Asr",
+      "arabicSurahName": "سُورَةُ العَصۡرِ",
+      "ayahNumber": 2,
+      "text": "إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ",
+      "audioFile": "103-Al-Asr/103_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6178.mp3"
+    },
+    {
+      "key": "103:3",
+      "surahNumber": 103,
+      "surahName": "Al-Asr",
+      "arabicSurahName": "سُورَةُ العَصۡرِ",
+      "ayahNumber": 3,
+      "text": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+      "audioFile": "103-Al-Asr/103_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6179.mp3"
+    },
+    {
+      "key": "104:1",
+      "surahNumber": 104,
+      "surahName": "Al-Humaza",
+      "arabicSurahName": "سُورَةُ الهُمَزَةِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَيْلٌۭ لِّكُلِّ هُمَزَةٍۢ لُّمَزَةٍ",
+      "audioFile": "104-Al-Humaza/104_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6180.mp3"
+    },
+    {
+      "key": "104:2",
+      "surahNumber": 104,
+      "surahName": "Al-Humaza",
+      "arabicSurahName": "سُورَةُ الهُمَزَةِ",
+      "ayahNumber": 2,
+      "text": "ٱلَّذِى جَمَعَ مَالًۭا وَعَدَّدَهُۥ",
+      "audioFile": "104-Al-Humaza/104_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6181.mp3"
+    },
+    {
+      "key": "104:3",
+      "surahNumber": 104,
+      "surahName": "Al-Humaza",
+      "arabicSurahName": "سُورَةُ الهُمَزَةِ",
+      "ayahNumber": 3,
+      "text": "يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ",
+      "audioFile": "104-Al-Humaza/104_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6182.mp3"
+    },
+    {
+      "key": "104:4",
+      "surahNumber": 104,
+      "surahName": "Al-Humaza",
+      "arabicSurahName": "سُورَةُ الهُمَزَةِ",
+      "ayahNumber": 4,
+      "text": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
+      "audioFile": "104-Al-Humaza/104_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6183.mp3"
+    },
+    {
+      "key": "104:5",
+      "surahNumber": 104,
+      "surahName": "Al-Humaza",
+      "arabicSurahName": "سُورَةُ الهُمَزَةِ",
+      "ayahNumber": 5,
+      "text": "وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ",
+      "audioFile": "104-Al-Humaza/104_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6184.mp3"
+    },
+    {
+      "key": "104:6",
+      "surahNumber": 104,
+      "surahName": "Al-Humaza",
+      "arabicSurahName": "سُورَةُ الهُمَزَةِ",
+      "ayahNumber": 6,
+      "text": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ",
+      "audioFile": "104-Al-Humaza/104_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6185.mp3"
+    },
+    {
+      "key": "104:7",
+      "surahNumber": 104,
+      "surahName": "Al-Humaza",
+      "arabicSurahName": "سُورَةُ الهُمَزَةِ",
+      "ayahNumber": 7,
+      "text": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ",
+      "audioFile": "104-Al-Humaza/104_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6186.mp3"
+    },
+    {
+      "key": "104:8",
+      "surahNumber": 104,
+      "surahName": "Al-Humaza",
+      "arabicSurahName": "سُورَةُ الهُمَزَةِ",
+      "ayahNumber": 8,
+      "text": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌۭ",
+      "audioFile": "104-Al-Humaza/104_008.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6187.mp3"
+    },
+    {
+      "key": "104:9",
+      "surahNumber": 104,
+      "surahName": "Al-Humaza",
+      "arabicSurahName": "سُورَةُ الهُمَزَةِ",
+      "ayahNumber": 9,
+      "text": "فِى عَمَدٍۢ مُّمَدَّدَةٍۭ",
+      "audioFile": "104-Al-Humaza/104_009.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6188.mp3"
+    },
+    {
+      "key": "105:1",
+      "surahNumber": 105,
+      "surahName": "Al-Fil",
+      "arabicSurahName": "سُورَةُ الفِيلِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
+      "audioFile": "105-Al-Fil/105_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6189.mp3"
+    },
+    {
+      "key": "105:2",
+      "surahNumber": 105,
+      "surahName": "Al-Fil",
+      "arabicSurahName": "سُورَةُ الفِيلِ",
+      "ayahNumber": 2,
+      "text": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ",
+      "audioFile": "105-Al-Fil/105_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6190.mp3"
+    },
+    {
+      "key": "105:3",
+      "surahNumber": 105,
+      "surahName": "Al-Fil",
+      "arabicSurahName": "سُورَةُ الفِيلِ",
+      "ayahNumber": 3,
+      "text": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+      "audioFile": "105-Al-Fil/105_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6191.mp3"
+    },
+    {
+      "key": "105:4",
+      "surahNumber": 105,
+      "surahName": "Al-Fil",
+      "arabicSurahName": "سُورَةُ الفِيلِ",
+      "ayahNumber": 4,
+      "text": "تَرْمِيهِم بِحِجَارَةٍۢ مِّن سِجِّيلٍۢ",
+      "audioFile": "105-Al-Fil/105_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6192.mp3"
+    },
+    {
+      "key": "105:5",
+      "surahNumber": 105,
+      "surahName": "Al-Fil",
+      "arabicSurahName": "سُورَةُ الفِيلِ",
+      "ayahNumber": 5,
+      "text": "فَجَعَلَهُمْ كَعَصْفٍۢ مَّأْكُولٍۭ",
+      "audioFile": "105-Al-Fil/105_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6193.mp3"
+    },
+    {
+      "key": "106:1",
+      "surahNumber": 106,
+      "surahName": "Quraish",
+      "arabicSurahName": "سُورَةُ قُرَيۡشٍ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ لِإِيلَٰفِ قُرَيْشٍ",
+      "audioFile": "106-Quraish/106_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6194.mp3"
+    },
+    {
+      "key": "106:2",
+      "surahNumber": 106,
+      "surahName": "Quraish",
+      "arabicSurahName": "سُورَةُ قُرَيۡشٍ",
+      "ayahNumber": 2,
+      "text": "إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+      "audioFile": "106-Quraish/106_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6195.mp3"
+    },
+    {
+      "key": "106:3",
+      "surahNumber": 106,
+      "surahName": "Quraish",
+      "arabicSurahName": "سُورَةُ قُرَيۡشٍ",
+      "ayahNumber": 3,
+      "text": "فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ",
+      "audioFile": "106-Quraish/106_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6196.mp3"
+    },
+    {
+      "key": "106:4",
+      "surahNumber": 106,
+      "surahName": "Quraish",
+      "arabicSurahName": "سُورَةُ قُرَيۡشٍ",
+      "ayahNumber": 4,
+      "text": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+      "audioFile": "106-Quraish/106_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6197.mp3"
+    },
+    {
+      "key": "107:1",
+      "surahNumber": 107,
+      "surahName": "Al-Maa'un",
+      "arabicSurahName": "سُورَةُ المَاعُونِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
+      "audioFile": "107-Al-Maa-un/107_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6198.mp3"
+    },
+    {
+      "key": "107:2",
+      "surahNumber": 107,
+      "surahName": "Al-Maa'un",
+      "arabicSurahName": "سُورَةُ المَاعُونِ",
+      "ayahNumber": 2,
+      "text": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
+      "audioFile": "107-Al-Maa-un/107_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6199.mp3"
+    },
+    {
+      "key": "107:3",
+      "surahNumber": 107,
+      "surahName": "Al-Maa'un",
+      "arabicSurahName": "سُورَةُ المَاعُونِ",
+      "ayahNumber": 3,
+      "text": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+      "audioFile": "107-Al-Maa-un/107_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6200.mp3"
+    },
+    {
+      "key": "107:4",
+      "surahNumber": 107,
+      "surahName": "Al-Maa'un",
+      "arabicSurahName": "سُورَةُ المَاعُونِ",
+      "ayahNumber": 4,
+      "text": "فَوَيْلٌۭ لِّلْمُصَلِّينَ",
+      "audioFile": "107-Al-Maa-un/107_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6201.mp3"
+    },
+    {
+      "key": "107:5",
+      "surahNumber": 107,
+      "surahName": "Al-Maa'un",
+      "arabicSurahName": "سُورَةُ المَاعُونِ",
+      "ayahNumber": 5,
+      "text": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
+      "audioFile": "107-Al-Maa-un/107_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6202.mp3"
+    },
+    {
+      "key": "107:6",
+      "surahNumber": 107,
+      "surahName": "Al-Maa'un",
+      "arabicSurahName": "سُورَةُ المَاعُونِ",
+      "ayahNumber": 6,
+      "text": "ٱلَّذِينَ هُمْ يُرَآءُونَ",
+      "audioFile": "107-Al-Maa-un/107_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6203.mp3"
+    },
+    {
+      "key": "107:7",
+      "surahNumber": 107,
+      "surahName": "Al-Maa'un",
+      "arabicSurahName": "سُورَةُ المَاعُونِ",
+      "ayahNumber": 7,
+      "text": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
+      "audioFile": "107-Al-Maa-un/107_007.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6204.mp3"
+    },
+    {
+      "key": "108:1",
+      "surahNumber": 108,
+      "surahName": "Al-Kawthar",
+      "arabicSurahName": "سُورَةُ الكَوۡثَرِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
+      "audioFile": "108-Al-Kawthar/108_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6205.mp3"
+    },
+    {
+      "key": "108:2",
+      "surahNumber": 108,
+      "surahName": "Al-Kawthar",
+      "arabicSurahName": "سُورَةُ الكَوۡثَرِ",
+      "ayahNumber": 2,
+      "text": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+      "audioFile": "108-Al-Kawthar/108_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6206.mp3"
+    },
+    {
+      "key": "108:3",
+      "surahNumber": 108,
+      "surahName": "Al-Kawthar",
+      "arabicSurahName": "سُورَةُ الكَوۡثَرِ",
+      "ayahNumber": 3,
+      "text": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+      "audioFile": "108-Al-Kawthar/108_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6207.mp3"
+    },
+    {
+      "key": "109:1",
+      "surahNumber": 109,
+      "surahName": "Al-Kaafiroon",
+      "arabicSurahName": "سُورَةُ الكَافِرُونَ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ",
+      "audioFile": "109-Al-Kaafiroon/109_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6208.mp3"
+    },
+    {
+      "key": "109:2",
+      "surahNumber": 109,
+      "surahName": "Al-Kaafiroon",
+      "arabicSurahName": "سُورَةُ الكَافِرُونَ",
+      "ayahNumber": 2,
+      "text": "لَآ أَعْبُدُ مَا تَعْبُدُونَ",
+      "audioFile": "109-Al-Kaafiroon/109_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6209.mp3"
+    },
+    {
+      "key": "109:3",
+      "surahNumber": 109,
+      "surahName": "Al-Kaafiroon",
+      "arabicSurahName": "سُورَةُ الكَافِرُونَ",
+      "ayahNumber": 3,
+      "text": "وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
+      "audioFile": "109-Al-Kaafiroon/109_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6210.mp3"
+    },
+    {
+      "key": "109:4",
+      "surahNumber": 109,
+      "surahName": "Al-Kaafiroon",
+      "arabicSurahName": "سُورَةُ الكَافِرُونَ",
+      "ayahNumber": 4,
+      "text": "وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ",
+      "audioFile": "109-Al-Kaafiroon/109_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6211.mp3"
+    },
+    {
+      "key": "109:5",
+      "surahNumber": 109,
+      "surahName": "Al-Kaafiroon",
+      "arabicSurahName": "سُورَةُ الكَافِرُونَ",
+      "ayahNumber": 5,
+      "text": "وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ",
+      "audioFile": "109-Al-Kaafiroon/109_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6212.mp3"
+    },
+    {
+      "key": "109:6",
+      "surahNumber": 109,
+      "surahName": "Al-Kaafiroon",
+      "arabicSurahName": "سُورَةُ الكَافِرُونَ",
+      "ayahNumber": 6,
+      "text": "لَكُمْ دِينُكُمْ وَلِىَ دِينِ",
+      "audioFile": "109-Al-Kaafiroon/109_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6213.mp3"
+    },
+    {
+      "key": "110:1",
+      "surahNumber": 110,
+      "surahName": "An-Nasr",
+      "arabicSurahName": "سُورَةُ النَّصۡرِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+      "audioFile": "110-An-Nasr/110_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6214.mp3"
+    },
+    {
+      "key": "110:2",
+      "surahNumber": 110,
+      "surahName": "An-Nasr",
+      "arabicSurahName": "سُورَةُ النَّصۡرِ",
+      "ayahNumber": 2,
+      "text": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًۭا",
+      "audioFile": "110-An-Nasr/110_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6215.mp3"
+    },
+    {
+      "key": "110:3",
+      "surahNumber": 110,
+      "surahName": "An-Nasr",
+      "arabicSurahName": "سُورَةُ النَّصۡرِ",
+      "ayahNumber": 3,
+      "text": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
+      "audioFile": "110-An-Nasr/110_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6216.mp3"
+    },
+    {
+      "key": "111:1",
+      "surahNumber": 111,
+      "surahName": "Al-Masad",
+      "arabicSurahName": "سُورَةُ المَسَدِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ",
+      "audioFile": "111-Al-Masad/111_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6217.mp3"
+    },
+    {
+      "key": "111:2",
+      "surahNumber": 111,
+      "surahName": "Al-Masad",
+      "arabicSurahName": "سُورَةُ المَسَدِ",
+      "ayahNumber": 2,
+      "text": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+      "audioFile": "111-Al-Masad/111_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6218.mp3"
+    },
+    {
+      "key": "111:3",
+      "surahNumber": 111,
+      "surahName": "Al-Masad",
+      "arabicSurahName": "سُورَةُ المَسَدِ",
+      "ayahNumber": 3,
+      "text": "سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ",
+      "audioFile": "111-Al-Masad/111_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6219.mp3"
+    },
+    {
+      "key": "111:4",
+      "surahNumber": 111,
+      "surahName": "Al-Masad",
+      "arabicSurahName": "سُورَةُ المَسَدِ",
+      "ayahNumber": 4,
+      "text": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+      "audioFile": "111-Al-Masad/111_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6220.mp3"
+    },
+    {
+      "key": "111:5",
+      "surahNumber": 111,
+      "surahName": "Al-Masad",
+      "arabicSurahName": "سُورَةُ المَسَدِ",
+      "ayahNumber": 5,
+      "text": "فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ",
+      "audioFile": "111-Al-Masad/111_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6221.mp3"
+    },
+    {
+      "key": "112:1",
+      "surahNumber": 112,
+      "surahName": "Al-Ikhlaas",
+      "arabicSurahName": "سُورَةُ الإِخۡلَاصِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+      "audioFile": "112-Al-Ikhlaas/112_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6222.mp3"
+    },
+    {
+      "key": "112:2",
+      "surahNumber": 112,
+      "surahName": "Al-Ikhlaas",
+      "arabicSurahName": "سُورَةُ الإِخۡلَاصِ",
+      "ayahNumber": 2,
+      "text": "ٱللَّهُ ٱلصَّمَدُ",
+      "audioFile": "112-Al-Ikhlaas/112_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6223.mp3"
+    },
+    {
+      "key": "112:3",
+      "surahNumber": 112,
+      "surahName": "Al-Ikhlaas",
+      "arabicSurahName": "سُورَةُ الإِخۡلَاصِ",
+      "ayahNumber": 3,
+      "text": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "audioFile": "112-Al-Ikhlaas/112_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6224.mp3"
+    },
+    {
+      "key": "112:4",
+      "surahNumber": 112,
+      "surahName": "Al-Ikhlaas",
+      "arabicSurahName": "سُورَةُ الإِخۡلَاصِ",
+      "ayahNumber": 4,
+      "text": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+      "audioFile": "112-Al-Ikhlaas/112_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6225.mp3"
+    },
+    {
+      "key": "113:1",
+      "surahNumber": 113,
+      "surahName": "Al-Falaq",
+      "arabicSurahName": "سُورَةُ الفَلَقِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+      "audioFile": "113-Al-Falaq/113_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6226.mp3"
+    },
+    {
+      "key": "113:2",
+      "surahNumber": 113,
+      "surahName": "Al-Falaq",
+      "arabicSurahName": "سُورَةُ الفَلَقِ",
+      "ayahNumber": 2,
+      "text": "مِن شَرِّ مَا خَلَقَ",
+      "audioFile": "113-Al-Falaq/113_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6227.mp3"
+    },
+    {
+      "key": "113:3",
+      "surahNumber": 113,
+      "surahName": "Al-Falaq",
+      "arabicSurahName": "سُورَةُ الفَلَقِ",
+      "ayahNumber": 3,
+      "text": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+      "audioFile": "113-Al-Falaq/113_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6228.mp3"
+    },
+    {
+      "key": "113:4",
+      "surahNumber": 113,
+      "surahName": "Al-Falaq",
+      "arabicSurahName": "سُورَةُ الفَلَقِ",
+      "ayahNumber": 4,
+      "text": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+      "audioFile": "113-Al-Falaq/113_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6229.mp3"
+    },
+    {
+      "key": "113:5",
+      "surahNumber": 113,
+      "surahName": "Al-Falaq",
+      "arabicSurahName": "سُورَةُ الفَلَقِ",
+      "ayahNumber": 5,
+      "text": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+      "audioFile": "113-Al-Falaq/113_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6230.mp3"
+    },
+    {
+      "key": "114:1",
+      "surahNumber": 114,
+      "surahName": "An-Naas",
+      "arabicSurahName": "سُورَةُ النَّاسِ",
+      "ayahNumber": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+      "audioFile": "114-An-Naas/114_001.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6231.mp3"
+    },
+    {
+      "key": "114:2",
+      "surahNumber": 114,
+      "surahName": "An-Naas",
+      "arabicSurahName": "سُورَةُ النَّاسِ",
+      "ayahNumber": 2,
+      "text": "مَلِكِ ٱلنَّاسِ",
+      "audioFile": "114-An-Naas/114_002.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6232.mp3"
+    },
+    {
+      "key": "114:3",
+      "surahNumber": 114,
+      "surahName": "An-Naas",
+      "arabicSurahName": "سُورَةُ النَّاسِ",
+      "ayahNumber": 3,
+      "text": "إِلَٰهِ ٱلنَّاسِ",
+      "audioFile": "114-An-Naas/114_003.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6233.mp3"
+    },
+    {
+      "key": "114:4",
+      "surahNumber": 114,
+      "surahName": "An-Naas",
+      "arabicSurahName": "سُورَةُ النَّاسِ",
+      "ayahNumber": 4,
+      "text": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+      "audioFile": "114-An-Naas/114_004.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6234.mp3"
+    },
+    {
+      "key": "114:5",
+      "surahNumber": 114,
+      "surahName": "An-Naas",
+      "arabicSurahName": "سُورَةُ النَّاسِ",
+      "ayahNumber": 5,
+      "text": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+      "audioFile": "114-An-Naas/114_005.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6235.mp3"
+    },
+    {
+      "key": "114:6",
+      "surahNumber": 114,
+      "surahName": "An-Naas",
+      "arabicSurahName": "سُورَةُ النَّاسِ",
+      "ayahNumber": 6,
+      "text": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+      "audioFile": "114-An-Naas/114_006.mp3",
+      "sourceUrl": "https://cdn.islamic.network/quran/audio/128/ar.husary/6236.mp3"
+    }
+  ]
+}

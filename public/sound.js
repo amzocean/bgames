@@ -89,6 +89,12 @@
           });
         });
         break;
+      case 'celebrate':
+        [523.25, 659.25, 783.99, 1046.5, 1318.51].forEach((freq, i) => {
+          tone(freq, 0.2, 'triangle', 0.1, i * 0.1);
+        });
+        tone(392, 0.55, 'sine', 0.045, 0.08);
+        break;
       default:
         tone(520, 0.08, 'triangle', 0.05);
     }
@@ -165,6 +171,7 @@
 
   function initUiClickSounds() {
     document.addEventListener('click', (event) => {
+      if (document.body.dataset.disableUiClickSound === '1') return;
       const target = event.target;
       if (!(target instanceof Element)) return;
       if (target.closest('[data-sound-toggle]')) return;
@@ -265,6 +272,7 @@
   function initSoloClueAudio() {
     if (!window.location.pathname.startsWith('/solo/')) return;
     document.body.classList.add('solo-mode');
+    if (document.body.dataset.disableSoloClue === '1') return;
 
     const playArea = document.querySelector('.play-area');
     if (!playArea) return;
