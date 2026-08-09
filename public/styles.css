@@ -1720,3 +1720,161 @@ canvas {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+@media (max-width: 600px) {
+  .quran-game .game-wrap {
+    width: calc(100vw - 8px);
+    padding: 4px 0 8px;
+  }
+
+  .quran-game .topbar {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 6px;
+    margin-bottom: 6px;
+  }
+
+  .quran-game .topbar a {
+    font-size: 0.95rem;
+  }
+
+  .quran-game .topbar strong {
+    font-size: 1.35rem;
+    text-align: center;
+  }
+
+  .quran-topbar-tools {
+    grid-column: 1 / -1;
+    justify-content: center;
+    gap: 6px;
+  }
+
+  .quran-font-picker {
+    font-size: 0;
+  }
+
+  .quran-font-picker select {
+    min-width: 120px;
+    padding: 7px 9px;
+    font-size: 0.9rem;
+  }
+
+  .quran-game .sound-toggle {
+    padding: 8px 10px;
+    font-size: 0.78rem;
+  }
+
+  .quran-game .play-area {
+    gap: 6px;
+    padding: 8px;
+    border-width: 2px;
+    border-radius: 18px;
+  }
+
+  .quran-game .hud {
+    gap: 5px;
+    margin: 0;
+  }
+
+  .quran-game .pill,
+  .solo-mode .pill {
+    padding: 5px 8px;
+    border-width: 2px;
+    font-size: 1rem;
+  }
+
+  .quran-game .play-area > #prompt,
+  .solo-mode #prompt {
+    margin: 2px 0 4px;
+    font-size: 1.2rem;
+    line-height: 1.18;
+  }
+
+  .hifz-workspace,
+  .surah-order-workspace {
+    gap: 8px;
+  }
+
+  .hifz-reading-panel {
+    gap: 6px;
+  }
+
+  .ayah-card {
+    min-height: clamp(190px, 31vh, 260px);
+    padding: 10px;
+    border-width: 4px;
+    border-radius: 18px;
+  }
+
+  .quran-game .play-area .ayah-text {
+    font-size: clamp(2.15rem, 10.5vw, 3.35rem);
+    line-height: 1.42;
+  }
+
+  .quran-game[data-quran-font="mushaf"] .play-area .ayah-text {
+    line-height: 1.58;
+  }
+
+  .quran-reference {
+    min-height: 1.2em;
+    font-size: 1.05rem;
+  }
+
+  .quran-action,
+  .next-ready-action {
+    min-height: 56px;
+    font-size: 1.15rem;
+  }
+
+  .hifz-answer-panel,
+  .surah-order-panel {
+    padding: 8px;
+    border-width: 2px;
+    border-radius: 16px;
+  }
+
+  .quran-game .helper,
+  .solo-mode .helper {
+    min-height: 0;
+    margin: 0;
+    font-size: 1.15rem;
+    line-height: 1.18;
+  }
+
+  .hifz-choice-grid,
+  .surah-choice-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    margin: 6px 0 0;
+  }
+
+  .hifz-choice,
+  .surah-choice {
+    min-height: 72px;
+    padding: 8px;
+    border-width: 3px;
+    font-size: 1.2rem;
+  }
+
+  .surah-order-panel {
+    gap: 7px;
+  }
+
+  .surah-order-panel h2 {
+    font-size: 1.2rem;
+  }
+
+  .surah-order-answer {
+    grid-template-columns: repeat(auto-fit, minmax(78px, 1fr));
+    gap: 6px;
+    min-height: 0;
+  }
+
+  .surah-order-slot {
+    min-height: 62px;
+    padding: 6px;
+    border-width: 2px;
+    border-radius: 12px;
+    font-size: 0.95rem;
+  }
+}
