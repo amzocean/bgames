@@ -228,7 +228,7 @@ All distractors must be different surahs from the known range. Choice order is r
 5. Load the matching local Husary MP3 or consecutive MP3s and attempt playback.
 6. If browser autoplay is blocked, clearly prompt the learner to tap the play button.
 7. Allow unlimited replay.
-8. Keep surah choices disabled until the audio element reports that the complete passage has ended; paired ayat unlock only after both recordings finish.
+8. Keep surah choices available throughout playback so the learner can answer as soon as they recognize the passage.
 9. Present large surah-name choices without displaying the correct surah elsewhere.
 10. Show one large **Replay** button while the question is active.
 11. A wrong answer remains disabled, but the remaining choices stay available immediately; replay occurs only when the learner explicitly selects **Replay**.

@@ -384,12 +384,6 @@ button.secondary {
   text-align: center;
 }
 
-.hifz-choice-grid.awaiting-audio .hifz-choice {
-  opacity: 0.52;
-  cursor: wait;
-  filter: saturate(0.65);
-}
-
 .surah-choice:focus-visible,
 .hifz-choice:focus-visible,
 .quran-action:focus-visible {

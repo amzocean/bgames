@@ -203,17 +203,6 @@ function queueNextRound() {
   prefetchPromise = promise;
 }
 
-function setChoicesAwaitingAudio(awaiting) {
-  choicesEl.classList.toggle('awaiting-audio', awaiting);
-  choicesEl.querySelectorAll('button').forEach((choice) => {
-    if (awaiting) {
-      choice.disabled = true;
-    } else if (!locked && !choice.classList.contains('try-again')) {
-      choice.disabled = false;
-    }
-  });
-}
-
 function showSessionSuccess() {
   const accuracy = Math.round((perfectRounds / SESSION_LENGTH) * 100);
   window.bgamesQuranSuccess.show({
@@ -290,7 +279,6 @@ function validateManifest(data) {
 async function playAyah(userInitiated = false) {
   if (!currentPassage.length) return;
   try {
-    setChoicesAwaitingAudio(true);
     setReplayPlaying(true);
     loadPassageAudio(0);
     await audio.play();
@@ -334,7 +322,6 @@ function buildChoices() {
     button.type = 'button';
     button.className = 'tile hifz-choice';
     button.textContent = surah.name;
-    button.disabled = true;
     button.dataset.surahNumber = String(surah.number);
     button.addEventListener('click', () => chooseSurah(button, surah));
     choicesEl.appendChild(button);
@@ -486,7 +473,6 @@ function startSession(throughNumber = activeThroughNumber) {
 }
 
 audio.addEventListener('error', () => {
-  choicesEl.classList.remove('awaiting-audio');
   setReplayPlaying(false);
   feedbackEl.textContent = 'This ayah audio could not be loaded. Select Replay to try again.';
 });
@@ -495,7 +481,6 @@ audio.addEventListener('ended', () => {
   if (currentAudioIndex < currentPassage.length - 1) {
     loadPassageAudio(currentAudioIndex + 1);
     audio.play().catch((error) => {
-      choicesEl.classList.remove('awaiting-audio');
       setReplayPlaying(false);
       feedbackEl.textContent =
         'The next ayah audio could not play. Select Replay Both Ayat to try again.';
@@ -503,7 +488,6 @@ audio.addEventListener('ended', () => {
     });
     return;
   }
-  setChoicesAwaitingAudio(false);
   setReplayPlaying(false);
   if (!locked) {
     feedbackEl.textContent = 'Now choose the surah.';
