@@ -1,4 +1,12 @@
 @font-face {
+  font-family: "Scheherazade New";
+  src: url("/fonts/ScheherazadeNew-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Noto Naskh Arabic";
   src: url("/fonts/NotoNaskhArabic-VariableFont_wght.ttf") format("truetype");
   font-style: normal;
@@ -494,9 +502,9 @@ button.secondary {
 .quran-game .play-area .ayah-text {
   margin: 0;
   direction: rtl;
-  font-family: "Noto Naskh Arabic", "Amiri", "Scheherazade New", serif;
+  font-family: "Scheherazade New", "Noto Naskh Arabic", "Amiri", serif;
   font-size: clamp(3rem, 8vw, 6rem);
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.8;
   color: #080f1f;
   text-align: center;
@@ -516,7 +524,7 @@ button.secondary {
 }
 
 .quran-game[data-quran-font="mushaf"] .play-area .ayah-text {
-  font-family: "Amiri Quran", "Noto Naskh Arabic", serif;
+  font-family: "Amiri Quran", "Scheherazade New", "Noto Naskh Arabic", serif;
   font-weight: 400;
   line-height: 2;
 }

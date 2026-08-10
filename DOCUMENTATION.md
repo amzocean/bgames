@@ -162,7 +162,7 @@ Local assets avoid runtime API delays, CORS failures, service outages, and incon
 - Arabic ayah text must be right-to-left, centered, high contrast, and rendered at a tablet-friendly size
 - Use a Quran-appropriate Arabic font stack with generous line height; do not compress or truncate text
 - Surah choices must use large text buttons with generous spacing
-- The bundled Noto Naskh Arabic font keeps Quran text consistent across tablets
+- The bundled Scheherazade New font provides a clear Naskh presentation with Quranic mark support across tablets
 - Never rely on color alone to indicate state
 - No countdown timers or speed penalties
 - Audio can be replayed without limit
@@ -267,7 +267,7 @@ The app must surface manifest or audio failures to the user rather than silently
 - While the learner answers the current question, the next passage audio is fetched into in-memory blob URLs so **Next Ayah** does not wait on a new server request
 - Prepared blob URLs are revoked when consumed, replaced, or abandoned to avoid accumulating browser memory
 - No live Quran API is required during gameplay
-- Arabic uses the bundled Noto Naskh Arabic variable font with a large responsive size and strong foreground/background contrast
+- The clear Arabic style uses bundled Scheherazade New SemiBold for Quranic mark support, while the Mushaf style uses bundled Amiri Quran
 
 ### Quran data provenance
 
